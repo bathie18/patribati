@@ -1,0 +1,87 @@
+id;bien_id;date_visite;agent;etat_constate;occupation_constatee;occupation_conforme;observations;bien_code
+1;1;2024/05/24;Agent E (démo);;;;Visite périodique;PBE-SEN-0001
+2;1;2026/03/14;Agent E (démo);En ruine;Partiellement occupé;1;Dernière visite de surveillance;PBE-SEN-0001
+3;5;2025/10/19;Agent F (démo);Moyen;Inoccupé;1;Dernière visite de surveillance;PBE-SEN-0005
+4;6;2024/06/22;Agent B (démo);;;;Visite périodique;PBE-SEN-0006
+5;6;2024/08/13;Agent B (démo);;;;Visite périodique;PBE-SEN-0006
+6;6;2025/12/10;Agent F (démo);Bon;Occupé;1;Dernière visite de surveillance;PBE-SEN-0006
+7;7;2024/04/06;Agent C (démo);;;;Visite périodique;PBE-SEN-0007
+8;7;2025/10/24;Agent D (démo);Très dégradé;Occupé;1;Dernière visite de surveillance;PBE-SEN-0007
+9;10;2024/05/22;Agent F (démo);;;;Visite périodique;PBE-SEN-0010
+10;10;2026/04/09;Agent A (démo);Dégradé;Occupé;1;Dernière visite de surveillance;PBE-SEN-0010
+11;11;2024/03/07;Agent C (démo);;;;Visite périodique;PBE-SEN-0011
+12;11;2025/04/09;Agent F (démo);;;;Visite périodique;PBE-SEN-0011
+13;11;2026/05/08;Agent B (démo);Très dégradé;Occupé;1;Dernière visite de surveillance;PBE-SEN-0011
+14;13;2021/12/06;Agent A (démo);;;;Visite périodique;PBE-SEN-0013
+15;13;2024/10/24;Agent A (démo);;;;Visite périodique;PBE-SEN-0013
+16;13;2025/09/30;Agent D (démo);Moyen;Occupé sans titre;0;Occupation irrégulière constatée;PBE-SEN-0013
+17;14;2024/05/19;Agent B (démo);;;;Visite périodique;PBE-SEN-0014
+18;14;2025/08/09;Agent A (démo);;;;Visite périodique;PBE-SEN-0014
+19;14;2026/05/19;Agent B (démo);Dégradé;Occupé;1;Dernière visite de surveillance;PBE-SEN-0014
+20;15;2023/05/27;Agent B (démo);;;;Visite périodique;PBE-SEN-0015
+21;15;2024/10/16;Agent A (démo);;;;Visite périodique;PBE-SEN-0015
+22;15;2026/06/20;Agent F (démo);Moyen;Occupé;1;Dernière visite de surveillance;PBE-SEN-0015
+23;16;2026/03/22;Agent D (démo);Bon;Partiellement occupé;1;Dernière visite de surveillance;PBE-SEN-0016
+24;19;2024/01/26;Agent E (démo);;;;Visite périodique;PBE-SEN-0019
+25;19;2025/01/25;Agent F (démo);;;;Visite périodique;PBE-SEN-0019
+26;19;2025/12/14;Agent C (démo);Dégradé;Occupé;1;Dernière visite de surveillance;PBE-SEN-0019
+27;21;2024/03/20;Agent B (démo);;;;Visite périodique;PBE-SEN-0021
+28;21;2025/10/07;Agent C (démo);Dégradé;Occupé;1;Dernière visite de surveillance;PBE-SEN-0021
+29;23;2023/10/12;Agent C (démo);;;;Visite périodique;PBE-SEN-0023
+30;23;2025/07/08;Agent E (démo);;;;Visite périodique;PBE-SEN-0023
+31;23;2026/08/31;Agent D (démo);Très dégradé;Occupé;1;Dernière visite de surveillance;PBE-SEN-0023
+32;24;2024/08/14;Agent D (démo);;;;Visite périodique;PBE-SEN-0024
+33;24;2024/12/04;Agent F (démo);;;;Visite périodique;PBE-SEN-0024
+34;24;2026/01/12;Agent E (démo);Dégradé;Inoccupé;1;Dernière visite de surveillance;PBE-SEN-0024
+35;25;2025/05/21;Agent C (démo);;;;Visite périodique;PBE-SEN-0025
+36;25;2025/06/11;Agent D (démo);;;;Visite périodique;PBE-SEN-0025
+37;25;2026/08/11;Agent F (démo);Très dégradé;Inoccupé;1;Dernière visite de surveillance;PBE-SEN-0025
+38;27;2024/07/23;Agent B (démo);;;;Visite périodique;PBE-FRA-0027
+39;27;2025/06/25;Agent B (démo);Moyen;Occupé;1;Dernière visite de surveillance;PBE-FRA-0027
+40;28;2024/10/23;Agent C (démo);;;;Visite périodique;PBE-FRA-0028
+41;28;2025/09/21;Agent D (démo);;;;Visite périodique;PBE-FRA-0028
+42;28;2026/04/22;Agent A (démo);Moyen;En travaux;1;Dernière visite de surveillance;PBE-FRA-0028
+43;29;2024/06/24;Agent E (démo);;;;Visite périodique;PBE-USA-0029
+44;29;2025/03/05;Agent A (démo);;;;Visite périodique;PBE-USA-0029
+45;29;2026/01/19;Agent D (démo);Dégradé;En travaux;1;Dernière visite de surveillance;PBE-USA-0029
+46;30;2022/07/05;Agent B (démo);;;;Visite périodique;PBE-USA-0030
+47;30;2024/03/30;Agent C (démo);;;;Visite périodique;PBE-USA-0030
+48;30;2025/10/05;Agent A (démo);Moyen;Occupé;1;Dernière visite de surveillance;PBE-USA-0030
+49;31;2024/04/15;Agent E (démo);;;;Visite périodique;PBE-CIV-0031
+50;31;2025/12/13;Agent D (démo);Bon;Occupé;1;Dernière visite de surveillance;PBE-CIV-0031
+51;33;2024/09/01;Agent F (démo);;;;Visite périodique;PBE-BEL-0033
+52;33;2024/10/14;Agent A (démo);;;;Visite périodique;PBE-BEL-0033
+53;33;2026/07/08;Agent A (démo);Dégradé;Occupé;1;Dernière visite de surveillance;PBE-BEL-0033
+54;34;2022/06/29;Agent D (démo);;;;Visite périodique;PBE-CHE-0034
+55;34;2024/06/27;Agent C (démo);;;;Visite périodique;PBE-CHE-0034
+56;34;2026/01/31;Agent E (démo);Moyen;Occupé;1;Dernière visite de surveillance;PBE-CHE-0034
+57;35;2024/04/11;Agent C (démo);;;;Visite périodique;PBE-SAU-0035
+58;35;2025/06/15;Agent E (démo);Dégradé;Occupé;1;Dernière visite de surveillance;PBE-SAU-0035
+59;37;2024/07/11;Agent D (démo);;;;Visite périodique;PBE-BRA-0037
+60;37;2025/10/18;Agent E (démo);Moyen;Occupé;1;Dernière visite de surveillance;PBE-BRA-0037
+61;40;2022/11/19;Agent B (démo);;;;Visite périodique;PBE-GMB-0040
+62;40;2025/05/26;Agent D (démo);;;;Visite périodique;PBE-GMB-0040
+63;40;2026/09/07;Agent F (démo);Dégradé;Occupé;1;Dernière visite de surveillance;PBE-GMB-0040
+64;41;2023/06/21;Agent F (démo);;;;Visite périodique;PBE-MRT-0041
+65;41;2025/11/22;Agent A (démo);;;;Visite périodique;PBE-MRT-0041
+66;41;2026/08/26;Agent E (démo);Dégradé;Occupé;1;Dernière visite de surveillance;PBE-MRT-0041
+67;42;2024/07/26;Agent D (démo);;;;Visite périodique;PBE-ESP-0042
+68;42;2026/02/03;Agent A (démo);Moyen;En travaux;1;Dernière visite de surveillance;PBE-ESP-0042
+69;43;2023/04/12;Agent F (démo);;;;Visite périodique;PBE-ITA-0043
+70;43;2025/08/30;Agent A (démo);;;;Visite périodique;PBE-ITA-0043
+71;43;2026/06/09;Agent D (démo);Dégradé;Partiellement occupé;1;Dernière visite de surveillance;PBE-ITA-0043
+72;44;2022/10/26;Agent A (démo);;;;Visite périodique;PBE-DEU-0044
+73;44;2024/06/08;Agent F (démo);;;;Visite périodique;PBE-DEU-0044
+74;44;2026/01/24;Agent C (démo);Dégradé;Partiellement occupé;1;Dernière visite de surveillance;PBE-DEU-0044
+75;45;2026/07/19;Agent A (démo);Bon;Partiellement occupé;1;Dernière visite de surveillance;PBE-GBR-0045
+76;47;2025/01/08;Agent D (démo);;;;Visite périodique;PBE-JPN-0047
+77;47;2026/08/23;Agent D (démo);Dégradé;En travaux;1;Dernière visite de surveillance;PBE-JPN-0047
+78;48;2024/03/02;Agent D (démo);;;;Visite périodique;PBE-ZAF-0048
+79;48;2024/06/11;Agent B (démo);;;;Visite périodique;PBE-ZAF-0048
+80;48;2025/09/23;Agent B (démo);Bon;Occupé;1;Dernière visite de surveillance;PBE-ZAF-0048
+81;50;2025/08/13;Agent C (démo);Dégradé;Occupé;1;Dernière visite de surveillance;PBE-NGA-0050
+82;51;2024/03/31;Agent E (démo);;;;Visite périodique;PBE-CPV-0051
+83;51;2026/02/10;Agent F (démo);Moyen;En travaux;1;Dernière visite de surveillance;PBE-CPV-0051
+84;52;2024/07/21;Agent D (démo);;;;Visite périodique;PBE-GIN-0052
+85;52;2025/08/23;Agent F (démo);Dégradé;Occupé;1;Dernière visite de surveillance;PBE-GIN-0052
+86;53;2026/03/31;Agent B (démo);Bon;En travaux;1;Dernière visite de surveillance;PBE-GNB-0053

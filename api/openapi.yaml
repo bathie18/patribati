@@ -1,0 +1,235 @@
+openapi: 3.0.3
+info:
+  title: API PatriBâti
+  version: 0.1.0
+  description: |
+    Contrat de l'API REST cible de PatriBâti (patrimoine bâti de l'État du Sénégal).
+    Non implémentée dans le prototype : l'application de démonstration lit un fichier statique.
+    Implémentation prévue : FastAPI (ou PostgREST) devant la base PostgreSQL / PostGIS décrite dans database/.
+    Authentification : jeton OpenID Connect délivré par Keycloak. Les droits sont appliqués par l'API
+    et par PostgreSQL (Row-Level Security). Montants en FCFA, coordonnées en WGS 84 (EPSG:4326).
+  contact:
+    name: CEGIT
+    url: https://cegitgroup.com
+servers:
+  - url: https://patribati.example.sn/api/v1
+security:
+  - oidc: []
+tags:
+  - name: Biens
+  - name: Foncier
+  - name: Occupation
+  - name: Surveillance
+  - name: Travaux
+  - name: Litiges
+  - name: Documents
+  - name: Pilotage
+paths:
+  /biens:
+    get:
+      tags: [Biens]
+      summary: Liste des biens (GeoJSON), filtrable
+      parameters:
+        - { name: q, in: query, schema: { type: string }, description: Recherche plein texte (nom, code, TF, NICAD, ville, affectataire) }
+        - { name: perimetre, in: query, schema: { type: string, enum: [tous, senegal, etranger] } }
+        - { name: pays, in: query, schema: { type: string }, description: Code ISO 3166-1 alpha-3 }
+        - { name: region, in: query, schema: { type: string } }
+        - { name: regime, in: query, schema: { type: string } }
+        - { name: etat, in: query, schema: { type: string } }
+        - { name: statut_gestion, in: query, schema: { type: string } }
+        - { name: affectataire, in: query, schema: { type: string } }
+        - { name: bbox, in: query, schema: { type: string }, description: "ouest,sud,est,nord" }
+        - { name: format, in: query, schema: { type: string, enum: [geojson, csv], default: geojson } }
+      responses:
+        '200': { description: Collection de biens, content: { application/geo+json: { schema: { $ref: '#/components/schemas/BienCollection' } }, text/csv: {} } }
+    post:
+      tags: [Biens]
+      summary: Créer un bien (le code est attribué par la base)
+      requestBody: { required: true, content: { application/json: { schema: { $ref: '#/components/schemas/BienSaisie' } } } }
+      responses:
+        '201': { description: Bien créé, content: { application/json: { schema: { $ref: '#/components/schemas/Bien' } } } }
+        '403': { $ref: '#/components/responses/Interdit' }
+  /biens/{id}:
+    parameters: [ { $ref: '#/components/parameters/id' } ]
+    get:
+      tags: [Biens]
+      summary: Fiche complète d'un bien
+      responses:
+        '200': { description: Fiche, content: { application/json: { schema: { $ref: '#/components/schemas/Bien' } } } }
+        '404': { description: Bien inconnu }
+    patch:
+      tags: [Biens]
+      summary: Modifier une fiche (champs autorisés selon le profil)
+      requestBody: { required: true, content: { application/json: { schema: { $ref: '#/components/schemas/BienSaisie' } } } }
+      responses:
+        '200': { description: Fiche mise à jour, content: { application/json: { schema: { $ref: '#/components/schemas/Bien' } } } }
+        '403': { $ref: '#/components/responses/Interdit' }
+  /biens/{id}/alertes:
+    parameters: [ { $ref: '#/components/parameters/id' } ]
+    get: { tags: [Pilotage], summary: Alertes de gestion du bien, responses: { '200': { description: Liste d'alertes, content: { application/json: { schema: { type: array, items: { $ref: '#/components/schemas/Alerte' } } } } } } }
+  /biens/{id}/historique:
+    parameters: [ { $ref: '#/components/parameters/id' } ]
+    get: { tags: [Pilotage], summary: Journal des modifications du bien, responses: { '200': { description: Entrées du journal } } }
+  /assiettes:
+    get: { tags: [Foncier], summary: Assiettes foncières (GeoJSON), parameters: [ { name: bbox, in: query, schema: { type: string } } ], responses: { '200': { description: Polygones, content: { application/geo+json: {} } } } }
+  /batiments:
+    get: { tags: [Foncier], summary: Emprises bâties (GeoJSON), parameters: [ { name: bien, in: query, schema: { type: integer } } ], responses: { '200': { description: Polygones, content: { application/geo+json: {} } } } }
+  /biens/{id}/titres:
+    parameters: [ { $ref: '#/components/parameters/id' } ]
+    get: { tags: [Occupation], summary: Titres d'occupation et baux, responses: { '200': { description: Liste } } }
+    post: { tags: [Occupation], summary: Ajouter un titre d'occupation, responses: { '201': { description: Créé } } }
+  /biens/{id}/visites:
+    parameters: [ { $ref: '#/components/parameters/id' } ]
+    get: { tags: [Surveillance], summary: Historique des visites, responses: { '200': { description: Liste, content: { application/json: { schema: { type: array, items: { $ref: '#/components/schemas/Visite' } } } } } } }
+    post:
+      tags: [Surveillance]
+      summary: Saisir une visite (met à jour l'état et l'occupation du bien par déclencheur)
+      requestBody: { required: true, content: { application/json: { schema: { $ref: '#/components/schemas/Visite' } } } }
+      responses: { '201': { description: Visite enregistrée } }
+  /biens/{id}/travaux:
+    parameters: [ { $ref: '#/components/parameters/id' } ]
+    get: { tags: [Travaux], summary: Chantiers du bien, responses: { '200': { description: Liste } } }
+    post: { tags: [Travaux], summary: Programmer des travaux, responses: { '201': { description: Créé } } }
+  /litiges:
+    get:
+      tags: [Litiges]
+      summary: Dossiers contentieux
+      parameters:
+        - { name: ouvert, in: query, schema: { type: boolean } }
+        - { name: famille, in: query, schema: { type: string, enum: [Occupant, Constructeur, Foncier] } }
+        - { name: etape, in: query, schema: { type: string, enum: [Précontentieux, Contentieux, Exécution] } }
+        - { name: echeance_avant, in: query, schema: { type: string, format: date } }
+      responses: { '200': { description: Liste, content: { application/json: { schema: { type: array, items: { $ref: '#/components/schemas/Litige' } } } } } }
+    post: { tags: [Litiges], summary: Ouvrir un litige (référence attribuée par la base), responses: { '201': { description: Créé } } }
+  /litiges/{id}:
+    parameters: [ { $ref: '#/components/parameters/id' } ]
+    get: { tags: [Litiges], summary: Dossier complet, responses: { '200': { description: Dossier, content: { application/json: { schema: { $ref: '#/components/schemas/Litige' } } } } } }
+    patch: { tags: [Litiges], summary: Mettre à jour phase, échéance, montants, responses: { '200': { description: Mis à jour } } }
+  /litiges/{id}/evenements:
+    parameters: [ { $ref: '#/components/parameters/id' } ]
+    post:
+      tags: [Litiges]
+      summary: Ajouter un acte de procédure
+      requestBody: { required: true, content: { application/json: { schema: { $ref: '#/components/schemas/Evenement' } } } }
+      responses: { '201': { description: Acte ajouté } }
+  /documents:
+    post:
+      tags: [Documents]
+      summary: Téléverser une pièce ou une photo (stockée dans MinIO)
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required: [fichier, categorie]
+              properties:
+                fichier: { type: string, format: binary }
+                categorie: { type: string }
+                titre: { type: string }
+                bien_id: { type: integer }
+                assiette_id: { type: integer }
+                litige_id: { type: integer }
+      responses: { '201': { description: Document enregistré } }
+  /documents/{id}/fichier:
+    parameters: [ { $ref: '#/components/parameters/id' } ]
+    get: { tags: [Documents], summary: Télécharger le fichier (URL signée), responses: { '302': { description: Redirection vers le stockage } } }
+  /tableau-de-bord:
+    get: { tags: [Pilotage], summary: Indicateurs de synthèse (vue v_tableau_de_bord), responses: { '200': { description: Indicateurs } } }
+  /syntheses/pays:
+    get: { tags: [Pilotage], summary: Synthèse par pays, responses: { '200': { description: Liste } } }
+  /recherche:
+    get: { tags: [Pilotage], summary: Autocomplétion (vue v_recherche), parameters: [ { name: q, in: query, required: true, schema: { type: string, minLength: 2 } } ], responses: { '200': { description: Suggestions } } }
+components:
+  securitySchemes:
+    oidc:
+      type: openIdConnect
+      openIdConnectUrl: https://patribati.example.sn/auth/realms/patribati/.well-known/openid-configuration
+  parameters:
+    id: { name: id, in: path, required: true, schema: { type: integer } }
+  responses:
+    Interdit: { description: Action non autorisée pour ce profil ou ce bien }
+  schemas:
+    BienSaisie:
+      type: object
+      properties:
+        nom: { type: string }
+        type_bien: { type: string }
+        regime: { type: string, enum: [Non affecté, Affectation juridique, Affectation fonctionnelle] }
+        affectataire: { type: string, nullable: true }
+        occupation: { type: string }
+        statut_propriete: { type: string }
+        etat_vetuste: { type: string }
+        annee_construction: { type: integer, nullable: true }
+        nb_niveaux: { type: integer, nullable: true }
+        surface_batie_m2: { type: number, nullable: true }
+        surface_utile_m2: { type: number, nullable: true }
+        cout_renov_fcfa: { type: integer, nullable: true }
+        valeur_estimee_fcfa: { type: integer, nullable: true }
+        potentiel_valorisation: { type: string }
+        lat: { type: number }
+        lon: { type: number }
+    Bien:
+      allOf:
+        - $ref: '#/components/schemas/BienSaisie'
+        - type: object
+          properties:
+            id: { type: integer }
+            code: { type: string, example: PBE-SEN-0001 }
+            pays: { type: string }
+            pays_iso3: { type: string }
+            region: { type: string, nullable: true }
+            commune: { type: string, nullable: true }
+            ville: { type: string, nullable: true }
+            num_tf: { type: string, nullable: true }
+            nicad: { type: string, nullable: true }
+            score_priorite: { type: integer, minimum: 0, maximum: 100 }
+            statut_gestion: { type: string }
+            alertes: { type: array, items: { $ref: '#/components/schemas/Alerte' } }
+    BienCollection:
+      type: object
+      properties:
+        type: { type: string, enum: [FeatureCollection] }
+        features: { type: array, items: { type: object } }
+    Alerte:
+      type: object
+      properties:
+        categorie: { type: string }
+        gravite: { type: string, enum: [info, attention, critique] }
+        alerte: { type: string }
+    Visite:
+      type: object
+      required: [date_visite]
+      properties:
+        date_visite: { type: string, format: date }
+        agent: { type: string }
+        etat_constate: { type: string }
+        occupation_constatee: { type: string }
+        occupation_conforme: { type: boolean, nullable: true }
+        observations: { type: string }
+    Evenement:
+      type: object
+      required: [date_evenement, type_evenement]
+      properties:
+        date_evenement: { type: string, format: date }
+        type_evenement: { type: string }
+        description: { type: string }
+    Litige:
+      type: object
+      properties:
+        id: { type: integer }
+        reference: { type: string, example: LIT-2025-0005 }
+        bien_id: { type: integer }
+        type_litige: { type: string }
+        famille: { type: string, enum: [Occupant, Constructeur, Foncier] }
+        partie_adverse: { type: string }
+        phase: { type: string }
+        etape: { type: string }
+        ouvert: { type: boolean }
+        risque: { type: string, enum: [Faible, Moyen, Élevé] }
+        prochaine_echeance: { type: string, format: date, nullable: true }
+        montant_reclame_fcfa: { type: integer, nullable: true }
+        montant_recouvre_fcfa: { type: integer, nullable: true }
+        bien_a_recuperer: { type: boolean }
+        bien_recupere: { type: boolean }
+        evenements: { type: array, items: { $ref: '#/components/schemas/Evenement' } }

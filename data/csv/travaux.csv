@@ -1,0 +1,22 @@
+id;bien_code;bien_nom;ville;pays;type_travaux;statut;date_debut;date_fin;avancement_pct;entreprise;cout_fcfa;en_retard
+1;PBE-SEN-0004;Logement de fonction – Dakar-Plateau 4;Dakar;Sénégal;Gros œuvre;Programmé;2027/01/08;2027/05/16;0;;43000000;0
+2;PBE-SEN-0006;Entrepôt – Dakar-Plateau 6;Dakar;Sénégal;Peinture;Terminé;2024/07/03;2024/11/06;100;Entreprise démo n° 1;141000000;0
+3;PBE-SEN-0010;Villa – Rufisque;Rufisque;Sénégal;Menuiserie;Suspendu;2026/06/12;2027/09/20;76;Entreprise démo n° 2;48000000;0
+4;PBE-SEN-0011;Entrepôt – Thiès Nord 1;Thiès;Sénégal;Toiture / étanchéité;En cours;2026/05/13;2027/02/19;19;Entreprise démo n° 5;296000000;0
+5;PBE-SEN-0012;Logement de fonction – Thiès Nord 2;Thiès;Sénégal;Climatisation;Terminé;2024/10/13;2025/05/06;100;Entreprise démo n° 1;196000000;0
+6;PBE-SEN-0014;Villa – Saint-Louis 1;Saint-Louis;Sénégal;Toiture / étanchéité;En cours;2026/08/13;2027/01/17;21;Entreprise démo n° 1;96000000;0
+7;PBE-SEN-0017;Villa – Kaolack;Kaolack;Sénégal;Gros œuvre;En cours;2026/07/19;2027/03/17;17;Entreprise démo n° 1;500000000;0
+8;PBE-SEN-0019;Immeuble administratif – Kolda;Kolda;Sénégal;Peinture;Programmé;2027/02/06;2027/06/09;0;;68000000;0
+9;PBE-SEN-0020;Villa – Matam;Matam;Sénégal;Gros œuvre;Programmé;2026/12/14;2027/09/30;0;;340000000;0
+10;PBE-SEN-0023;Entrepôt – Fatick;Fatick;Sénégal;Électricité;En cours;2026/07/27;2027/02/17;79;Entreprise démo n° 9;21000000;0
+11;PBE-SEN-0024;Entrepôt – Kaffrine;Kaffrine;Sénégal;Gros œuvre;En cours;2026/08/21;2027/05/20;37;Entreprise démo n° 8;239000000;0
+12;PBE-SEN-0026;Logement de fonction – Sédhiou;Sédhiou;Sénégal;Peinture;En cours;2026/06/21;2027/02/28;29;Entreprise démo n° 3;185000000;0
+13;PBE-USA-0029;Chancellerie – Washington;Washington;États-Unis;Électricité;Programmé;2027/02/04;2027/01/21;0;;106000000;0
+14;PBE-CIV-0031;Consulat – Abidjan;Abidjan;Côte d'Ivoire;Climatisation;Terminé;2024/03/20;2024/06/02;100;Entreprise démo n° 9;120000000;0
+15;PBE-MAR-0032;Chancellerie – Rabat;Rabat;Maroc;Réhabilitation complète;Terminé;2024/06/25;2024/11/24;100;Entreprise démo n° 9;221000000;0
+16;PBE-ETH-0038;Chancellerie – Addis-Abeba;Addis-Abeba;Éthiopie;Plomberie;En cours;2026/05/19;2027/01/15;76;Entreprise démo n° 1;72000000;0
+17;PBE-DEU-0044;Chancellerie – Berlin;Berlin;Allemagne;Toiture / étanchéité;En cours;2026/09/11;2027/09/14;56;Entreprise démo n° 4;85000000;0
+18;PBE-JPN-0047;Chancellerie – Tokyo;Tokyo;Japon;Gros œuvre;Programmé;2027/01/02;2027/09/15;0;;193000000;0
+19;PBE-ZAF-0048;Chancellerie – Pretoria;Pretoria;Afrique du Sud;Réhabilitation complète;Terminé;2024/07/05;2024/10/09;100;Entreprise démo n° 1;167000000;0
+20;PBE-NGA-0050;Chancellerie – Abuja;Abuja;Nigeria;Électricité;Programmé;2026/12/28;2027/04/13;0;;129000000;0
+21;PBE-GIN-0052;Chancellerie – Conakry;Conakry;Guinée;Plomberie;En cours;2026/07/26;2027/04/29;13;Entreprise démo n° 2;131000000;0

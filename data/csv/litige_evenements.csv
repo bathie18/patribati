@@ -1,0 +1,85 @@
+id;litige_id;date_evenement;type_evenement;description;reference
+1;1;2025/02/14;Constat / PV;Constat dressé sur place;LIT-2025-0001
+2;1;2025/06/10;Mise en demeure;Mise en demeure adressée à la partie adverse;LIT-2025-0001
+3;1;2025/10/05;Réunion de conciliation;Tentative de règlement amiable;LIT-2025-0001
+4;1;2026/01/29;Assignation;Assignation devant la juridiction;LIT-2025-0001
+5;1;2026/05/26;Audience;"Première audience, renvoi pour conclusions";LIT-2025-0001
+6;2;2023/06/02;Constat / PV;Constat dressé sur place;LIT-2023-0002
+7;2;2023/09/20;Mise en demeure;Mise en demeure adressée à la partie adverse;LIT-2023-0002
+8;2;2024/01/07;Réunion de conciliation;Tentative de règlement amiable;LIT-2023-0002
+9;2;2024/04/26;Assignation;Assignation devant la juridiction;LIT-2023-0002
+10;2;2024/08/13;Audience;"Première audience, renvoi pour conclusions";LIT-2023-0002
+11;2;2024/12/01;Jugement / arrêt;Jugement de première instance;LIT-2023-0002
+12;2;2025/03/20;Recours;Appel interjeté;LIT-2023-0002
+13;2;2025/07/08;Jugement / arrêt;Arrêt de la cour d'appel;LIT-2023-0002
+14;2;2025/10/25;Recours;Pourvoi en cassation;LIT-2023-0002
+15;2;2026/02/12;Jugement / arrêt;Décision définitive rendue;LIT-2023-0002
+16;2;2026/06/01;Paiement reçu;Paiement partiel de 4 000 000 FCFA;LIT-2023-0002
+17;3;2026/07/20;Constat / PV;Constat dressé sur place;LIT-2026-0003
+18;3;2026/08/19;Mise en demeure;Mise en demeure adressée à la partie adverse;LIT-2026-0003
+19;4;2022/11/08;Constat / PV;Constat dressé sur place;LIT-2022-0004
+20;4;2023/04/03;Mise en demeure;Mise en demeure adressée à la partie adverse;LIT-2022-0004
+21;4;2023/08/28;Réunion de conciliation;Tentative de règlement amiable;LIT-2022-0004
+22;4;2024/01/21;Assignation;Assignation devant la juridiction;LIT-2022-0004
+23;4;2024/06/16;Audience;"Première audience, renvoi pour conclusions";LIT-2022-0004
+24;4;2024/11/09;Jugement / arrêt;Jugement de première instance;LIT-2022-0004
+25;4;2025/04/04;Recours;Appel interjeté;LIT-2022-0004
+26;4;2025/08/29;Paiement reçu;Paiement partiel de 9 000 000 FCFA;LIT-2022-0004
+27;5;2025/09/03;Constat / PV;Constat dressé sur place;LIT-2025-0005
+28;5;2026/01/08;Mise en demeure;Mise en demeure adressée à la partie adverse;LIT-2025-0005
+29;5;2026/05/15;Réunion de conciliation;Tentative de règlement amiable;LIT-2025-0005
+30;6;2024/05/21;Constat / PV;Constat dressé sur place;LIT-2024-0006
+31;6;2024/10/10;Mise en demeure;Mise en demeure adressée à la partie adverse;LIT-2024-0006
+32;6;2025/03/01;Réunion de conciliation;Tentative de règlement amiable;LIT-2024-0006
+33;6;2025/07/21;Assignation;Assignation devant la juridiction;LIT-2024-0006
+34;6;2025/12/09;Audience;"Première audience, renvoi pour conclusions";LIT-2024-0006
+35;6;2026/04/30;Paiement reçu;Paiement partiel de 1 400 000 FCFA;LIT-2024-0006
+36;7;2026/08/12;Constat / PV;Constat dressé sur place;LIT-2026-0007
+37;7;2026/08/31;Mise en demeure;Mise en demeure adressée à la partie adverse;LIT-2026-0007
+38;8;2026/03/10;Constat / PV;Constat dressé sur place;LIT-2026-0008
+39;8;2026/04/18;Mise en demeure;Mise en demeure adressée à la partie adverse;LIT-2026-0008
+40;8;2026/05/26;Réunion de conciliation;Tentative de règlement amiable;LIT-2026-0008
+41;8;2026/07/04;Assignation;Assignation devant la juridiction;LIT-2026-0008
+42;8;2026/08/11;Audience;"Première audience, renvoi pour conclusions";LIT-2026-0008
+43;9;2026/06/01;Constat / PV;Constat dressé sur place;LIT-2026-0009
+44;9;2026/07/08;Mise en demeure;Mise en demeure adressée à la partie adverse;LIT-2026-0009
+45;9;2026/08/13;Réunion de conciliation;Tentative de règlement amiable;LIT-2026-0009
+46;10;2021/04/19;Constat / PV;Constat dressé sur place;LIT-2021-0010
+47;10;2021/11/25;Mise en demeure;Mise en demeure adressée à la partie adverse;LIT-2021-0010
+48;10;2022/07/03;Réunion de conciliation;Tentative de règlement amiable;LIT-2021-0010
+49;10;2023/02/08;Assignation;Assignation devant la juridiction;LIT-2021-0010
+50;10;2023/09/16;Audience;"Première audience, renvoi pour conclusions";LIT-2021-0010
+51;10;2024/04/22;Jugement / arrêt;Jugement de première instance;LIT-2021-0010
+52;10;2024/11/28;Recours;Appel interjeté;LIT-2021-0010
+53;10;2025/07/06;Jugement / arrêt;Arrêt de la cour d'appel;LIT-2021-0010
+54;10;2026/02/11;Recours;Pourvoi en cassation;LIT-2021-0010
+55;11;2026/04/07;Constat / PV;Constat dressé sur place;LIT-2026-0011
+56;11;2026/06/01;Mise en demeure;Mise en demeure adressée à la partie adverse;LIT-2026-0011
+57;11;2026/07/26;Réunion de conciliation;Tentative de règlement amiable;LIT-2026-0011
+58;12;2022/03/15;Constat / PV;Constat dressé sur place;LIT-2022-0012
+59;12;2022/04/03;Mise en demeure;Mise en demeure adressée à la partie adverse;LIT-2022-0012
+60;12;2022/04/22;Réunion de conciliation;Tentative de règlement amiable;LIT-2022-0012
+61;12;2022/05/11;Assignation;Assignation devant la juridiction;LIT-2022-0012
+62;12;2022/05/30;Audience;"Première audience, renvoi pour conclusions";LIT-2022-0012
+63;12;2022/06/18;Jugement / arrêt;Jugement de première instance;LIT-2022-0012
+64;12;2022/07/07;Recours;Appel interjeté;LIT-2022-0012
+65;12;2022/07/27;Jugement / arrêt;Arrêt de la cour d'appel;LIT-2022-0012
+66;12;2022/08/15;Recours;Pourvoi en cassation;LIT-2022-0012
+67;12;2022/09/03;Jugement / arrêt;Décision définitive rendue;LIT-2022-0012
+68;12;2022/09/22;Paiement reçu;Paiement partiel de 18 000 000 FCFA;LIT-2022-0012
+69;12;2022/10/11;Expulsion / reprise des lieux;Reprise de possession du bien;LIT-2022-0012
+70;12;2022/11/18;Clôture du dossier;Dossier clos – Favorable à l'État;LIT-2022-0012
+71;13;2023/09/04;Constat / PV;Constat dressé sur place;LIT-2023-0013
+72;13;2023/11/20;Mise en demeure;Mise en demeure adressée à la partie adverse;LIT-2023-0013
+73;13;2024/02/05;Réunion de conciliation;Tentative de règlement amiable;LIT-2023-0013
+74;13;2024/04/22;Assignation;Assignation devant la juridiction;LIT-2023-0013
+75;13;2024/07/08;Audience;"Première audience, renvoi pour conclusions";LIT-2023-0013
+76;13;2024/09/23;Expertise;Expertise judiciaire ordonnée;LIT-2023-0013
+77;13;2024/12/09;Jugement / arrêt;Jugement de première instance;LIT-2023-0013
+78;13;2025/02/25;Recours;Appel interjeté;LIT-2023-0013
+79;13;2025/05/13;Jugement / arrêt;Arrêt de la cour d'appel;LIT-2023-0013
+80;13;2025/07/29;Recours;Pourvoi en cassation;LIT-2023-0013
+81;13;2025/10/14;Jugement / arrêt;Décision définitive rendue;LIT-2023-0013
+82;13;2025/12/30;Paiement reçu;Paiement partiel de 21 000 000 FCFA;LIT-2023-0013
+83;13;2026/03/17;Protocole d'accord;Protocole transactionnel signé;LIT-2023-0013
+84;13;2026/08/18;Clôture du dossier;Dossier clos – Transaction;LIT-2023-0013

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PatriBâti</title>
+<meta name="description" content="PatriBâti (CEGIT) — plateforme cartographique d'inventaire, de gestion et de valorisation du patrimoine bâti de l'État du Sénégal, au Sénégal et à l'étranger. Prototype, données de démonstration fictives.">
+<meta name="theme-color" content="#0a6b43">
+<meta property="og:title" content="PatriBâti — patrimoine bâti de l'État du Sénégal">
+<meta property="og:description" content="Carte, fiches des biens, litiges et recouvrement, tableau de bord. Démonstration du CEGIT.">
+<meta property="og:image" content="assets/img/screenshots/carte-monde.png">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/patribati.css">
+</head>
+<body>
+<div id="app" aria-live="polite"><p style="padding:40px;font-family:sans-serif">Chargement de PatriBâti…</p></div>
+<div class="toast" id="toast" role="status" hidden></div>
+<div id="printArea" class="print-only"></div>
+<noscript><p style="padding:40px">PatriBâti nécessite JavaScript.</p></noscript>
+<script src="assets/vendor/leaflet/leaflet.js"></script>
+<script src="assets/vendor/topojson/topojson-client.min.js"></script>
+<script src="assets/data/monde.js"></script>
+<script src="assets/data/patribati-data.js"></script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/map.js"></script>
+<script src="assets/js/fiche.js"></script>
+<script src="assets/js/views.js"></script>
+<script src="assets/js/app.js"></script>
+<script>PB.boot();</script>
+</body>
+</html>

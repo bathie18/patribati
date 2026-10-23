@@ -1,0 +1,308 @@
+id;bien_id;assiette_id;litige_id;categorie;titre;chemin;date_doc;ajoute_par;ajoute_le
+1;1;1;;Titre foncier;Copie du TF n° 6476/DK;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+2;1;1;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+3;1;;;Bail / convention;Bail signé(e);documents/document_demo.pdf;2021/03/01;postgres;2026/10/10 00:03:58.617+00
+4;1;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/03/14;postgres;2026/10/10 00:03:58.617+00
+5;1;;;Photo;Façade principale;documents/photos/facade.png;2026/03/14;postgres;2026/10/10 00:03:58.617+00
+6;1;;;Photo;Cour intérieure;documents/photos/cour.png;2026/03/14;postgres;2026/10/10 00:03:58.617+00
+7;1;;;Photo;Toiture;documents/photos/toiture.png;2026/03/14;postgres;2026/10/10 00:03:58.617+00
+8;1;;;Photo;Circulations;documents/photos/circulations.png;2026/03/14;postgres;2026/10/10 00:03:58.617+00
+9;2;2;;Titre foncier;Copie du TF n° 7107/DK;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+10;2;2;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+11;2;;;Photo;Façade principale;documents/photos/facade.png;;postgres;2026/10/10 00:03:58.617+00
+12;2;;;Photo;Cour intérieure;documents/photos/cour.png;;postgres;2026/10/10 00:03:58.617+00
+13;3;3;;Titre foncier;Copie du TF n° 4755/DK;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+14;3;3;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+15;3;;;Bail / convention;Convention d'occupation signé(e);documents/document_demo.pdf;2023/02/21;postgres;2026/10/10 00:03:58.617+00
+16;3;;;Photo;Façade principale;documents/photos/facade.png;;postgres;2026/10/10 00:03:58.617+00
+17;3;;;Photo;Cour intérieure;documents/photos/cour.png;;postgres;2026/10/10 00:03:58.617+00
+18;3;;;Photo;Toiture;documents/photos/toiture.png;;postgres;2026/10/10 00:03:58.617+00
+19;4;4;;Titre foncier;Copie du TF n° 1781/DK;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+20;4;4;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+21;4;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2017/03/12;postgres;2026/10/10 00:03:58.617+00
+22;4;;;Photo;Façade principale;documents/photos/facade.png;;postgres;2026/10/10 00:03:58.617+00
+23;4;;;Photo;Cour intérieure;documents/photos/cour.png;;postgres;2026/10/10 00:03:58.617+00
+24;4;;;Photo;Toiture;documents/photos/toiture.png;;postgres;2026/10/10 00:03:58.617+00
+25;4;;;Photo;Circulations;documents/photos/circulations.png;;postgres;2026/10/10 00:03:58.617+00
+26;5;5;;Titre foncier;Copie du TF n° 7630/DK;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+27;5;5;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+28;5;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2025/10/19;postgres;2026/10/10 00:03:58.617+00
+29;5;;;Photo;Façade principale;documents/photos/facade.png;2025/10/19;postgres;2026/10/10 00:03:58.617+00
+30;5;;;Photo;Cour intérieure;documents/photos/cour.png;2025/10/19;postgres;2026/10/10 00:03:58.617+00
+31;5;;;Photo;Toiture;documents/photos/toiture.png;2025/10/19;postgres;2026/10/10 00:03:58.617+00
+32;5;;;Photo;Circulations;documents/photos/circulations.png;2025/10/19;postgres;2026/10/10 00:03:58.617+00
+33;6;6;;Titre foncier;Copie du TF n° 9675/DK;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+34;6;6;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+35;6;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2019/09/25;postgres;2026/10/10 00:03:58.617+00
+36;6;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2025/12/10;postgres;2026/10/10 00:03:58.617+00
+37;6;;;Photo;Façade principale;documents/photos/facade.png;2025/12/10;postgres;2026/10/10 00:03:58.617+00
+38;6;;;Photo;Cour intérieure;documents/photos/cour.png;2025/12/10;postgres;2026/10/10 00:03:58.617+00
+39;7;7;;Titre foncier;Copie du TF n° 1322/DK;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+40;7;7;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+41;7;;;Bail / convention;Convention d'occupation signé(e);documents/document_demo.pdf;2020/10/11;postgres;2026/10/10 00:03:58.617+00
+42;7;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2025/10/24;postgres;2026/10/10 00:03:58.617+00
+43;7;;;Photo;Façade principale;documents/photos/facade.png;2025/10/24;postgres;2026/10/10 00:03:58.617+00
+44;7;;;Photo;Cour intérieure;documents/photos/cour.png;2025/10/24;postgres;2026/10/10 00:03:58.617+00
+45;7;;;Photo;Toiture;documents/photos/toiture.png;2025/10/24;postgres;2026/10/10 00:03:58.617+00
+46;8;8;;Titre foncier;Copie du TF n° 6744/DK;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+47;8;8;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+48;8;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2012/02/21;postgres;2026/10/10 00:03:58.617+00
+49;8;;;Photo;Façade principale;documents/photos/facade.png;;postgres;2026/10/10 00:03:58.617+00
+50;8;;;Photo;Cour intérieure;documents/photos/cour.png;;postgres;2026/10/10 00:03:58.617+00
+51;8;;;Photo;Toiture;documents/photos/toiture.png;;postgres;2026/10/10 00:03:58.617+00
+52;8;;;Photo;Circulations;documents/photos/circulations.png;;postgres;2026/10/10 00:03:58.617+00
+53;9;9;;Titre foncier;Copie du TF n° 8835/DK;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+54;9;9;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+55;9;;;Photo;Façade principale;documents/photos/facade.png;;postgres;2026/10/10 00:03:58.617+00
+56;9;;;Photo;Cour intérieure;documents/photos/cour.png;;postgres;2026/10/10 00:03:58.617+00
+57;10;10;;Titre foncier;Copie du TF n° 4193/RF;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+58;10;10;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+59;10;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2011/04/03;postgres;2026/10/10 00:03:58.617+00
+60;10;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/04/09;postgres;2026/10/10 00:03:58.617+00
+61;10;;;Photo;Façade principale;documents/photos/facade.png;2026/04/09;postgres;2026/10/10 00:03:58.617+00
+62;10;;;Photo;Cour intérieure;documents/photos/cour.png;2026/04/09;postgres;2026/10/10 00:03:58.617+00
+63;11;11;;Titre foncier;Copie du TF n° 5989/TH;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+64;11;11;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+65;11;;;Bail / convention;Bail signé(e);documents/document_demo.pdf;2021/11/02;postgres;2026/10/10 00:03:58.617+00
+66;11;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/05/08;postgres;2026/10/10 00:03:58.617+00
+67;11;;;Photo;Façade principale;documents/photos/facade.png;2026/05/08;postgres;2026/10/10 00:03:58.617+00
+68;11;;;Photo;Cour intérieure;documents/photos/cour.png;2026/05/08;postgres;2026/10/10 00:03:58.617+00
+69;11;;;Photo;Toiture;documents/photos/toiture.png;2026/05/08;postgres;2026/10/10 00:03:58.617+00
+70;12;12;;Titre foncier;Copie du TF n° 6195/TH;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+71;12;12;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+72;12;;;Photo;Façade principale;documents/photos/facade.png;;postgres;2026/10/10 00:03:58.617+00
+73;12;;;Photo;Cour intérieure;documents/photos/cour.png;;postgres;2026/10/10 00:03:58.617+00
+74;13;13;;Titre foncier;Copie du TF n° 2025/MB;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+75;13;13;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+76;13;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2025/09/30;postgres;2026/10/10 00:03:58.617+00
+77;13;;;Photo;Façade principale;documents/photos/facade.png;2025/09/30;postgres;2026/10/10 00:03:58.617+00
+78;13;;;Photo;Cour intérieure;documents/photos/cour.png;2025/09/30;postgres;2026/10/10 00:03:58.617+00
+79;13;;;Photo;Toiture;documents/photos/toiture.png;2025/09/30;postgres;2026/10/10 00:03:58.617+00
+80;14;14;;Titre foncier;Copie du TF n° 5240/SL;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+81;14;14;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+82;14;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2013/08/08;postgres;2026/10/10 00:03:58.617+00
+83;14;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/05/19;postgres;2026/10/10 00:03:58.617+00
+84;14;;;Photo;Façade principale;documents/photos/facade.png;2026/05/19;postgres;2026/10/10 00:03:58.617+00
+85;14;;;Photo;Cour intérieure;documents/photos/cour.png;2026/05/19;postgres;2026/10/10 00:03:58.617+00
+86;15;15;;Titre foncier;Copie du TF n° 7627/SL;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+87;15;15;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+88;15;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2021/10/03;postgres;2026/10/10 00:03:58.617+00
+89;15;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/06/20;postgres;2026/10/10 00:03:58.617+00
+90;15;;;Photo;Façade principale;documents/photos/facade.png;2026/06/20;postgres;2026/10/10 00:03:58.617+00
+91;15;;;Photo;Cour intérieure;documents/photos/cour.png;2026/06/20;postgres;2026/10/10 00:03:58.617+00
+92;15;;;Photo;Toiture;documents/photos/toiture.png;2026/06/20;postgres;2026/10/10 00:03:58.617+00
+93;16;16;;Titre foncier;Copie du TF n° 2340/ZG;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+94;16;16;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+95;16;;;Bail / convention;Convention d'occupation signé(e);documents/document_demo.pdf;2023/07/23;postgres;2026/10/10 00:03:58.617+00
+96;16;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/03/22;postgres;2026/10/10 00:03:58.617+00
+97;16;;;Photo;Façade principale;documents/photos/facade.png;2026/03/22;postgres;2026/10/10 00:03:58.617+00
+98;16;;;Photo;Cour intérieure;documents/photos/cour.png;2026/03/22;postgres;2026/10/10 00:03:58.617+00
+99;17;17;;Titre foncier;Copie du TF n° 1813/KL;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+100;17;17;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+101;17;;;Photo;Façade principale;documents/photos/facade.png;;postgres;2026/10/10 00:03:58.617+00
+102;17;;;Photo;Cour intérieure;documents/photos/cour.png;;postgres;2026/10/10 00:03:58.617+00
+103;17;;;Photo;Toiture;documents/photos/toiture.png;;postgres;2026/10/10 00:03:58.617+00
+104;18;18;;Titre foncier;Copie du TF n° 9481/TC;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+105;18;18;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+106;18;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2013/05/24;postgres;2026/10/10 00:03:58.617+00
+107;18;;;Photo;Vue générale du terrain;documents/photos/terrain.png;;postgres;2026/10/10 00:03:58.617+00
+108;19;19;;Titre foncier;Copie du TF n° 2358/KD;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+109;19;19;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+110;19;;;Bail / convention;Bail signé(e);documents/document_demo.pdf;2022/09/26;postgres;2026/10/10 00:03:58.617+00
+111;19;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2025/12/14;postgres;2026/10/10 00:03:58.617+00
+112;19;;;Photo;Façade principale;documents/photos/facade.png;2025/12/14;postgres;2026/10/10 00:03:58.617+00
+113;19;;;Photo;Cour intérieure;documents/photos/cour.png;2025/12/14;postgres;2026/10/10 00:03:58.617+00
+114;20;20;;Titre foncier;Copie du TF n° 7669/MT;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+115;20;20;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+116;20;;;Photo;Façade principale;documents/photos/facade.png;;postgres;2026/10/10 00:03:58.617+00
+117;20;;;Photo;Cour intérieure;documents/photos/cour.png;;postgres;2026/10/10 00:03:58.617+00
+118;20;;;Photo;Toiture;documents/photos/toiture.png;;postgres;2026/10/10 00:03:58.617+00
+119;20;;;Photo;Circulations;documents/photos/circulations.png;;postgres;2026/10/10 00:03:58.617+00
+120;21;21;;Titre foncier;Copie du TF n° 8786/LG;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+121;21;21;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+122;21;;;Bail / convention;Convention d'occupation signé(e);documents/document_demo.pdf;2021/12/05;postgres;2026/10/10 00:03:58.617+00
+123;21;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2025/10/07;postgres;2026/10/10 00:03:58.617+00
+124;21;;;Photo;Façade principale;documents/photos/facade.png;2025/10/07;postgres;2026/10/10 00:03:58.617+00
+125;21;;;Photo;Cour intérieure;documents/photos/cour.png;2025/10/07;postgres;2026/10/10 00:03:58.617+00
+126;21;;;Photo;Toiture;documents/photos/toiture.png;2025/10/07;postgres;2026/10/10 00:03:58.617+00
+127;21;;;Photo;Circulations;documents/photos/circulations.png;2025/10/07;postgres;2026/10/10 00:03:58.617+00
+128;22;22;;Titre foncier;Copie du TF n° 9076/DB;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+129;22;22;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+130;22;;;Photo;Vue générale du terrain;documents/photos/terrain.png;;postgres;2026/10/10 00:03:58.617+00
+131;23;23;;Titre foncier;Copie du TF n° 6277/FK;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+132;23;23;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+133;23;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2018/06/24;postgres;2026/10/10 00:03:58.617+00
+134;23;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/08/31;postgres;2026/10/10 00:03:58.617+00
+135;23;;;Photo;Façade principale;documents/photos/facade.png;2026/08/31;postgres;2026/10/10 00:03:58.617+00
+136;23;;;Photo;Cour intérieure;documents/photos/cour.png;2026/08/31;postgres;2026/10/10 00:03:58.617+00
+137;23;;;Photo;Toiture;documents/photos/toiture.png;2026/08/31;postgres;2026/10/10 00:03:58.617+00
+138;23;;;Photo;Circulations;documents/photos/circulations.png;2026/08/31;postgres;2026/10/10 00:03:58.617+00
+139;24;24;;Titre foncier;Copie du TF n° 5308/KF;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+140;24;24;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+141;24;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/01/12;postgres;2026/10/10 00:03:58.617+00
+142;24;;;Photo;Façade principale;documents/photos/facade.png;2026/01/12;postgres;2026/10/10 00:03:58.617+00
+143;24;;;Photo;Cour intérieure;documents/photos/cour.png;2026/01/12;postgres;2026/10/10 00:03:58.617+00
+144;24;;;Photo;Toiture;documents/photos/toiture.png;2026/01/12;postgres;2026/10/10 00:03:58.617+00
+145;24;;;Photo;Circulations;documents/photos/circulations.png;2026/01/12;postgres;2026/10/10 00:03:58.617+00
+146;25;25;;Titre foncier;Copie du TF n° 1439/KG;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+147;25;25;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+148;25;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/08/11;postgres;2026/10/10 00:03:58.617+00
+149;25;;;Photo;Façade principale;documents/photos/facade.png;2026/08/11;postgres;2026/10/10 00:03:58.617+00
+150;25;;;Photo;Cour intérieure;documents/photos/cour.png;2026/08/11;postgres;2026/10/10 00:03:58.617+00
+151;25;;;Photo;Toiture;documents/photos/toiture.png;2026/08/11;postgres;2026/10/10 00:03:58.617+00
+152;25;;;Photo;Circulations;documents/photos/circulations.png;2026/08/11;postgres;2026/10/10 00:03:58.617+00
+153;26;26;;Titre foncier;Copie du TF n° 5564/SD;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+154;26;26;;Plan cadastral;Extrait du plan cadastral;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+155;26;;;Photo;Façade principale;documents/photos/facade.png;;postgres;2026/10/10 00:03:58.617+00
+156;26;;;Photo;Cour intérieure;documents/photos/cour.png;;postgres;2026/10/10 00:03:58.617+00
+157;26;;;Photo;Toiture;documents/photos/toiture.png;;postgres;2026/10/10 00:03:58.617+00
+158;27;;;Bail / convention;Bail signé(e);documents/document_demo.pdf;2021/02/21;postgres;2026/10/10 00:03:58.617+00
+159;27;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2025/06/25;postgres;2026/10/10 00:03:58.617+00
+160;27;;;Photo;Façade principale;documents/photos/facade.png;2025/06/25;postgres;2026/10/10 00:03:58.617+00
+161;27;;;Photo;Cour intérieure;documents/photos/cour.png;2025/06/25;postgres;2026/10/10 00:03:58.617+00
+162;27;;;Photo;Toiture;documents/photos/toiture.png;2025/06/25;postgres;2026/10/10 00:03:58.617+00
+163;27;;;Photo;Circulations;documents/photos/circulations.png;2025/06/25;postgres;2026/10/10 00:03:58.617+00
+164;28;;;Bail / convention;Bail signé(e);documents/document_demo.pdf;2022/03/09;postgres;2026/10/10 00:03:58.617+00
+165;28;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/04/22;postgres;2026/10/10 00:03:58.617+00
+166;28;;;Photo;Façade principale;documents/photos/facade.png;2026/04/22;postgres;2026/10/10 00:03:58.617+00
+167;28;;;Photo;Cour intérieure;documents/photos/cour.png;2026/04/22;postgres;2026/10/10 00:03:58.617+00
+168;29;;;Bail / convention;Bail signé(e);documents/document_demo.pdf;2022/06/10;postgres;2026/10/10 00:03:58.617+00
+169;29;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/01/19;postgres;2026/10/10 00:03:58.617+00
+170;29;;;Photo;Façade principale;documents/photos/facade.png;2026/01/19;postgres;2026/10/10 00:03:58.617+00
+171;29;;;Photo;Cour intérieure;documents/photos/cour.png;2026/01/19;postgres;2026/10/10 00:03:58.617+00
+172;29;;;Photo;Toiture;documents/photos/toiture.png;2026/01/19;postgres;2026/10/10 00:03:58.617+00
+173;30;;;Bail / convention;Bail signé(e);documents/document_demo.pdf;2022/08/23;postgres;2026/10/10 00:03:58.617+00
+174;30;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2025/10/05;postgres;2026/10/10 00:03:58.617+00
+175;30;;;Photo;Façade principale;documents/photos/facade.png;2025/10/05;postgres;2026/10/10 00:03:58.617+00
+176;30;;;Photo;Cour intérieure;documents/photos/cour.png;2025/10/05;postgres;2026/10/10 00:03:58.617+00
+177;31;;;Bail / convention;Bail signé(e);documents/document_demo.pdf;2023/05/20;postgres;2026/10/10 00:03:58.617+00
+178;31;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2025/12/13;postgres;2026/10/10 00:03:58.617+00
+179;31;;;Photo;Façade principale;documents/photos/facade.png;2025/12/13;postgres;2026/10/10 00:03:58.617+00
+180;31;;;Photo;Cour intérieure;documents/photos/cour.png;2025/12/13;postgres;2026/10/10 00:03:58.617+00
+181;31;;;Photo;Toiture;documents/photos/toiture.png;2025/12/13;postgres;2026/10/10 00:03:58.617+00
+182;31;;;Photo;Circulations;documents/photos/circulations.png;2025/12/13;postgres;2026/10/10 00:03:58.617+00
+183;32;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2008/09/05;postgres;2026/10/10 00:03:58.617+00
+184;32;;;Photo;Façade principale;documents/photos/facade.png;;postgres;2026/10/10 00:03:58.617+00
+185;32;;;Photo;Cour intérieure;documents/photos/cour.png;;postgres;2026/10/10 00:03:58.617+00
+186;33;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2013/02/01;postgres;2026/10/10 00:03:58.617+00
+187;33;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/07/08;postgres;2026/10/10 00:03:58.617+00
+188;33;;;Photo;Façade principale;documents/photos/facade.png;2026/07/08;postgres;2026/10/10 00:03:58.617+00
+189;33;;;Photo;Cour intérieure;documents/photos/cour.png;2026/07/08;postgres;2026/10/10 00:03:58.617+00
+190;33;;;Photo;Toiture;documents/photos/toiture.png;2026/07/08;postgres;2026/10/10 00:03:58.617+00
+191;34;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2020/01/12;postgres;2026/10/10 00:03:58.617+00
+192;34;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/01/31;postgres;2026/10/10 00:03:58.617+00
+193;34;;;Photo;Façade principale;documents/photos/facade.png;2026/01/31;postgres;2026/10/10 00:03:58.617+00
+194;34;;;Photo;Cour intérieure;documents/photos/cour.png;2026/01/31;postgres;2026/10/10 00:03:58.617+00
+195;34;;;Photo;Toiture;documents/photos/toiture.png;2026/01/31;postgres;2026/10/10 00:03:58.617+00
+196;34;;;Photo;Circulations;documents/photos/circulations.png;2026/01/31;postgres;2026/10/10 00:03:58.617+00
+197;35;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2011/06/08;postgres;2026/10/10 00:03:58.617+00
+198;35;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2025/06/15;postgres;2026/10/10 00:03:58.617+00
+199;35;;;Photo;Façade principale;documents/photos/facade.png;2025/06/15;postgres;2026/10/10 00:03:58.617+00
+200;35;;;Photo;Cour intérieure;documents/photos/cour.png;2025/06/15;postgres;2026/10/10 00:03:58.617+00
+201;36;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2020/04/04;postgres;2026/10/10 00:03:58.617+00
+202;36;;;Photo;Façade principale;documents/photos/facade.png;;postgres;2026/10/10 00:03:58.617+00
+203;36;;;Photo;Cour intérieure;documents/photos/cour.png;;postgres;2026/10/10 00:03:58.617+00
+204;36;;;Photo;Toiture;documents/photos/toiture.png;;postgres;2026/10/10 00:03:58.617+00
+205;36;;;Photo;Circulations;documents/photos/circulations.png;;postgres;2026/10/10 00:03:58.617+00
+206;37;;;Bail / convention;Bail signé(e);documents/document_demo.pdf;2021/07/29;postgres;2026/10/10 00:03:58.617+00
+207;37;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2025/10/18;postgres;2026/10/10 00:03:58.617+00
+208;37;;;Photo;Façade principale;documents/photos/facade.png;2025/10/18;postgres;2026/10/10 00:03:58.617+00
+209;37;;;Photo;Cour intérieure;documents/photos/cour.png;2025/10/18;postgres;2026/10/10 00:03:58.617+00
+210;37;;;Photo;Toiture;documents/photos/toiture.png;2025/10/18;postgres;2026/10/10 00:03:58.617+00
+211;37;;;Photo;Circulations;documents/photos/circulations.png;2025/10/18;postgres;2026/10/10 00:03:58.617+00
+212;38;;;Bail / convention;Bail signé(e);documents/document_demo.pdf;2024/04/18;postgres;2026/10/10 00:03:58.617+00
+213;38;;;Photo;Façade principale;documents/photos/facade.png;;postgres;2026/10/10 00:03:58.617+00
+214;38;;;Photo;Cour intérieure;documents/photos/cour.png;;postgres;2026/10/10 00:03:58.617+00
+215;38;;;Photo;Toiture;documents/photos/toiture.png;;postgres;2026/10/10 00:03:58.617+00
+216;38;;;Photo;Circulations;documents/photos/circulations.png;;postgres;2026/10/10 00:03:58.617+00
+217;39;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2013/09/27;postgres;2026/10/10 00:03:58.617+00
+218;39;;;Photo;Façade principale;documents/photos/facade.png;;postgres;2026/10/10 00:03:58.617+00
+219;39;;;Photo;Cour intérieure;documents/photos/cour.png;;postgres;2026/10/10 00:03:58.617+00
+220;39;;;Photo;Toiture;documents/photos/toiture.png;;postgres;2026/10/10 00:03:58.617+00
+221;40;;;Bail / convention;Bail signé(e);documents/document_demo.pdf;2021/05/28;postgres;2026/10/10 00:03:58.617+00
+222;40;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/09/07;postgres;2026/10/10 00:03:58.617+00
+223;40;;;Photo;Façade principale;documents/photos/facade.png;2026/09/07;postgres;2026/10/10 00:03:58.617+00
+224;40;;;Photo;Cour intérieure;documents/photos/cour.png;2026/09/07;postgres;2026/10/10 00:03:58.617+00
+225;40;;;Photo;Toiture;documents/photos/toiture.png;2026/09/07;postgres;2026/10/10 00:03:58.617+00
+226;41;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2009/10/17;postgres;2026/10/10 00:03:58.617+00
+227;41;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/08/26;postgres;2026/10/10 00:03:58.617+00
+228;41;;;Photo;Façade principale;documents/photos/facade.png;2026/08/26;postgres;2026/10/10 00:03:58.617+00
+229;41;;;Photo;Cour intérieure;documents/photos/cour.png;2026/08/26;postgres;2026/10/10 00:03:58.617+00
+230;41;;;Photo;Toiture;documents/photos/toiture.png;2026/08/26;postgres;2026/10/10 00:03:58.617+00
+231;41;;;Photo;Circulations;documents/photos/circulations.png;2026/08/26;postgres;2026/10/10 00:03:58.617+00
+232;42;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2005/03/04;postgres;2026/10/10 00:03:58.617+00
+233;42;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/02/03;postgres;2026/10/10 00:03:58.617+00
+234;42;;;Photo;Façade principale;documents/photos/facade.png;2026/02/03;postgres;2026/10/10 00:03:58.617+00
+235;42;;;Photo;Cour intérieure;documents/photos/cour.png;2026/02/03;postgres;2026/10/10 00:03:58.617+00
+236;43;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2011/09/20;postgres;2026/10/10 00:03:58.617+00
+237;43;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/06/09;postgres;2026/10/10 00:03:58.617+00
+238;43;;;Photo;Façade principale;documents/photos/facade.png;2026/06/09;postgres;2026/10/10 00:03:58.617+00
+239;43;;;Photo;Cour intérieure;documents/photos/cour.png;2026/06/09;postgres;2026/10/10 00:03:58.617+00
+240;43;;;Photo;Toiture;documents/photos/toiture.png;2026/06/09;postgres;2026/10/10 00:03:58.617+00
+241;44;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2006/10/21;postgres;2026/10/10 00:03:58.617+00
+242;44;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/01/24;postgres;2026/10/10 00:03:58.617+00
+243;44;;;Photo;Façade principale;documents/photos/facade.png;2026/01/24;postgres;2026/10/10 00:03:58.617+00
+244;44;;;Photo;Cour intérieure;documents/photos/cour.png;2026/01/24;postgres;2026/10/10 00:03:58.617+00
+245;44;;;Photo;Toiture;documents/photos/toiture.png;2026/01/24;postgres;2026/10/10 00:03:58.617+00
+246;44;;;Photo;Circulations;documents/photos/circulations.png;2026/01/24;postgres;2026/10/10 00:03:58.617+00
+247;45;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2010/07/15;postgres;2026/10/10 00:03:58.617+00
+248;45;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/07/19;postgres;2026/10/10 00:03:58.617+00
+249;45;;;Photo;Façade principale;documents/photos/facade.png;2026/07/19;postgres;2026/10/10 00:03:58.617+00
+250;45;;;Photo;Cour intérieure;documents/photos/cour.png;2026/07/19;postgres;2026/10/10 00:03:58.617+00
+251;46;;;Bail / convention;Bail signé(e);documents/document_demo.pdf;2024/01/07;postgres;2026/10/10 00:03:58.617+00
+252;46;;;Photo;Façade principale;documents/photos/facade.png;;postgres;2026/10/10 00:03:58.617+00
+253;46;;;Photo;Cour intérieure;documents/photos/cour.png;;postgres;2026/10/10 00:03:58.617+00
+254;46;;;Photo;Toiture;documents/photos/toiture.png;;postgres;2026/10/10 00:03:58.617+00
+255;46;;;Photo;Circulations;documents/photos/circulations.png;;postgres;2026/10/10 00:03:58.617+00
+256;47;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2019/04/09;postgres;2026/10/10 00:03:58.617+00
+257;47;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/08/23;postgres;2026/10/10 00:03:58.617+00
+258;47;;;Photo;Façade principale;documents/photos/facade.png;2026/08/23;postgres;2026/10/10 00:03:58.617+00
+259;47;;;Photo;Cour intérieure;documents/photos/cour.png;2026/08/23;postgres;2026/10/10 00:03:58.617+00
+260;47;;;Photo;Toiture;documents/photos/toiture.png;2026/08/23;postgres;2026/10/10 00:03:58.617+00
+261;47;;;Photo;Circulations;documents/photos/circulations.png;2026/08/23;postgres;2026/10/10 00:03:58.617+00
+262;48;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2012/07/29;postgres;2026/10/10 00:03:58.617+00
+263;48;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2025/09/23;postgres;2026/10/10 00:03:58.617+00
+264;48;;;Photo;Façade principale;documents/photos/facade.png;2025/09/23;postgres;2026/10/10 00:03:58.617+00
+265;48;;;Photo;Cour intérieure;documents/photos/cour.png;2025/09/23;postgres;2026/10/10 00:03:58.617+00
+266;48;;;Photo;Toiture;documents/photos/toiture.png;2025/09/23;postgres;2026/10/10 00:03:58.617+00
+267;48;;;Photo;Circulations;documents/photos/circulations.png;2025/09/23;postgres;2026/10/10 00:03:58.617+00
+268;49;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2011/10/27;postgres;2026/10/10 00:03:58.617+00
+269;49;;;Photo;Façade principale;documents/photos/facade.png;;postgres;2026/10/10 00:03:58.617+00
+270;49;;;Photo;Cour intérieure;documents/photos/cour.png;;postgres;2026/10/10 00:03:58.617+00
+271;50;;;Bail / convention;Bail signé(e);documents/document_demo.pdf;2021/10/27;postgres;2026/10/10 00:03:58.617+00
+272;50;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2025/08/13;postgres;2026/10/10 00:03:58.617+00
+273;50;;;Photo;Façade principale;documents/photos/facade.png;2025/08/13;postgres;2026/10/10 00:03:58.617+00
+274;50;;;Photo;Cour intérieure;documents/photos/cour.png;2025/08/13;postgres;2026/10/10 00:03:58.617+00
+275;51;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2022/02/28;postgres;2026/10/10 00:03:58.617+00
+276;51;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/02/10;postgres;2026/10/10 00:03:58.617+00
+277;51;;;Photo;Façade principale;documents/photos/facade.png;2026/02/10;postgres;2026/10/10 00:03:58.617+00
+278;51;;;Photo;Cour intérieure;documents/photos/cour.png;2026/02/10;postgres;2026/10/10 00:03:58.617+00
+279;52;;;Acte d'affectation;Acte d'affectation;documents/document_demo.pdf;2020/06/05;postgres;2026/10/10 00:03:58.617+00
+280;52;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2025/08/23;postgres;2026/10/10 00:03:58.617+00
+281;52;;;Photo;Façade principale;documents/photos/facade.png;2025/08/23;postgres;2026/10/10 00:03:58.617+00
+282;52;;;Photo;Cour intérieure;documents/photos/cour.png;2025/08/23;postgres;2026/10/10 00:03:58.617+00
+283;52;;;Photo;Toiture;documents/photos/toiture.png;2025/08/23;postgres;2026/10/10 00:03:58.617+00
+284;52;;;Photo;Circulations;documents/photos/circulations.png;2025/08/23;postgres;2026/10/10 00:03:58.617+00
+285;53;;;Bail / convention;Bail signé(e);documents/document_demo.pdf;2021/09/25;postgres;2026/10/10 00:03:58.617+00
+286;53;;;PV de visite;Procès-verbal de visite;documents/document_demo.pdf;2026/03/31;postgres;2026/10/10 00:03:58.617+00
+287;53;;;Photo;Façade principale;documents/photos/facade.png;2026/03/31;postgres;2026/10/10 00:03:58.617+00
+288;53;;;Photo;Cour intérieure;documents/photos/cour.png;2026/03/31;postgres;2026/10/10 00:03:58.617+00
+289;53;;;Photo;Toiture;documents/photos/toiture.png;2026/03/31;postgres;2026/10/10 00:03:58.617+00
+290;2;;1;Mise en demeure;Mise en demeure – LIT-2025-0001;documents/document_demo.pdf;2025/02/19;postgres;2026/10/10 00:03:58.617+00
+291;9;;2;Mise en demeure;Mise en demeure – LIT-2023-0002;documents/document_demo.pdf;2023/06/07;postgres;2026/10/10 00:03:58.617+00
+292;9;;2;Décision de justice;Jugement – LIT-2023-0002;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+293;13;;3;Mise en demeure;Mise en demeure – LIT-2026-0003;documents/document_demo.pdf;2026/07/25;postgres;2026/10/10 00:03:58.617+00
+294;20;;4;Mise en demeure;Mise en demeure – LIT-2022-0004;documents/document_demo.pdf;2022/11/13;postgres;2026/10/10 00:03:58.617+00
+295;20;;4;Décision de justice;Jugement – LIT-2022-0004;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+296;1;;5;Mise en demeure;Mise en demeure – LIT-2025-0005;documents/document_demo.pdf;2025/09/08;postgres;2026/10/10 00:03:58.617+00
+297;7;;6;Mise en demeure;Mise en demeure – LIT-2024-0006;documents/document_demo.pdf;2024/05/26;postgres;2026/10/10 00:03:58.617+00
+298;11;;7;Mise en demeure;Mise en demeure – LIT-2026-0007;documents/document_demo.pdf;2026/08/17;postgres;2026/10/10 00:03:58.617+00
+299;10;;8;Mise en demeure;Mise en demeure – LIT-2026-0008;documents/document_demo.pdf;2026/03/15;postgres;2026/10/10 00:03:58.617+00
+300;11;;9;Mise en demeure;Mise en demeure – LIT-2026-0009;documents/document_demo.pdf;2026/06/06;postgres;2026/10/10 00:03:58.617+00
+301;14;;10;Mise en demeure;Mise en demeure – LIT-2021-0010;documents/document_demo.pdf;2021/04/24;postgres;2026/10/10 00:03:58.617+00
+302;14;;10;Décision de justice;Jugement – LIT-2021-0010;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+303;27;;11;Mise en demeure;Mise en demeure – LIT-2026-0011;documents/document_demo.pdf;2026/04/12;postgres;2026/10/10 00:03:58.617+00
+304;3;;12;Mise en demeure;Mise en demeure – LIT-2022-0012;documents/document_demo.pdf;2022/03/20;postgres;2026/10/10 00:03:58.617+00
+305;3;;12;Décision de justice;Jugement – LIT-2022-0012;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00
+306;5;;13;Mise en demeure;Mise en demeure – LIT-2023-0013;documents/document_demo.pdf;2023/09/09;postgres;2026/10/10 00:03:58.617+00
+307;5;;13;Décision de justice;Jugement – LIT-2023-0013;documents/document_demo.pdf;;postgres;2026/10/10 00:03:58.617+00

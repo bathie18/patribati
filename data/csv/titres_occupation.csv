@@ -1,0 +1,47 @@
+id;bien_id;sens;type_titre;occupant;reference_acte;date_debut;date_fin;loyer_mensuel_fcfa;arrieres_fcfa;date_dernier_paiement;observations;bien_code
+1;1;État bailleur;Bail;Occupant titré n° 1 (démo);;2021/03/01;2027/12/03;1000000;10000000;2025/10/31;;PBE-SEN-0001
+2;2;État bailleur;Sans titre;Occupant sans titre n° 2 (démo);;;;;0;;;PBE-SEN-0002
+3;3;État bailleur;Convention d'occupation;Occupant titré n° 3 (démo);;2023/02/21;2028/02/13;600000;0;2026/08/25;;PBE-SEN-0003
+4;4;État bailleur;Acte d'affectation;Service déconcentré (démo);;2017/03/12;;;0;;;PBE-SEN-0004
+5;6;État bailleur;Acte d'affectation;Ministère B (démo);;2019/09/25;;;0;;;PBE-SEN-0006
+6;7;État bailleur;Convention d'occupation;Occupant titré n° 7 (démo);;2020/10/11;2029/05/13;800000;4800000;2025/09/01;;PBE-SEN-0007
+7;8;État bailleur;Acte d'affectation;Ministère C (démo);;2012/02/21;;;0;;;PBE-SEN-0008
+8;9;État bailleur;Sans titre;Occupant sans titre n° 9 (démo);;;;;0;;;PBE-SEN-0009
+9;10;État bailleur;Acte d'affectation;Ministère C (démo);;2011/04/03;;;0;;;PBE-SEN-0010
+10;11;État bailleur;Bail;Occupant titré n° 11 (démo);;2021/11/02;2029/09/20;2400000;26400000;2026/01/15;;PBE-SEN-0011
+11;13;État bailleur;Sans titre;Occupant sans titre n° 13 (démo);;;;;0;;;PBE-SEN-0013
+12;14;État bailleur;Acte d'affectation;Ministère C (démo);;2013/08/08;;;0;;;PBE-SEN-0014
+13;15;État bailleur;Acte d'affectation;Service déconcentré (démo);;2021/10/03;;;0;;;PBE-SEN-0015
+14;16;État bailleur;Convention d'occupation;Occupant titré n° 16 (démo);;2023/07/23;2028/09/04;2300000;0;2026/08/24;;PBE-SEN-0016
+15;18;État bailleur;Acte d'affectation;Agence publique (démo);;2013/05/24;;;0;;;PBE-SEN-0018
+16;19;État bailleur;Bail;Occupant titré n° 19 (démo);;2022/09/26;2027/02/04;2000000;24000000;2025/11/02;;PBE-SEN-0019
+17;20;État bailleur;Sans titre;Occupant sans titre n° 20 (démo);;;;;0;;;PBE-SEN-0020
+18;21;État bailleur;Convention d'occupation;Occupant titré n° 21 (démo);;2021/12/05;2028/07/28;600000;0;2026/08/19;;PBE-SEN-0021
+19;23;État bailleur;Acte d'affectation;Agence publique (démo);;2018/06/24;;;0;;;PBE-SEN-0023
+20;27;État preneur;Bail;Bailleur privé (démo);;2021/02/21;2027/04/23;2300000;0;2026/08/08;;PBE-FRA-0027
+21;28;État preneur;Bail;Bailleur privé (démo);;2022/03/09;2028/04/05;6600000;0;2026/09/30;;PBE-FRA-0028
+22;29;État preneur;Bail;Bailleur privé (démo);;2022/06/10;2026/11/26;1600000;0;2026/09/03;;PBE-USA-0029
+23;30;État preneur;Bail;Bailleur privé (démo);;2022/08/23;2028/11/08;3700000;0;2026/08/14;;PBE-USA-0030
+24;31;État preneur;Bail;Bailleur privé (démo);;2023/05/20;2028/09/13;7500000;0;2026/08/13;;PBE-CIV-0031
+25;32;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2008/09/05;;;0;;;PBE-MAR-0032
+26;33;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2013/02/01;;;0;;;PBE-BEL-0033
+27;34;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2020/01/12;;;0;;;PBE-CHE-0034
+28;35;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2011/06/08;;;0;;;PBE-SAU-0035
+29;36;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2020/04/04;;;0;;;PBE-CHN-0036
+30;37;État preneur;Bail;Bailleur privé (démo);;2021/07/29;2028/01/13;1700000;0;2026/08/26;;PBE-BRA-0037
+31;38;État preneur;Bail;Bailleur privé (démo);;2024/04/18;2027/09/10;5800000;0;2026/08/24;;PBE-ETH-0038
+32;39;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2013/09/27;;;0;;;PBE-MLI-0039
+33;40;État preneur;Bail;Bailleur privé (démo);;2021/05/28;2027/12/18;6700000;0;2026/08/06;;PBE-GMB-0040
+34;41;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2009/10/17;;;0;;;PBE-MRT-0041
+35;42;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2005/03/04;;;0;;;PBE-ESP-0042
+36;43;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2011/09/20;;;0;;;PBE-ITA-0043
+37;44;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2006/10/21;;;0;;;PBE-DEU-0044
+38;45;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2010/07/15;;;0;;;PBE-GBR-0045
+39;46;État preneur;Bail;Bailleur privé (démo);;2024/01/07;2027/09/07;3700000;0;2026/08/08;;PBE-CAN-0046
+40;47;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2019/04/09;;;0;;;PBE-JPN-0047
+41;48;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2012/07/29;;;0;;;PBE-ZAF-0048
+42;49;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2011/10/27;;;0;;;PBE-EGY-0049
+43;50;État preneur;Bail;Bailleur privé (démo);;2021/10/27;2028/10/27;5800000;0;2026/09/05;;PBE-NGA-0050
+44;51;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2022/02/28;;;0;;;PBE-CPV-0051
+45;52;État bailleur;Acte d'affectation;Ministère chargé des Affaires étrangères;;2020/06/05;;;0;;;PBE-GIN-0052
+46;53;État preneur;Bail;Bailleur privé (démo);;2021/09/25;2027/06/14;7300000;0;2026/09/10;;PBE-GNB-0053

@@ -1,0 +1,4864 @@
+{
+ "date": "2026-10-10",
+ "biens": [
+  {
+   "id": 1,
+   "tf": "TF n° 6476/DK",
+   "lat": 14.671435,
+   "lon": -17.433251,
+   "nom": "Logement de fonction – Dakar-Plateau 1",
+   "baux": [
+    {
+     "fin": "2027-12-03",
+     "sens": "État bailleur",
+     "debut": "2021-03-01",
+     "loyer": 1000000,
+     "titre": "Bail",
+     "arrieres": 10000000,
+     "occupant": "Occupant titré n° 1 (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0001",
+   "cout": 669000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 6476/DK"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2021-03-01",
+     "titre": "Bail signé(e)"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-03-14",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2025-09-08",
+     "titre": "Mise en demeure – LIT-2025-0005"
+    }
+   ],
+   "etat": "En ruine",
+   "pays": "Sénégal",
+   "type": "Logement de fonction",
+   "annee": 1914,
+   "nicad": "0300329135950202",
+   "score": 65,
+   "utile": 1784.0,
+   "ville": "Dakar",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Dakar",
+   "statut": "Propriété de l'État",
+   "valeur": 1896000000,
+   "visite": "2026-03-14",
+   "commune": "Dakar-Plateau",
+   "gestion": "En litige",
+   "litiges": [
+    {
+     "ref": "LIT-2025-0005",
+     "type": "Impayés de loyers ou de redevances",
+     "etape": "Précontentieux",
+     "issue": null,
+     "objet": "Recouvrement d'arriérés de loyers et pénalités de retard",
+     "phase": "Médiation / négociation",
+     "ouvert": true,
+     "partie": "Occupant titré n° 1 (démo)",
+     "risque": "Faible",
+     "cloture": null,
+     "famille": "Occupant",
+     "reclame": 11000000,
+     "service": "Service juridique (démo)",
+     "echeance": "2026-10-22",
+     "recouvre": 0,
+     "recupere": false,
+     "ouverture": "2025-09-03",
+     "aRecuperer": false,
+     "evenements": [
+      {
+       "date": "2025-09-03",
+       "desc": "Constat dressé sur place",
+       "type": "Constat / PV"
+      },
+      {
+       "date": "2026-01-08",
+       "desc": "Mise en demeure adressée à la partie adverse",
+       "type": "Mise en demeure"
+      },
+      {
+       "date": "2026-05-15",
+       "desc": "Tentative de règlement amiable",
+       "type": "Réunion de conciliation"
+      }
+     ],
+     "partieType": "Occupant",
+     "juridiction": null,
+     "objetEcheance": "Réunion sur l'échéancier de paiement"
+    }
+   ],
+   "niveaux": 7,
+   "surface": 2230.0,
+   "travaux": [],
+   "assiette": 810.0,
+   "effectif": null,
+   "potentiel": "Réhabilitation",
+   "occupation": "Partiellement occupé",
+   "affectataire": null
+  },
+  {
+   "id": 2,
+   "tf": "TF n° 7107/DK",
+   "lat": 14.673571,
+   "lon": -17.443935,
+   "nom": "Immeuble de logements – Dakar-Plateau 2",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": null,
+     "loyer": null,
+     "titre": "Sans titre",
+     "arrieres": 0,
+     "occupant": "Occupant sans titre n° 2 (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0002",
+   "cout": 960000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 7107/DK"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2025-02-19",
+     "titre": "Mise en demeure – LIT-2025-0001"
+    }
+   ],
+   "etat": "En ruine",
+   "pays": "Sénégal",
+   "type": "Immeuble de logements",
+   "annee": 1907,
+   "nicad": "1889939012704120",
+   "score": 100,
+   "utile": 2560.0,
+   "ville": "Dakar",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Dakar",
+   "statut": "Propriété de l'État",
+   "valeur": 2720000000,
+   "visite": null,
+   "commune": "Dakar-Plateau",
+   "gestion": "En litige",
+   "litiges": [
+    {
+     "ref": "LIT-2025-0001",
+     "type": "Occupation sans titre",
+     "etape": "Contentieux",
+     "issue": null,
+     "objet": "Occupation d'une villa de l'État sans droit ni titre ; demande d'expulsion et d'indemnité d'occupation",
+     "phase": "Première instance",
+     "ouvert": true,
+     "partie": "Occupant sans titre (démo)",
+     "risque": "Élevé",
+     "cloture": null,
+     "famille": "Occupant",
+     "reclame": 48000000,
+     "service": "Agent judiciaire de l'État",
+     "echeance": "2026-10-27",
+     "recouvre": 0,
+     "recupere": false,
+     "ouverture": "2025-02-14",
+     "aRecuperer": true,
+     "evenements": [
+      {
+       "date": "2025-02-14",
+       "desc": "Constat dressé sur place",
+       "type": "Constat / PV"
+      },
+      {
+       "date": "2025-06-10",
+       "desc": "Mise en demeure adressée à la partie adverse",
+       "type": "Mise en demeure"
+      },
+      {
+       "date": "2025-10-05",
+       "desc": "Tentative de règlement amiable",
+       "type": "Réunion de conciliation"
+      },
+      {
+       "date": "2026-01-29",
+       "desc": "Assignation devant la juridiction",
+       "type": "Assignation"
+      },
+      {
+       "date": "2026-05-26",
+       "desc": "Première audience, renvoi pour conclusions",
+       "type": "Audience"
+      }
+     ],
+     "partieType": "Occupant",
+     "juridiction": "Tribunal de grande instance (démo)",
+     "objetEcheance": "Audience de plaidoirie"
+    }
+   ],
+   "niveaux": 7,
+   "surface": 3200.0,
+   "travaux": [],
+   "assiette": 1090.0,
+   "effectif": null,
+   "potentiel": "À déterminer",
+   "occupation": "Occupé sans titre",
+   "affectataire": null
+  },
+  {
+   "id": 3,
+   "tf": "TF n° 4755/DK",
+   "lat": 14.664517,
+   "lon": -17.434507,
+   "nom": "Entrepôt – Dakar-Plateau 3",
+   "baux": [
+    {
+     "fin": "2028-02-13",
+     "sens": "État bailleur",
+     "debut": "2023-02-21",
+     "loyer": 600000,
+     "titre": "Convention d'occupation",
+     "arrieres": 0,
+     "occupant": "Occupant titré n° 3 (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0003",
+   "cout": 613000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 4755/DK"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2023-02-21",
+     "titre": "Convention d'occupation signé(e)"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2022-03-20",
+     "titre": "Mise en demeure – LIT-2022-0012"
+    },
+    {
+     "cat": "Décision de justice",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Jugement – LIT-2022-0012"
+    }
+   ],
+   "etat": "Très dégradé",
+   "pays": "Sénégal",
+   "type": "Entrepôt / local technique",
+   "annee": 1919,
+   "nicad": "6332717387083125",
+   "score": 40,
+   "utile": 2336.0,
+   "ville": "Dakar",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Dakar",
+   "statut": "Propriété de l'État",
+   "valeur": 2482000000,
+   "visite": null,
+   "commune": "Dakar-Plateau",
+   "gestion": "À réhabiliter",
+   "litiges": [
+    {
+     "ref": "LIT-2022-0012",
+     "type": "Occupation sans titre",
+     "etape": "Clos",
+     "issue": "Favorable à l'État",
+     "objet": "Occupation irrégulière ; bien repris après décision de justice",
+     "phase": "Clos",
+     "ouvert": false,
+     "partie": "Ancien occupant (démo)",
+     "risque": "Faible",
+     "cloture": "2022-11-18",
+     "famille": "Occupant",
+     "reclame": 18000000,
+     "service": "Agent judiciaire de l'État",
+     "echeance": null,
+     "recouvre": 18000000,
+     "recupere": true,
+     "ouverture": "2022-03-15",
+     "aRecuperer": true,
+     "evenements": [
+      {
+       "date": "2022-03-15",
+       "desc": "Constat dressé sur place",
+       "type": "Constat / PV"
+      },
+      {
+       "date": "2022-04-03",
+       "desc": "Mise en demeure adressée à la partie adverse",
+       "type": "Mise en demeure"
+      },
+      {
+       "date": "2022-04-22",
+       "desc": "Tentative de règlement amiable",
+       "type": "Réunion de conciliation"
+      },
+      {
+       "date": "2022-05-11",
+       "desc": "Assignation devant la juridiction",
+       "type": "Assignation"
+      },
+      {
+       "date": "2022-05-30",
+       "desc": "Première audience, renvoi pour conclusions",
+       "type": "Audience"
+      },
+      {
+       "date": "2022-06-18",
+       "desc": "Jugement de première instance",
+       "type": "Jugement / arrêt"
+      },
+      {
+       "date": "2022-07-07",
+       "desc": "Appel interjeté",
+       "type": "Recours"
+      },
+      {
+       "date": "2022-07-27",
+       "desc": "Arrêt de la cour d'appel",
+       "type": "Jugement / arrêt"
+      },
+      {
+       "date": "2022-08-15",
+       "desc": "Pourvoi en cassation",
+       "type": "Recours"
+      },
+      {
+       "date": "2022-09-03",
+       "desc": "Décision définitive rendue",
+       "type": "Jugement / arrêt"
+      },
+      {
+       "date": "2022-09-22",
+       "desc": "Paiement partiel de 18 000 000 FCFA",
+       "type": "Paiement reçu"
+      },
+      {
+       "date": "2022-10-11",
+       "desc": "Reprise de possession du bien",
+       "type": "Expulsion / reprise des lieux"
+      },
+      {
+       "date": "2022-11-18",
+       "desc": "Dossier clos – Favorable à l'État",
+       "type": "Clôture du dossier"
+      }
+     ],
+     "partieType": "Occupant",
+     "juridiction": "Tribunal de grande instance (démo)",
+     "objetEcheance": null
+    }
+   ],
+   "niveaux": 3,
+   "surface": 2920.0,
+   "travaux": [],
+   "assiette": 2160.0,
+   "effectif": null,
+   "potentiel": "Mise en location",
+   "occupation": "Occupé",
+   "affectataire": null
+  },
+  {
+   "id": 4,
+   "tf": "TF n° 1781/DK",
+   "lat": 14.662126,
+   "lon": -17.442485,
+   "nom": "Logement de fonction – Dakar-Plateau 4",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2017-03-12",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Service déconcentré (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0004",
+   "cout": 109000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 1781/DK"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2017-03-12",
+     "titre": "Acte d'affectation"
+    }
+   ],
+   "etat": "Très dégradé",
+   "pays": "Sénégal",
+   "type": "Logement de fonction",
+   "annee": 1915,
+   "nicad": "4467783610437424",
+   "score": 40,
+   "utile": 416.0,
+   "ville": "Dakar",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Affectation fonctionnelle",
+   "region": "Dakar",
+   "statut": "Propriété de l'État",
+   "valeur": 442000000,
+   "visite": null,
+   "commune": "Dakar-Plateau",
+   "gestion": "À réhabiliter",
+   "litiges": [],
+   "niveaux": 3,
+   "surface": 520.0,
+   "travaux": [
+    {
+     "av": 0,
+     "fin": "2027-05-16",
+     "cout": 43000000,
+     "type": "Gros œuvre",
+     "debut": "2027-01-08",
+     "statut": "Programmé",
+     "entreprise": null
+    }
+   ],
+   "assiette": 390.0,
+   "effectif": null,
+   "potentiel": "Réhabilitation",
+   "occupation": "Occupé",
+   "affectataire": "Service déconcentré (démo)"
+  },
+  {
+   "id": 5,
+   "tf": "TF n° 7630/DK",
+   "lat": 14.671468,
+   "lon": -17.447661,
+   "nom": "Immeuble de logements – Dakar-Plateau 5",
+   "baux": [],
+   "code": "PBE-SEN-0005",
+   "cout": 20000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 7630/DK"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-10-19",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2023-09-09",
+     "titre": "Mise en demeure – LIT-2023-0013"
+    },
+    {
+     "cat": "Décision de justice",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Jugement – LIT-2023-0013"
+    }
+   ],
+   "etat": "Moyen",
+   "pays": "Sénégal",
+   "type": "Immeuble de logements",
+   "annee": 1920,
+   "nicad": "3930518556208662",
+   "score": 25,
+   "utile": 336.0,
+   "ville": "Dakar",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Dakar",
+   "statut": "Propriété de l'État",
+   "valeur": 357000000,
+   "visite": "2025-10-19",
+   "commune": "Dakar-Plateau",
+   "gestion": "À valoriser",
+   "litiges": [
+    {
+     "ref": "LIT-2023-0013",
+     "type": "Malfaçons ou désordres de construction",
+     "etape": "Clos",
+     "issue": "Transaction",
+     "objet": "Infiltrations après réfection de la toiture ; accord sur la reprise des travaux",
+     "phase": "Clos",
+     "ouvert": false,
+     "partie": "Entreprise démo n° 4",
+     "risque": "Faible",
+     "cloture": "2026-08-18",
+     "famille": "Constructeur",
+     "reclame": 35000000,
+     "service": "Agent judiciaire de l'État",
+     "echeance": null,
+     "recouvre": 21000000,
+     "recupere": false,
+     "ouverture": "2023-09-04",
+     "aRecuperer": false,
+     "evenements": [
+      {
+       "date": "2023-09-04",
+       "desc": "Constat dressé sur place",
+       "type": "Constat / PV"
+      },
+      {
+       "date": "2023-11-20",
+       "desc": "Mise en demeure adressée à la partie adverse",
+       "type": "Mise en demeure"
+      },
+      {
+       "date": "2024-02-05",
+       "desc": "Tentative de règlement amiable",
+       "type": "Réunion de conciliation"
+      },
+      {
+       "date": "2024-04-22",
+       "desc": "Assignation devant la juridiction",
+       "type": "Assignation"
+      },
+      {
+       "date": "2024-07-08",
+       "desc": "Première audience, renvoi pour conclusions",
+       "type": "Audience"
+      },
+      {
+       "date": "2024-09-23",
+       "desc": "Expertise judiciaire ordonnée",
+       "type": "Expertise"
+      },
+      {
+       "date": "2024-12-09",
+       "desc": "Jugement de première instance",
+       "type": "Jugement / arrêt"
+      },
+      {
+       "date": "2025-02-25",
+       "desc": "Appel interjeté",
+       "type": "Recours"
+      },
+      {
+       "date": "2025-05-13",
+       "desc": "Arrêt de la cour d'appel",
+       "type": "Jugement / arrêt"
+      },
+      {
+       "date": "2025-07-29",
+       "desc": "Pourvoi en cassation",
+       "type": "Recours"
+      },
+      {
+       "date": "2025-10-14",
+       "desc": "Décision définitive rendue",
+       "type": "Jugement / arrêt"
+      },
+      {
+       "date": "2025-12-30",
+       "desc": "Paiement partiel de 21 000 000 FCFA",
+       "type": "Paiement reçu"
+      },
+      {
+       "date": "2026-03-17",
+       "desc": "Protocole transactionnel signé",
+       "type": "Protocole d'accord"
+      },
+      {
+       "date": "2026-08-18",
+       "desc": "Dossier clos – Transaction",
+       "type": "Clôture du dossier"
+      }
+     ],
+     "partieType": "Constructeur / entreprise",
+     "juridiction": "Tribunal de grande instance (démo)",
+     "objetEcheance": null
+    }
+   ],
+   "niveaux": 5,
+   "surface": 420.0,
+   "travaux": [],
+   "assiette": 240.0,
+   "effectif": null,
+   "potentiel": "Mise en location",
+   "occupation": "Inoccupé",
+   "affectataire": null
+  },
+  {
+   "id": 6,
+   "tf": "TF n° 9675/DK",
+   "lat": 14.668975,
+   "lon": -17.43312,
+   "nom": "Entrepôt – Dakar-Plateau 6",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2019-09-25",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère B (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0006",
+   "cout": 56000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 9675/DK"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2019-09-25",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-12-10",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Bon",
+   "pays": "Sénégal",
+   "type": "Entrepôt / local technique",
+   "annee": 2011,
+   "nicad": "1556776071899153",
+   "score": 0,
+   "utile": 3704.0,
+   "ville": "Dakar",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": "Dakar",
+   "statut": "Propriété de l'État",
+   "valeur": 3936000000,
+   "visite": "2025-12-10",
+   "commune": "Dakar-Plateau",
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 2,
+   "surface": 4630.0,
+   "travaux": [
+    {
+     "av": 100,
+     "fin": "2024-11-06",
+     "cout": 141000000,
+     "type": "Peinture",
+     "debut": "2024-07-03",
+     "statut": "Terminé",
+     "entreprise": "Entreprise démo n° 1"
+    }
+   ],
+   "assiette": 5140.0,
+   "effectif": null,
+   "potentiel": "Conservation en l'état",
+   "occupation": "Occupé",
+   "affectataire": "Ministère B (démo)"
+  },
+  {
+   "id": 7,
+   "tf": "TF n° 1322/DK",
+   "lat": 14.700273,
+   "lon": -17.454467,
+   "nom": "Logement de fonction – Fann-Point E 1",
+   "baux": [
+    {
+     "fin": "2029-05-13",
+     "sens": "État bailleur",
+     "debut": "2020-10-11",
+     "loyer": 800000,
+     "titre": "Convention d'occupation",
+     "arrieres": 4800000,
+     "occupant": "Occupant titré n° 7 (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0007",
+   "cout": 464000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 1322/DK"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2020-10-11",
+     "titre": "Convention d'occupation signé(e)"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-10-24",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2024-05-26",
+     "titre": "Mise en demeure – LIT-2024-0006"
+    }
+   ],
+   "etat": "Très dégradé",
+   "pays": "Sénégal",
+   "type": "Logement de fonction",
+   "annee": 1990,
+   "nicad": "0983999955468374",
+   "score": 55,
+   "utile": 1768.0,
+   "ville": "Dakar",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Dakar",
+   "statut": "Propriété de l'État",
+   "valeur": 1878000000,
+   "visite": "2025-10-24",
+   "commune": "Fann-Point E",
+   "gestion": "En litige",
+   "litiges": [
+    {
+     "ref": "LIT-2024-0006",
+     "type": "Impayés de loyers ou de redevances",
+     "etape": "Contentieux",
+     "issue": null,
+     "objet": "Recouvrement d'arriérés de loyers et pénalités de retard",
+     "phase": "Première instance",
+     "ouvert": true,
+     "partie": "Occupant titré n° 7 (démo)",
+     "risque": "Moyen",
+     "cloture": null,
+     "famille": "Occupant",
+     "reclame": 5300000,
+     "service": "Agent judiciaire de l'État",
+     "echeance": "2027-01-14",
+     "recouvre": 1400000,
+     "recupere": false,
+     "ouverture": "2024-05-21",
+     "aRecuperer": false,
+     "evenements": [
+      {
+       "date": "2024-05-21",
+       "desc": "Constat dressé sur place",
+       "type": "Constat / PV"
+      },
+      {
+       "date": "2024-10-10",
+       "desc": "Mise en demeure adressée à la partie adverse",
+       "type": "Mise en demeure"
+      },
+      {
+       "date": "2025-03-01",
+       "desc": "Tentative de règlement amiable",
+       "type": "Réunion de conciliation"
+      },
+      {
+       "date": "2025-07-21",
+       "desc": "Assignation devant la juridiction",
+       "type": "Assignation"
+      },
+      {
+       "date": "2025-12-09",
+       "desc": "Première audience, renvoi pour conclusions",
+       "type": "Audience"
+      },
+      {
+       "date": "2026-04-30",
+       "desc": "Paiement partiel de 1 400 000 FCFA",
+       "type": "Paiement reçu"
+      }
+     ],
+     "partieType": "Occupant",
+     "juridiction": "Tribunal de grande instance (démo)",
+     "objetEcheance": "Audience de mise en état"
+    }
+   ],
+   "niveaux": 3,
+   "surface": 2210.0,
+   "travaux": [],
+   "assiette": 1640.0,
+   "effectif": null,
+   "potentiel": "Réhabilitation",
+   "occupation": "Occupé",
+   "affectataire": null
+  },
+  {
+   "id": 8,
+   "tf": "TF n° 6744/DK",
+   "lat": 14.697475,
+   "lon": -17.457251,
+   "nom": "Immeuble de logements – Fann-Point E 2",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2012-02-21",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère C (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0008",
+   "cout": 258000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 6744/DK"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2012-02-21",
+     "titre": "Acte d'affectation"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Sénégal",
+   "type": "Immeuble de logements",
+   "annee": 2016,
+   "nicad": "9746147822938662",
+   "score": 30,
+   "utile": 1720.0,
+   "ville": "Dakar",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": "Dakar",
+   "statut": "Propriété de l'État",
+   "valeur": 1828000000,
+   "visite": null,
+   "commune": "Fann-Point E",
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 5,
+   "surface": 2150.0,
+   "travaux": [],
+   "assiette": 1030.0,
+   "effectif": null,
+   "potentiel": "Réhabilitation",
+   "occupation": "Partiellement occupé",
+   "affectataire": "Ministère C (démo)"
+  },
+  {
+   "id": 9,
+   "tf": "TF n° 8835/DK",
+   "lat": 14.744,
+   "lon": -17.512,
+   "nom": "Villa – Ngor-Almadies",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": null,
+     "loyer": null,
+     "titre": "Sans titre",
+     "arrieres": 0,
+     "occupant": "Occupant sans titre n° 9 (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0009",
+   "cout": 414000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 8835/DK"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2023-06-07",
+     "titre": "Mise en demeure – LIT-2023-0002"
+    },
+    {
+     "cat": "Décision de justice",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Jugement – LIT-2023-0002"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Sénégal",
+   "type": "Villa",
+   "annee": 1913,
+   "nicad": "9742264027071532",
+   "score": 70,
+   "utile": 2760.0,
+   "ville": "Dakar",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Dakar",
+   "statut": "Propriété de l'État",
+   "valeur": 2932000000,
+   "visite": null,
+   "commune": "Ngor-Almadies",
+   "gestion": "En litige",
+   "litiges": [
+    {
+     "ref": "LIT-2023-0002",
+     "type": "Refus de libérer les lieux",
+     "etape": "Exécution",
+     "issue": null,
+     "objet": "Maintien dans un logement de fonction après la fin des fonctions",
+     "phase": "Exécution de la décision",
+     "ouvert": true,
+     "partie": "Ancien bénéficiaire (démo)",
+     "risque": "Moyen",
+     "cloture": null,
+     "famille": "Occupant",
+     "reclame": 26000000,
+     "service": "Agent judiciaire de l'État",
+     "echeance": "2026-11-18",
+     "recouvre": 4000000,
+     "recupere": false,
+     "ouverture": "2023-06-02",
+     "aRecuperer": true,
+     "evenements": [
+      {
+       "date": "2023-06-02",
+       "desc": "Constat dressé sur place",
+       "type": "Constat / PV"
+      },
+      {
+       "date": "2023-09-20",
+       "desc": "Mise en demeure adressée à la partie adverse",
+       "type": "Mise en demeure"
+      },
+      {
+       "date": "2024-01-07",
+       "desc": "Tentative de règlement amiable",
+       "type": "Réunion de conciliation"
+      },
+      {
+       "date": "2024-04-26",
+       "desc": "Assignation devant la juridiction",
+       "type": "Assignation"
+      },
+      {
+       "date": "2024-08-13",
+       "desc": "Première audience, renvoi pour conclusions",
+       "type": "Audience"
+      },
+      {
+       "date": "2024-12-01",
+       "desc": "Jugement de première instance",
+       "type": "Jugement / arrêt"
+      },
+      {
+       "date": "2025-03-20",
+       "desc": "Appel interjeté",
+       "type": "Recours"
+      },
+      {
+       "date": "2025-07-08",
+       "desc": "Arrêt de la cour d'appel",
+       "type": "Jugement / arrêt"
+      },
+      {
+       "date": "2025-10-25",
+       "desc": "Pourvoi en cassation",
+       "type": "Recours"
+      },
+      {
+       "date": "2026-02-12",
+       "desc": "Décision définitive rendue",
+       "type": "Jugement / arrêt"
+      },
+      {
+       "date": "2026-06-01",
+       "desc": "Paiement partiel de 4 000 000 FCFA",
+       "type": "Paiement reçu"
+      }
+     ],
+     "partieType": "Occupant",
+     "juridiction": "Tribunal de grande instance (démo)",
+     "objetEcheance": "Exécution de l'expulsion avec le concours de la force publique"
+    }
+   ],
+   "niveaux": 2,
+   "surface": 3450.0,
+   "travaux": [],
+   "assiette": 3830.0,
+   "effectif": null,
+   "potentiel": "Réhabilitation",
+   "occupation": "Occupé sans titre",
+   "affectataire": null
+  },
+  {
+   "id": 10,
+   "tf": "TF n° 4193/RF",
+   "lat": 14.716,
+   "lon": -17.273,
+   "nom": "Villa – Rufisque",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2011-04-03",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère C (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0010",
+   "cout": 95000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 4193/RF"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2011-04-03",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-04-09",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2026-03-15",
+     "titre": "Mise en demeure – LIT-2026-0008"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Sénégal",
+   "type": "Villa",
+   "annee": 1949,
+   "nicad": "1323011619061015",
+   "score": 50,
+   "utile": 632.0,
+   "ville": "Rufisque",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": "Dakar",
+   "statut": "Propriété de l'État",
+   "valeur": 672000000,
+   "visite": "2026-04-09",
+   "commune": "Rufisque",
+   "gestion": "En litige",
+   "litiges": [
+    {
+     "ref": "LIT-2026-0008",
+     "type": "Retard ou abandon de chantier",
+     "etape": "Contentieux",
+     "issue": null,
+     "objet": "Chantier abandonné par l'entreprise ; résiliation du marché, pénalités et restitution d'avance",
+     "phase": "Première instance",
+     "ouvert": true,
+     "partie": "Entreprise démo n° 2",
+     "risque": "Élevé",
+     "cloture": null,
+     "famille": "Constructeur",
+     "reclame": 19000000,
+     "service": "Agent judiciaire de l'État",
+     "echeance": "2026-12-03",
+     "recouvre": 0,
+     "recupere": false,
+     "ouverture": "2026-03-10",
+     "aRecuperer": false,
+     "evenements": [
+      {
+       "date": "2026-03-10",
+       "desc": "Constat dressé sur place",
+       "type": "Constat / PV"
+      },
+      {
+       "date": "2026-04-18",
+       "desc": "Mise en demeure adressée à la partie adverse",
+       "type": "Mise en demeure"
+      },
+      {
+       "date": "2026-05-26",
+       "desc": "Tentative de règlement amiable",
+       "type": "Réunion de conciliation"
+      },
+      {
+       "date": "2026-07-04",
+       "desc": "Assignation devant la juridiction",
+       "type": "Assignation"
+      },
+      {
+       "date": "2026-08-11",
+       "desc": "Première audience, renvoi pour conclusions",
+       "type": "Audience"
+      }
+     ],
+     "partieType": "Constructeur / entreprise",
+     "juridiction": "Tribunal de grande instance (démo)",
+     "objetEcheance": "Dépôt du rapport d'expertise"
+    }
+   ],
+   "niveaux": 6,
+   "surface": 790.0,
+   "travaux": [
+    {
+     "av": 76,
+     "fin": "2027-09-20",
+     "cout": 48000000,
+     "type": "Menuiserie",
+     "debut": "2026-06-12",
+     "statut": "Suspendu",
+     "entreprise": "Entreprise démo n° 2"
+    }
+   ],
+   "assiette": 300.0,
+   "effectif": null,
+   "potentiel": "Réhabilitation",
+   "occupation": "Occupé",
+   "affectataire": "Ministère C (démo)"
+  },
+  {
+   "id": 11,
+   "tf": "TF n° 5989/TH",
+   "lat": 14.797305,
+   "lon": -16.920558,
+   "nom": "Entrepôt – Thiès Nord 1",
+   "baux": [
+    {
+     "fin": "2029-09-20",
+     "sens": "État bailleur",
+     "debut": "2021-11-02",
+     "loyer": 2400000,
+     "titre": "Bail",
+     "arrieres": 26400000,
+     "occupant": "Occupant titré n° 11 (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0011",
+   "cout": 951000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 5989/TH"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2021-11-02",
+     "titre": "Bail signé(e)"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-05-08",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2026-08-17",
+     "titre": "Mise en demeure – LIT-2026-0007"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2026-06-06",
+     "titre": "Mise en demeure – LIT-2026-0009"
+    }
+   ],
+   "etat": "Très dégradé",
+   "pays": "Sénégal",
+   "type": "Entrepôt / local technique",
+   "annee": 1973,
+   "nicad": "8635726197728583",
+   "score": 55,
+   "utile": 3624.0,
+   "ville": "Thiès",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Thiès",
+   "statut": "Propriété de l'État",
+   "valeur": 3850000000,
+   "visite": "2026-05-08",
+   "commune": "Thiès Nord",
+   "gestion": "En litige",
+   "litiges": [
+    {
+     "ref": "LIT-2026-0009",
+     "type": "Malfaçons ou désordres de construction",
+     "etape": "Précontentieux",
+     "issue": null,
+     "objet": "Désordres constatés sur les travaux réceptionnés ; mise en jeu de la garantie",
+     "phase": "Médiation / négociation",
+     "ouvert": true,
+     "partie": "Entreprise démo n° 5",
+     "risque": "Moyen",
+     "cloture": null,
+     "famille": "Constructeur",
+     "reclame": 74000000,
+     "service": "Service juridique (démo)",
+     "echeance": "2026-10-30",
+     "recouvre": 0,
+     "recupere": false,
+     "ouverture": "2026-06-01",
+     "aRecuperer": false,
+     "evenements": [
+      {
+       "date": "2026-06-01",
+       "desc": "Constat dressé sur place",
+       "type": "Constat / PV"
+      },
+      {
+       "date": "2026-07-08",
+       "desc": "Mise en demeure adressée à la partie adverse",
+       "type": "Mise en demeure"
+      },
+      {
+       "date": "2026-08-13",
+       "desc": "Tentative de règlement amiable",
+       "type": "Réunion de conciliation"
+      }
+     ],
+     "partieType": "Constructeur / entreprise",
+     "juridiction": null,
+     "objetEcheance": "Réunion contradictoire sur site"
+    },
+    {
+     "ref": "LIT-2026-0007",
+     "type": "Impayés de loyers ou de redevances",
+     "etape": "Précontentieux",
+     "issue": null,
+     "objet": "Recouvrement d'arriérés de loyers et pénalités de retard",
+     "phase": "Mise en demeure",
+     "ouvert": true,
+     "partie": "Occupant titré n° 11 (démo)",
+     "risque": "Faible",
+     "cloture": null,
+     "famille": "Occupant",
+     "reclame": 29000000,
+     "service": "Service juridique (démo)",
+     "echeance": null,
+     "recouvre": 0,
+     "recupere": false,
+     "ouverture": "2026-08-12",
+     "aRecuperer": false,
+     "evenements": [
+      {
+       "date": "2026-08-12",
+       "desc": "Constat dressé sur place",
+       "type": "Constat / PV"
+      },
+      {
+       "date": "2026-08-31",
+       "desc": "Mise en demeure adressée à la partie adverse",
+       "type": "Mise en demeure"
+      }
+     ],
+     "partieType": "Occupant",
+     "juridiction": null,
+     "objetEcheance": null
+    }
+   ],
+   "niveaux": 3,
+   "surface": 4530.0,
+   "travaux": [
+    {
+     "av": 19,
+     "fin": "2027-02-19",
+     "cout": 296000000,
+     "type": "Toiture / étanchéité",
+     "debut": "2026-05-13",
+     "statut": "En cours",
+     "entreprise": "Entreprise démo n° 5"
+    }
+   ],
+   "assiette": 3360.0,
+   "effectif": null,
+   "potentiel": "Réhabilitation",
+   "occupation": "Occupé",
+   "affectataire": null
+  },
+  {
+   "id": 12,
+   "tf": "TF n° 6195/TH",
+   "lat": 14.793328,
+   "lon": -16.923299,
+   "nom": "Logement de fonction – Thiès Nord 2",
+   "baux": [],
+   "code": "PBE-SEN-0012",
+   "cout": 59000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 6195/TH"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    }
+   ],
+   "etat": "Bon",
+   "pays": "Sénégal",
+   "type": "Logement de fonction",
+   "annee": 1919,
+   "nicad": "1182650210053248",
+   "score": 25,
+   "utile": 3912.0,
+   "ville": "Thiès",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Thiès",
+   "statut": "Propriété de l'État",
+   "valeur": 4156000000,
+   "visite": null,
+   "commune": "Thiès Nord",
+   "gestion": "À valoriser",
+   "litiges": [],
+   "niveaux": 7,
+   "surface": 4890.0,
+   "travaux": [
+    {
+     "av": 100,
+     "fin": "2025-05-06",
+     "cout": 196000000,
+     "type": "Climatisation",
+     "debut": "2024-10-13",
+     "statut": "Terminé",
+     "entreprise": "Entreprise démo n° 1"
+    }
+   ],
+   "assiette": 2020.0,
+   "effectif": null,
+   "potentiel": "Mise en location",
+   "occupation": "Inoccupé",
+   "affectataire": null
+  },
+  {
+   "id": 13,
+   "tf": "TF n° 2025/MB",
+   "lat": 14.42,
+   "lon": -16.966,
+   "nom": "Villa – Mbour",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": null,
+     "loyer": null,
+     "titre": "Sans titre",
+     "arrieres": 0,
+     "occupant": "Occupant sans titre n° 13 (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0013",
+   "cout": 167000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 2025/MB"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-09-30",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2026-07-25",
+     "titre": "Mise en demeure – LIT-2026-0003"
+    }
+   ],
+   "etat": "Moyen",
+   "pays": "Sénégal",
+   "type": "Villa",
+   "annee": 1945,
+   "nicad": "6920795343603737",
+   "score": 60,
+   "utile": 2776.0,
+   "ville": "Mbour",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Thiès",
+   "statut": "Propriété de l'État",
+   "valeur": 2950000000,
+   "visite": "2025-09-30",
+   "commune": "Mbour",
+   "gestion": "En litige",
+   "litiges": [
+    {
+     "ref": "LIT-2026-0003",
+     "type": "Occupation sans titre",
+     "etape": "Précontentieux",
+     "issue": null,
+     "objet": "Occupation irrégulière de plusieurs logements d'un immeuble de l'État",
+     "phase": "Mise en demeure",
+     "ouvert": true,
+     "partie": "Occupants multiples (démo)",
+     "risque": "Moyen",
+     "cloture": null,
+     "famille": "Occupant",
+     "reclame": 15000000,
+     "service": "Service juridique (démo)",
+     "echeance": "2026-11-05",
+     "recouvre": 0,
+     "recupere": false,
+     "ouverture": "2026-07-20",
+     "aRecuperer": true,
+     "evenements": [
+      {
+       "date": "2026-07-20",
+       "desc": "Constat dressé sur place",
+       "type": "Constat / PV"
+      },
+      {
+       "date": "2026-08-19",
+       "desc": "Mise en demeure adressée à la partie adverse",
+       "type": "Mise en demeure"
+      }
+     ],
+     "partieType": "Occupant",
+     "juridiction": null,
+     "objetEcheance": "Expiration du délai de la mise en demeure"
+    }
+   ],
+   "niveaux": 3,
+   "surface": 3470.0,
+   "travaux": [],
+   "assiette": 2570.0,
+   "effectif": null,
+   "potentiel": "Réhabilitation",
+   "occupation": "Occupé sans titre",
+   "affectataire": null
+  },
+  {
+   "id": 14,
+   "tf": "TF n° 5240/SL",
+   "lat": 16.024208,
+   "lon": -16.514988,
+   "nom": "Villa – Saint-Louis 1",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2013-08-08",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère C (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0014",
+   "cout": 242000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 5240/SL"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2013-08-08",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-05-19",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2021-04-24",
+     "titre": "Mise en demeure – LIT-2021-0010"
+    },
+    {
+     "cat": "Décision de justice",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Jugement – LIT-2021-0010"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Sénégal",
+   "type": "Villa",
+   "annee": 2008,
+   "nicad": "5519294284162651",
+   "score": 50,
+   "utile": 1616.0,
+   "ville": "Saint-Louis",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": "Saint-Louis",
+   "statut": "En cours de régularisation",
+   "valeur": 1717000000,
+   "visite": "2026-05-19",
+   "commune": "Saint-Louis",
+   "gestion": "En litige",
+   "litiges": [
+    {
+     "ref": "LIT-2021-0010",
+     "type": "Contestation de propriété",
+     "etape": "Contentieux",
+     "issue": null,
+     "objet": "Revendication du terrain par un tiers ; l'État oppose son titre foncier",
+     "phase": "Cassation",
+     "ouvert": true,
+     "partie": "Tiers revendiquant (démo)",
+     "risque": "Élevé",
+     "cloture": null,
+     "famille": "Foncier",
+     "reclame": 0,
+     "service": "Agent judiciaire de l'État",
+     "echeance": "2027-02-09",
+     "recouvre": 0,
+     "recupere": false,
+     "ouverture": "2021-04-19",
+     "aRecuperer": true,
+     "evenements": [
+      {
+       "date": "2021-04-19",
+       "desc": "Constat dressé sur place",
+       "type": "Constat / PV"
+      },
+      {
+       "date": "2021-11-25",
+       "desc": "Mise en demeure adressée à la partie adverse",
+       "type": "Mise en demeure"
+      },
+      {
+       "date": "2022-07-03",
+       "desc": "Tentative de règlement amiable",
+       "type": "Réunion de conciliation"
+      },
+      {
+       "date": "2023-02-08",
+       "desc": "Assignation devant la juridiction",
+       "type": "Assignation"
+      },
+      {
+       "date": "2023-09-16",
+       "desc": "Première audience, renvoi pour conclusions",
+       "type": "Audience"
+      },
+      {
+       "date": "2024-04-22",
+       "desc": "Jugement de première instance",
+       "type": "Jugement / arrêt"
+      },
+      {
+       "date": "2024-11-28",
+       "desc": "Appel interjeté",
+       "type": "Recours"
+      },
+      {
+       "date": "2025-07-06",
+       "desc": "Arrêt de la cour d'appel",
+       "type": "Jugement / arrêt"
+      },
+      {
+       "date": "2026-02-11",
+       "desc": "Pourvoi en cassation",
+       "type": "Recours"
+      }
+     ],
+     "partieType": "Tiers revendiquant",
+     "juridiction": "Cour suprême (démo)",
+     "objetEcheance": "Audience devant la juridiction de cassation"
+    }
+   ],
+   "niveaux": 4,
+   "surface": 2020.0,
+   "travaux": [
+    {
+     "av": 21,
+     "fin": "2027-01-17",
+     "cout": 96000000,
+     "type": "Toiture / étanchéité",
+     "debut": "2026-08-13",
+     "statut": "En cours",
+     "entreprise": "Entreprise démo n° 1"
+    }
+   ],
+   "assiette": 1490.0,
+   "effectif": null,
+   "potentiel": "Réhabilitation",
+   "occupation": "Occupé",
+   "affectataire": "Ministère C (démo)"
+  },
+  {
+   "id": 15,
+   "tf": "TF n° 7627/SL",
+   "lat": 16.021556,
+   "lon": -16.504695,
+   "nom": "Immeuble administratif – Saint-Louis 2",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2021-10-03",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Service déconcentré (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0015",
+   "cout": 62000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 7627/SL"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2021-10-03",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-06-20",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Moyen",
+   "pays": "Sénégal",
+   "type": "Immeuble administratif",
+   "annee": 2013,
+   "nicad": "8295254878762866",
+   "score": 10,
+   "utile": 1040.0,
+   "ville": "Saint-Louis",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "regime": "Affectation fonctionnelle",
+   "region": "Saint-Louis",
+   "statut": "Propriété de l'État",
+   "valeur": 1105000000,
+   "visite": "2026-06-20",
+   "commune": "Saint-Louis",
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 6,
+   "surface": 1300.0,
+   "travaux": [],
+   "assiette": 510.0,
+   "effectif": 58,
+   "potentiel": "Conservation en l'état",
+   "occupation": "Occupé",
+   "affectataire": "Service déconcentré (démo)"
+  },
+  {
+   "id": 16,
+   "tf": "TF n° 2340/ZG",
+   "lat": 12.583,
+   "lon": -16.272,
+   "nom": "Immeuble administratif – Ziguinchor",
+   "baux": [
+    {
+     "fin": "2028-09-04",
+     "sens": "État bailleur",
+     "debut": "2023-07-23",
+     "loyer": 2300000,
+     "titre": "Convention d'occupation",
+     "arrieres": 0,
+     "occupant": "Occupant titré n° 16 (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0016",
+   "cout": 58000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 2340/ZG"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2023-07-23",
+     "titre": "Convention d'occupation signé(e)"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-03-22",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Bon",
+   "pays": "Sénégal",
+   "type": "Immeuble administratif",
+   "annee": 1997,
+   "nicad": "7251837283362915",
+   "score": 0,
+   "utile": 3840.0,
+   "ville": "Ziguinchor",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Ziguinchor",
+   "statut": "Propriété de l'État",
+   "valeur": 4080000000,
+   "visite": "2026-03-22",
+   "commune": "Ziguinchor",
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 2,
+   "surface": 4800.0,
+   "travaux": [],
+   "assiette": 5880.0,
+   "effectif": 420,
+   "potentiel": "À déterminer",
+   "occupation": "Partiellement occupé",
+   "affectataire": null
+  },
+  {
+   "id": 17,
+   "tf": "TF n° 1813/KL",
+   "lat": 14.146,
+   "lon": -16.073,
+   "nom": "Villa – Kaolack",
+   "baux": [],
+   "code": "PBE-SEN-0017",
+   "cout": 979000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 1813/KL"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    }
+   ],
+   "etat": "Très dégradé",
+   "pays": "Sénégal",
+   "type": "Villa",
+   "annee": 1957,
+   "nicad": "2901319353205931",
+   "score": 55,
+   "utile": 3728.0,
+   "ville": "Kaolack",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Kaolack",
+   "statut": "Propriété de l'État",
+   "valeur": 3961000000,
+   "visite": null,
+   "commune": "Kaolack",
+   "gestion": "À valoriser",
+   "litiges": [],
+   "niveaux": 2,
+   "surface": 4660.0,
+   "travaux": [
+    {
+     "av": 17,
+     "fin": "2027-03-17",
+     "cout": 500000000,
+     "type": "Gros œuvre",
+     "debut": "2026-07-19",
+     "statut": "En cours",
+     "entreprise": "Entreprise démo n° 1"
+    }
+   ],
+   "assiette": 5180.0,
+   "effectif": null,
+   "potentiel": "Cession",
+   "occupation": "Inoccupé",
+   "affectataire": null
+  },
+  {
+   "id": 18,
+   "tf": "TF n° 9481/TC",
+   "lat": 13.77,
+   "lon": -13.667,
+   "nom": "Terrain nu – Tambacounda",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2013-05-24",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Agence publique (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0018",
+   "cout": null,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 9481/TC"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2013-05-24",
+     "titre": "Acte d'affectation"
+    }
+   ],
+   "etat": "Non évalué",
+   "pays": "Sénégal",
+   "type": "Terrain nu",
+   "annee": null,
+   "nicad": "0803145319107165",
+   "score": 10,
+   "utile": null,
+   "ville": "Tambacounda",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Vue générale du terrain"
+    }
+   ],
+   "regime": "Affectation fonctionnelle",
+   "region": "Tambacounda",
+   "statut": "Propriété de l'État",
+   "valeur": 360000000,
+   "visite": null,
+   "commune": "Tambacounda",
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": null,
+   "surface": null,
+   "travaux": [],
+   "assiette": 3270.0,
+   "effectif": null,
+   "potentiel": "Partenariat (bail emphytéotique, PPP)",
+   "occupation": "Inoccupé",
+   "affectataire": "Agence publique (démo)"
+  },
+  {
+   "id": 19,
+   "tf": "TF n° 2358/KD",
+   "lat": 12.894,
+   "lon": -14.95,
+   "nom": "Immeuble administratif – Kolda",
+   "baux": [
+    {
+     "fin": "2027-02-04",
+     "sens": "État bailleur",
+     "debut": "2022-09-26",
+     "loyer": 2000000,
+     "titre": "Bail",
+     "arrieres": 24000000,
+     "occupant": "Occupant titré n° 19 (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0019",
+   "cout": 194000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 2358/KD"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2022-09-26",
+     "titre": "Bail signé(e)"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-12-14",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Sénégal",
+   "type": "Immeuble administratif",
+   "annee": 2003,
+   "nicad": "5068026433871491",
+   "score": 25,
+   "utile": 1296.0,
+   "ville": "Kolda",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Kolda",
+   "statut": "Propriété de l'État",
+   "valeur": 1377000000,
+   "visite": "2025-12-14",
+   "commune": "Kolda",
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 7,
+   "surface": 1620.0,
+   "travaux": [
+    {
+     "av": 0,
+     "fin": "2027-06-09",
+     "cout": 68000000,
+     "type": "Peinture",
+     "debut": "2027-02-06",
+     "statut": "Programmé",
+     "entreprise": null
+    }
+   ],
+   "assiette": 530.0,
+   "effectif": 70,
+   "potentiel": "À déterminer",
+   "occupation": "Occupé",
+   "affectataire": null
+  },
+  {
+   "id": 20,
+   "tf": "TF n° 7669/MT",
+   "lat": 15.656,
+   "lon": -13.255,
+   "nom": "Villa – Matam",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": null,
+     "loyer": null,
+     "titre": "Sans titre",
+     "arrieres": 0,
+     "occupant": "Occupant sans titre n° 20 (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0020",
+   "cout": 628000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 7669/MT"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2022-11-13",
+     "titre": "Mise en demeure – LIT-2022-0004"
+    },
+    {
+     "cat": "Décision de justice",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Jugement – LIT-2022-0004"
+    }
+   ],
+   "etat": "Très dégradé",
+   "pays": "Sénégal",
+   "type": "Villa",
+   "annee": 2010,
+   "nicad": "0968138330975676",
+   "score": 90,
+   "utile": 2392.0,
+   "ville": "Matam",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Matam",
+   "statut": "Propriété de l'État",
+   "valeur": 2542000000,
+   "visite": null,
+   "commune": "Matam",
+   "gestion": "En litige",
+   "litiges": [
+    {
+     "ref": "LIT-2022-0004",
+     "type": "Refus de libérer les lieux",
+     "etape": "Contentieux",
+     "issue": null,
+     "objet": "Refus de restituer le bien à l'expiration de la convention",
+     "phase": "Appel",
+     "ouvert": true,
+     "partie": "Ancien locataire (démo)",
+     "risque": "Élevé",
+     "cloture": null,
+     "famille": "Occupant",
+     "reclame": 62000000,
+     "service": "Agent judiciaire de l'État",
+     "echeance": null,
+     "recouvre": 9000000,
+     "recupere": false,
+     "ouverture": "2022-11-08",
+     "aRecuperer": true,
+     "evenements": [
+      {
+       "date": "2022-11-08",
+       "desc": "Constat dressé sur place",
+       "type": "Constat / PV"
+      },
+      {
+       "date": "2023-04-03",
+       "desc": "Mise en demeure adressée à la partie adverse",
+       "type": "Mise en demeure"
+      },
+      {
+       "date": "2023-08-28",
+       "desc": "Tentative de règlement amiable",
+       "type": "Réunion de conciliation"
+      },
+      {
+       "date": "2024-01-21",
+       "desc": "Assignation devant la juridiction",
+       "type": "Assignation"
+      },
+      {
+       "date": "2024-06-16",
+       "desc": "Première audience, renvoi pour conclusions",
+       "type": "Audience"
+      },
+      {
+       "date": "2024-11-09",
+       "desc": "Jugement de première instance",
+       "type": "Jugement / arrêt"
+      },
+      {
+       "date": "2025-04-04",
+       "desc": "Appel interjeté",
+       "type": "Recours"
+      },
+      {
+       "date": "2025-08-29",
+       "desc": "Paiement partiel de 9 000 000 FCFA",
+       "type": "Paiement reçu"
+      }
+     ],
+     "partieType": "Occupant",
+     "juridiction": "Cour d'appel (démo)",
+     "objetEcheance": null
+    }
+   ],
+   "niveaux": 7,
+   "surface": 2990.0,
+   "travaux": [
+    {
+     "av": 0,
+     "fin": "2027-09-30",
+     "cout": 340000000,
+     "type": "Gros œuvre",
+     "debut": "2026-12-14",
+     "statut": "Programmé",
+     "entreprise": null
+    }
+   ],
+   "assiette": 950.0,
+   "effectif": null,
+   "potentiel": "Mise en location",
+   "occupation": "Occupé sans titre",
+   "affectataire": null
+  },
+  {
+   "id": 21,
+   "tf": "TF n° 8786/LG",
+   "lat": 15.619,
+   "lon": -16.224,
+   "nom": "Immeuble administratif – Louga",
+   "baux": [
+    {
+     "fin": "2028-07-28",
+     "sens": "État bailleur",
+     "debut": "2021-12-05",
+     "loyer": 600000,
+     "titre": "Convention d'occupation",
+     "arrieres": 0,
+     "occupant": "Occupant titré n° 21 (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0021",
+   "cout": 254000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 8786/LG"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2021-12-05",
+     "titre": "Convention d'occupation signé(e)"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-10-07",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Sénégal",
+   "type": "Immeuble administratif",
+   "annee": 2000,
+   "nicad": "3420379254894842",
+   "score": 30,
+   "utile": 1696.0,
+   "ville": "Louga",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Louga",
+   "statut": "Propriété de l'État",
+   "valeur": 1802000000,
+   "visite": "2025-10-07",
+   "commune": "Louga",
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 2,
+   "surface": 2120.0,
+   "travaux": [],
+   "assiette": 2360.0,
+   "effectif": 68,
+   "potentiel": "À déterminer",
+   "occupation": "Occupé",
+   "affectataire": null
+  },
+  {
+   "id": 22,
+   "tf": "TF n° 9076/DB",
+   "lat": 14.655,
+   "lon": -16.235,
+   "nom": "Terrain nu – Diourbel",
+   "baux": [],
+   "code": "PBE-SEN-0022",
+   "cout": null,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 9076/DB"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    }
+   ],
+   "etat": "Non évalué",
+   "pays": "Sénégal",
+   "type": "Terrain nu",
+   "annee": null,
+   "nicad": "6125711687445889",
+   "score": 25,
+   "utile": null,
+   "ville": "Diourbel",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Vue générale du terrain"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Diourbel",
+   "statut": "Propriété de l'État",
+   "valeur": 224000000,
+   "visite": null,
+   "commune": "Diourbel",
+   "gestion": "À valoriser",
+   "litiges": [],
+   "niveaux": null,
+   "surface": null,
+   "travaux": [],
+   "assiette": 2040.0,
+   "effectif": null,
+   "potentiel": "Partenariat (bail emphytéotique, PPP)",
+   "occupation": "Inoccupé",
+   "affectataire": null
+  },
+  {
+   "id": 23,
+   "tf": "TF n° 6277/FK",
+   "lat": 14.339,
+   "lon": -16.412,
+   "nom": "Entrepôt – Fatick",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2018-06-24",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Agence publique (démo)"
+    }
+   ],
+   "code": "PBE-SEN-0023",
+   "cout": 76000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 6277/FK"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2018-06-24",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-08-31",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Très dégradé",
+   "pays": "Sénégal",
+   "type": "Entrepôt / local technique",
+   "annee": 2005,
+   "nicad": "5598262142897611",
+   "score": 30,
+   "utile": 288.0,
+   "ville": "Fatick",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Affectation fonctionnelle",
+   "region": "Fatick",
+   "statut": "En cours de régularisation",
+   "valeur": 306000000,
+   "visite": "2026-08-31",
+   "commune": "Fatick",
+   "gestion": "À réhabiliter",
+   "litiges": [],
+   "niveaux": 5,
+   "surface": 360.0,
+   "travaux": [
+    {
+     "av": 79,
+     "fin": "2027-02-17",
+     "cout": 21000000,
+     "type": "Électricité",
+     "debut": "2026-07-27",
+     "statut": "En cours",
+     "entreprise": "Entreprise démo n° 9"
+    }
+   ],
+   "assiette": 160.0,
+   "effectif": null,
+   "potentiel": "Réhabilitation",
+   "occupation": "Occupé",
+   "affectataire": "Agence publique (démo)"
+  },
+  {
+   "id": 24,
+   "tf": "TF n° 5308/KF",
+   "lat": 14.106,
+   "lon": -15.55,
+   "nom": "Entrepôt – Kaffrine",
+   "baux": [],
+   "code": "PBE-SEN-0024",
+   "cout": 498000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 5308/KF"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-01-12",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Sénégal",
+   "type": "Entrepôt / local technique",
+   "annee": 1956,
+   "nicad": "8941132102337119",
+   "score": 35,
+   "utile": 3320.0,
+   "ville": "Kaffrine",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Kaffrine",
+   "statut": "Propriété de l'État",
+   "valeur": 3528000000,
+   "visite": "2026-01-12",
+   "commune": "Kaffrine",
+   "gestion": "À valoriser",
+   "litiges": [],
+   "niveaux": 3,
+   "surface": 4150.0,
+   "travaux": [
+    {
+     "av": 37,
+     "fin": "2027-05-20",
+     "cout": 239000000,
+     "type": "Gros œuvre",
+     "debut": "2026-08-21",
+     "statut": "En cours",
+     "entreprise": "Entreprise démo n° 8"
+    }
+   ],
+   "assiette": 3070.0,
+   "effectif": null,
+   "potentiel": "Réhabilitation",
+   "occupation": "Inoccupé",
+   "affectataire": null
+  },
+  {
+   "id": 25,
+   "tf": "TF n° 1439/KG",
+   "lat": 12.557,
+   "lon": -12.18,
+   "nom": "Immeuble administratif – Kédougou",
+   "baux": [],
+   "code": "PBE-SEN-0025",
+   "cout": 909000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 1439/KG"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-08-11",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Très dégradé",
+   "pays": "Sénégal",
+   "type": "Immeuble administratif",
+   "annee": 2013,
+   "nicad": "9257268537059808",
+   "score": 45,
+   "utile": 3464.0,
+   "ville": "Kédougou",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Kédougou",
+   "statut": "Propriété de l'État",
+   "valeur": 3680000000,
+   "visite": "2026-08-11",
+   "commune": "Kédougou",
+   "gestion": "À valoriser",
+   "litiges": [],
+   "niveaux": 5,
+   "surface": 4330.0,
+   "travaux": [],
+   "assiette": 1920.0,
+   "effectif": null,
+   "potentiel": "Partenariat (bail emphytéotique, PPP)",
+   "occupation": "Inoccupé",
+   "affectataire": null
+  },
+  {
+   "id": 26,
+   "tf": "TF n° 5564/SD",
+   "lat": 12.708,
+   "lon": -15.557,
+   "nom": "Logement de fonction – Sédhiou",
+   "baux": [],
+   "code": "PBE-SEN-0026",
+   "cout": 886000000,
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Copie du TF n° 5564/SD"
+    },
+    {
+     "cat": "Plan cadastral",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Extrait du plan cadastral"
+    }
+   ],
+   "etat": "Très dégradé",
+   "pays": "Sénégal",
+   "type": "Logement de fonction",
+   "annee": 2013,
+   "nicad": "9173386695492864",
+   "score": 55,
+   "utile": 3376.0,
+   "ville": "Sédhiou",
+   "paysId": "686",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "regime": "Non affecté",
+   "region": "Sédhiou",
+   "statut": "En cours de régularisation",
+   "valeur": 3587000000,
+   "visite": null,
+   "commune": "Sédhiou",
+   "gestion": "À valoriser",
+   "litiges": [],
+   "niveaux": 7,
+   "surface": 4220.0,
+   "travaux": [
+    {
+     "av": 29,
+     "fin": "2027-02-28",
+     "cout": 185000000,
+     "type": "Peinture",
+     "debut": "2026-06-21",
+     "statut": "En cours",
+     "entreprise": "Entreprise démo n° 3"
+    }
+   ],
+   "assiette": 1710.0,
+   "effectif": null,
+   "potentiel": "Réhabilitation",
+   "occupation": "Inoccupé",
+   "affectataire": null
+  },
+  {
+   "id": 27,
+   "tf": null,
+   "lat": 48.864,
+   "lon": 2.293,
+   "nom": "Chancellerie – Paris",
+   "baux": [
+    {
+     "fin": "2027-04-23",
+     "sens": "État preneur",
+     "debut": "2021-02-21",
+     "loyer": 2300000,
+     "titre": "Bail",
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "code": "PBE-FRA-0027",
+   "cout": 153000000,
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2021-02-21",
+     "titre": "Bail signé(e)"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-06-25",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2026-04-12",
+     "titre": "Mise en demeure – LIT-2026-0011"
+    }
+   ],
+   "etat": "Moyen",
+   "pays": "France",
+   "type": "Chancellerie / ambassade",
+   "annee": 1941,
+   "nicad": null,
+   "score": 40,
+   "utile": 2552.0,
+   "ville": "Paris",
+   "paysId": "250",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Pris à bail par l'État",
+   "valeur": 7656000000,
+   "visite": "2025-06-25",
+   "commune": null,
+   "gestion": "En litige",
+   "litiges": [
+    {
+     "ref": "LIT-2026-0011",
+     "type": "Contestation de décompte ou de paiement",
+     "etape": "Précontentieux",
+     "issue": null,
+     "objet": "Différend avec le bailleur sur la révision du loyer et les charges",
+     "phase": "Médiation / négociation",
+     "ouvert": true,
+     "partie": "Bailleur privé (démo)",
+     "risque": "Faible",
+     "cloture": null,
+     "famille": "Constructeur",
+     "reclame": 12000000,
+     "service": "Service juridique (démo)",
+     "echeance": null,
+     "recouvre": 0,
+     "recupere": false,
+     "ouverture": "2026-04-07",
+     "aRecuperer": false,
+     "evenements": [
+      {
+       "date": "2026-04-07",
+       "desc": "Constat dressé sur place",
+       "type": "Constat / PV"
+      },
+      {
+       "date": "2026-06-01",
+       "desc": "Mise en demeure adressée à la partie adverse",
+       "type": "Mise en demeure"
+      },
+      {
+       "date": "2026-07-26",
+       "desc": "Tentative de règlement amiable",
+       "type": "Réunion de conciliation"
+      }
+     ],
+     "partieType": "Bailleur",
+     "juridiction": null,
+     "objetEcheance": null
+    }
+   ],
+   "niveaux": 2,
+   "surface": 3190.0,
+   "travaux": [],
+   "assiette": null,
+   "effectif": 102,
+   "potentiel": "Conservation en l'état",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 28,
+   "tf": null,
+   "lat": 48.871,
+   "lon": 2.276,
+   "nom": "Résidence – Paris",
+   "baux": [
+    {
+     "fin": "2028-04-05",
+     "sens": "État preneur",
+     "debut": "2022-03-09",
+     "loyer": 6600000,
+     "titre": "Bail",
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "code": "PBE-FRA-0028",
+   "cout": 233000000,
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2022-03-09",
+     "titre": "Bail signé(e)"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-04-22",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Moyen",
+   "pays": "France",
+   "type": "Résidence diplomatique",
+   "annee": 1921,
+   "nicad": null,
+   "score": 10,
+   "utile": 3888.0,
+   "ville": "Paris",
+   "paysId": "250",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Pris à bail par l'État",
+   "valeur": 11664000000,
+   "visite": "2026-04-22",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 2,
+   "surface": 4860.0,
+   "travaux": [],
+   "assiette": null,
+   "effectif": null,
+   "potentiel": "Conservation en l'état",
+   "occupation": "En travaux",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 29,
+   "tf": null,
+   "lat": 38.911,
+   "lon": -77.048,
+   "nom": "Chancellerie – Washington",
+   "baux": [
+    {
+     "fin": "2026-11-26",
+     "sens": "État preneur",
+     "debut": "2022-06-10",
+     "loyer": 1600000,
+     "titre": "Bail",
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "code": "PBE-USA-0029",
+   "cout": 356000000,
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2022-06-10",
+     "titre": "Bail signé(e)"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-01-19",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "États-Unis",
+   "type": "Chancellerie / ambassade",
+   "annee": 1916,
+   "nicad": null,
+   "score": 20,
+   "utile": 2376.0,
+   "ville": "Washington",
+   "paysId": "840",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Pris à bail par l'État",
+   "valeur": 7128000000,
+   "visite": "2026-01-19",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 4,
+   "surface": 2970.0,
+   "travaux": [
+    {
+     "av": 0,
+     "fin": "2027-01-21",
+     "cout": 106000000,
+     "type": "Électricité",
+     "debut": "2027-02-04",
+     "statut": "Programmé",
+     "entreprise": null
+    }
+   ],
+   "assiette": null,
+   "effectif": 219,
+   "potentiel": "Réhabilitation",
+   "occupation": "En travaux",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 30,
+   "tf": null,
+   "lat": 40.75,
+   "lon": -73.968,
+   "nom": "Consulat – New York",
+   "baux": [
+    {
+     "fin": "2028-11-08",
+     "sens": "État preneur",
+     "debut": "2022-08-23",
+     "loyer": 3700000,
+     "titre": "Bail",
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "code": "PBE-USA-0030",
+   "cout": 112000000,
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2022-08-23",
+     "titre": "Bail signé(e)"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-10-05",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Moyen",
+   "pays": "États-Unis",
+   "type": "Consulat",
+   "annee": 1928,
+   "nicad": null,
+   "score": 20,
+   "utile": 1872.0,
+   "ville": "New York",
+   "paysId": "840",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Pris à bail par l'État",
+   "valeur": 5616000000,
+   "visite": "2025-10-05",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 7,
+   "surface": 2340.0,
+   "travaux": [],
+   "assiette": null,
+   "effectif": 118,
+   "potentiel": "Conservation en l'état",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 31,
+   "tf": null,
+   "lat": 5.336,
+   "lon": -4.016,
+   "nom": "Consulat – Abidjan",
+   "baux": [
+    {
+     "fin": "2028-09-13",
+     "sens": "État preneur",
+     "debut": "2023-05-20",
+     "loyer": 7500000,
+     "titre": "Bail",
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "code": "PBE-CIV-0031",
+   "cout": 26000000,
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2023-05-20",
+     "titre": "Bail signé(e)"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-12-13",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Bon",
+   "pays": "Côte d'Ivoire",
+   "type": "Consulat",
+   "annee": 1936,
+   "nicad": null,
+   "score": 0,
+   "utile": 1752.0,
+   "ville": "Abidjan",
+   "paysId": "384",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Pris à bail par l'État",
+   "valeur": 5256000000,
+   "visite": "2025-12-13",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 1,
+   "surface": 2190.0,
+   "travaux": [
+    {
+     "av": 100,
+     "fin": "2024-06-02",
+     "cout": 120000000,
+     "type": "Climatisation",
+     "debut": "2024-03-20",
+     "statut": "Terminé",
+     "entreprise": "Entreprise démo n° 9"
+    }
+   ],
+   "assiette": null,
+   "effectif": 73,
+   "potentiel": "Conservation en l'état",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 32,
+   "tf": null,
+   "lat": 34.005,
+   "lon": -6.84,
+   "nom": "Chancellerie – Rabat",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2008-09-05",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-MAR-0032",
+   "cout": 56000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2008-09-05",
+     "titre": "Acte d'affectation"
+    }
+   ],
+   "etat": "Bon",
+   "pays": "Maroc",
+   "type": "Chancellerie / ambassade",
+   "annee": 1996,
+   "nicad": null,
+   "score": 10,
+   "utile": 3744.0,
+   "ville": "Rabat",
+   "paysId": "504",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 11232000000,
+   "visite": null,
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 7,
+   "surface": 4680.0,
+   "travaux": [
+    {
+     "av": 100,
+     "fin": "2024-11-24",
+     "cout": 221000000,
+     "type": "Réhabilitation complète",
+     "debut": "2024-06-25",
+     "statut": "Terminé",
+     "entreprise": "Entreprise démo n° 9"
+    }
+   ],
+   "assiette": 1990.0,
+   "effectif": 319,
+   "potentiel": "Conservation en l'état",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 33,
+   "tf": null,
+   "lat": 50.83,
+   "lon": 4.38,
+   "nom": "Chancellerie – Bruxelles",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2013-02-01",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-BEL-0033",
+   "cout": 446000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2013-02-01",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-07-08",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Belgique",
+   "type": "Chancellerie / ambassade",
+   "annee": 1919,
+   "nicad": null,
+   "score": 20,
+   "utile": 2976.0,
+   "ville": "Bruxelles",
+   "paysId": "056",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 8928000000,
+   "visite": "2026-07-08",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 3,
+   "surface": 3720.0,
+   "travaux": [],
+   "assiette": 3180.0,
+   "effectif": 129,
+   "potentiel": "Réhabilitation",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 34,
+   "tf": null,
+   "lat": 46.22,
+   "lon": 6.14,
+   "nom": "Chancellerie – Genève",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2020-01-12",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-CHE-0034",
+   "cout": 18000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2020-01-12",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-01-31",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Moyen",
+   "pays": "Suisse",
+   "type": "Chancellerie / ambassade",
+   "annee": 1907,
+   "nicad": null,
+   "score": 10,
+   "utile": 304.0,
+   "ville": "Genève",
+   "paysId": "756",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 912000000,
+   "visite": "2026-01-31",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 2,
+   "surface": 380.0,
+   "travaux": [],
+   "assiette": 500.0,
+   "effectif": 12,
+   "potentiel": "Conservation en l'état",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 35,
+   "tf": null,
+   "lat": 24.69,
+   "lon": 46.68,
+   "nom": "Chancellerie – Riyad",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2011-06-08",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-SAU-0035",
+   "cout": 426000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2011-06-08",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-06-15",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Arabie saoudite",
+   "type": "Chancellerie / ambassade",
+   "annee": 1939,
+   "nicad": null,
+   "score": 30,
+   "utile": 2840.0,
+   "ville": "Riyad",
+   "paysId": "682",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 8520000000,
+   "visite": "2025-06-15",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 4,
+   "surface": 3550.0,
+   "travaux": [],
+   "assiette": 1970.0,
+   "effectif": 121,
+   "potentiel": "Réhabilitation",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 36,
+   "tf": null,
+   "lat": 39.94,
+   "lon": 116.45,
+   "nom": "Chancellerie – Pékin",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2020-04-04",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-CHN-0036",
+   "cout": 118000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2020-04-04",
+     "titre": "Acte d'affectation"
+    }
+   ],
+   "etat": "Moyen",
+   "pays": "Chine",
+   "type": "Chancellerie / ambassade",
+   "annee": 1918,
+   "nicad": null,
+   "score": 20,
+   "utile": 1968.0,
+   "ville": "Pékin",
+   "paysId": "156",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 5904000000,
+   "visite": null,
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 7,
+   "surface": 2460.0,
+   "travaux": [],
+   "assiette": 780.0,
+   "effectif": 135,
+   "potentiel": "Conservation en l'état",
+   "occupation": "Partiellement occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 37,
+   "tf": null,
+   "lat": -15.8,
+   "lon": -47.88,
+   "nom": "Chancellerie – Brasilia",
+   "baux": [
+    {
+     "fin": "2028-01-13",
+     "sens": "État preneur",
+     "debut": "2021-07-29",
+     "loyer": 1700000,
+     "titre": "Bail",
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "code": "PBE-BRA-0037",
+   "cout": 189000000,
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2021-07-29",
+     "titre": "Bail signé(e)"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-10-18",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Moyen",
+   "pays": "Brésil",
+   "type": "Chancellerie / ambassade",
+   "annee": 1918,
+   "nicad": null,
+   "score": 10,
+   "utile": 3144.0,
+   "ville": "Brasilia",
+   "paysId": "076",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Pris à bail par l'État",
+   "valeur": 9432000000,
+   "visite": "2025-10-18",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 5,
+   "surface": 3930.0,
+   "travaux": [],
+   "assiette": null,
+   "effectif": 198,
+   "potentiel": "Conservation en l'état",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 38,
+   "tf": null,
+   "lat": 9.01,
+   "lon": 38.76,
+   "nom": "Chancellerie – Addis-Abeba",
+   "baux": [
+    {
+     "fin": "2027-09-10",
+     "sens": "État preneur",
+     "debut": "2024-04-18",
+     "loyer": 5800000,
+     "titre": "Bail",
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "code": "PBE-ETH-0038",
+   "cout": 287000000,
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2024-04-18",
+     "titre": "Bail signé(e)"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Éthiopie",
+   "type": "Chancellerie / ambassade",
+   "annee": 1985,
+   "nicad": null,
+   "score": 30,
+   "utile": 1912.0,
+   "ville": "Addis-Abeba",
+   "paysId": "231",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Pris à bail par l'État",
+   "valeur": 5736000000,
+   "visite": null,
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 5,
+   "surface": 2390.0,
+   "travaux": [
+    {
+     "av": 76,
+     "fin": "2027-01-15",
+     "cout": 72000000,
+     "type": "Plomberie",
+     "debut": "2026-05-19",
+     "statut": "En cours",
+     "entreprise": "Entreprise démo n° 1"
+    }
+   ],
+   "assiette": null,
+   "effectif": 200,
+   "potentiel": "Réhabilitation",
+   "occupation": "Partiellement occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 39,
+   "tf": null,
+   "lat": 12.64,
+   "lon": -7.99,
+   "nom": "Chancellerie – Bamako",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2013-09-27",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-MLI-0039",
+   "cout": 17000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2013-09-27",
+     "titre": "Acte d'affectation"
+    }
+   ],
+   "etat": "Moyen",
+   "pays": "Mali",
+   "type": "Chancellerie / ambassade",
+   "annee": 1979,
+   "nicad": null,
+   "score": 20,
+   "utile": 280.0,
+   "ville": "Bamako",
+   "paysId": "466",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 840000000,
+   "visite": null,
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 1,
+   "surface": 350.0,
+   "travaux": [],
+   "assiette": 780.0,
+   "effectif": 12,
+   "potentiel": "Conservation en l'état",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 40,
+   "tf": null,
+   "lat": 13.455,
+   "lon": -16.58,
+   "nom": "Chancellerie – Banjul",
+   "baux": [
+    {
+     "fin": "2027-12-18",
+     "sens": "État preneur",
+     "debut": "2021-05-28",
+     "loyer": 6700000,
+     "titre": "Bail",
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "code": "PBE-GMB-0040",
+   "cout": 221000000,
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2021-05-28",
+     "titre": "Bail signé(e)"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-09-07",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Gambie",
+   "type": "Chancellerie / ambassade",
+   "annee": 1974,
+   "nicad": null,
+   "score": 20,
+   "utile": 1472.0,
+   "ville": "Banjul",
+   "paysId": "270",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Pris à bail par l'État",
+   "valeur": 4416000000,
+   "visite": "2026-09-07",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 5,
+   "surface": 1840.0,
+   "travaux": [],
+   "assiette": null,
+   "effectif": 106,
+   "potentiel": "Réhabilitation",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 41,
+   "tf": null,
+   "lat": 18.09,
+   "lon": -15.97,
+   "nom": "Chancellerie – Nouakchott",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2009-10-17",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-MRT-0041",
+   "cout": 582000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2009-10-17",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-08-26",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Mauritanie",
+   "type": "Chancellerie / ambassade",
+   "annee": 1909,
+   "nicad": null,
+   "score": 20,
+   "utile": 3880.0,
+   "ville": "Nouakchott",
+   "paysId": "478",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 11640000000,
+   "visite": "2026-08-26",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 7,
+   "surface": 4850.0,
+   "travaux": [],
+   "assiette": 1710.0,
+   "effectif": 193,
+   "potentiel": "Réhabilitation",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 42,
+   "tf": null,
+   "lat": 40.44,
+   "lon": -3.69,
+   "nom": "Consulat – Madrid",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2005-03-04",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-ESP-0042",
+   "cout": 219000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2005-03-04",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-02-03",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Moyen",
+   "pays": "Espagne",
+   "type": "Consulat",
+   "annee": 1908,
+   "nicad": null,
+   "score": 10,
+   "utile": 3656.0,
+   "ville": "Madrid",
+   "paysId": "724",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 10968000000,
+   "visite": "2026-02-03",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 2,
+   "surface": 4570.0,
+   "travaux": [],
+   "assiette": 5080.0,
+   "effectif": 323,
+   "potentiel": "Conservation en l'état",
+   "occupation": "En travaux",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 43,
+   "tf": null,
+   "lat": 41.91,
+   "lon": 12.49,
+   "nom": "Chancellerie – Rome",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2011-09-20",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-ITA-0043",
+   "cout": 570000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2011-09-20",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-06-09",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Italie",
+   "type": "Chancellerie / ambassade",
+   "annee": 1998,
+   "nicad": null,
+   "score": 20,
+   "utile": 3800.0,
+   "ville": "Rome",
+   "paysId": "380",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 11400000000,
+   "visite": "2026-06-09",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 7,
+   "surface": 4750.0,
+   "travaux": [],
+   "assiette": 1750.0,
+   "effectif": 226,
+   "potentiel": "Réhabilitation",
+   "occupation": "Partiellement occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 44,
+   "tf": null,
+   "lat": 52.51,
+   "lon": 13.35,
+   "nom": "Chancellerie – Berlin",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2006-10-21",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-DEU-0044",
+   "cout": 122000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2006-10-21",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-01-24",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Allemagne",
+   "type": "Chancellerie / ambassade",
+   "annee": 1965,
+   "nicad": null,
+   "score": 20,
+   "utile": 816.0,
+   "ville": "Berlin",
+   "paysId": "276",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 2448000000,
+   "visite": "2026-01-24",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 3,
+   "surface": 1020.0,
+   "travaux": [
+    {
+     "av": 56,
+     "fin": "2027-09-14",
+     "cout": 85000000,
+     "type": "Toiture / étanchéité",
+     "debut": "2026-09-11",
+     "statut": "En cours",
+     "entreprise": "Entreprise démo n° 4"
+    }
+   ],
+   "assiette": 950.0,
+   "effectif": 45,
+   "potentiel": "Réhabilitation",
+   "occupation": "Partiellement occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 45,
+   "tf": null,
+   "lat": 51.5,
+   "lon": -0.16,
+   "nom": "Résidence – Londres",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2010-07-15",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-GBR-0045",
+   "cout": 35000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2010-07-15",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-07-19",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Bon",
+   "pays": "Royaume-Uni",
+   "type": "Résidence diplomatique",
+   "annee": 2002,
+   "nicad": null,
+   "score": 0,
+   "utile": 2312.0,
+   "ville": "Londres",
+   "paysId": "826",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 6936000000,
+   "visite": "2026-07-19",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 2,
+   "surface": 2890.0,
+   "travaux": [],
+   "assiette": 4260.0,
+   "effectif": null,
+   "potentiel": "Conservation en l'état",
+   "occupation": "Partiellement occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 46,
+   "tf": null,
+   "lat": 45.43,
+   "lon": -75.69,
+   "nom": "Chancellerie – Ottawa",
+   "baux": [
+    {
+     "fin": "2027-09-07",
+     "sens": "État preneur",
+     "debut": "2024-01-07",
+     "loyer": 3700000,
+     "titre": "Bail",
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "code": "PBE-CAN-0046",
+   "cout": 189000000,
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2024-01-07",
+     "titre": "Bail signé(e)"
+    }
+   ],
+   "etat": "Moyen",
+   "pays": "Canada",
+   "type": "Chancellerie / ambassade",
+   "annee": 1970,
+   "nicad": null,
+   "score": 20,
+   "utile": 3152.0,
+   "ville": "Ottawa",
+   "paysId": "124",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Pris à bail par l'État",
+   "valeur": 9456000000,
+   "visite": null,
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 2,
+   "surface": 3940.0,
+   "travaux": [],
+   "assiette": null,
+   "effectif": 184,
+   "potentiel": "Conservation en l'état",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 47,
+   "tf": null,
+   "lat": 35.66,
+   "lon": 139.73,
+   "nom": "Chancellerie – Tokyo",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2019-04-09",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-JPN-0047",
+   "cout": 437000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2019-04-09",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-08-23",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Japon",
+   "type": "Chancellerie / ambassade",
+   "annee": 1917,
+   "nicad": null,
+   "score": 20,
+   "utile": 2912.0,
+   "ville": "Tokyo",
+   "paysId": "392",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 8736000000,
+   "visite": "2026-08-23",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 2,
+   "surface": 3640.0,
+   "travaux": [
+    {
+     "av": 0,
+     "fin": "2027-09-15",
+     "cout": 193000000,
+     "type": "Gros œuvre",
+     "debut": "2027-01-02",
+     "statut": "Programmé",
+     "entreprise": null
+    }
+   ],
+   "assiette": 4040.0,
+   "effectif": 129,
+   "potentiel": "Réhabilitation",
+   "occupation": "En travaux",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 48,
+   "tf": null,
+   "lat": -25.75,
+   "lon": 28.22,
+   "nom": "Chancellerie – Pretoria",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2012-07-29",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-ZAF-0048",
+   "cout": 36000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2012-07-29",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-09-23",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Bon",
+   "pays": "Afrique du Sud",
+   "type": "Chancellerie / ambassade",
+   "annee": 1993,
+   "nicad": null,
+   "score": 10,
+   "utile": 2424.0,
+   "ville": "Pretoria",
+   "paysId": "710",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 7272000000,
+   "visite": "2025-09-23",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 2,
+   "surface": 3030.0,
+   "travaux": [
+    {
+     "av": 100,
+     "fin": "2024-10-09",
+     "cout": 167000000,
+     "type": "Réhabilitation complète",
+     "debut": "2024-07-05",
+     "statut": "Terminé",
+     "entreprise": "Entreprise démo n° 1"
+    }
+   ],
+   "assiette": 3370.0,
+   "effectif": 119,
+   "potentiel": "Conservation en l'état",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 49,
+   "tf": null,
+   "lat": 30.06,
+   "lon": 31.22,
+   "nom": "Chancellerie – Le Caire",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2011-10-27",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-EGY-0049",
+   "cout": 19000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2011-10-27",
+     "titre": "Acte d'affectation"
+    }
+   ],
+   "etat": "Bon",
+   "pays": "Égypte",
+   "type": "Chancellerie / ambassade",
+   "annee": 1946,
+   "nicad": null,
+   "score": 10,
+   "utile": 1240.0,
+   "ville": "Le Caire",
+   "paysId": "818",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 3720000000,
+   "visite": null,
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 2,
+   "surface": 1550.0,
+   "travaux": [],
+   "assiette": 1720.0,
+   "effectif": 63,
+   "potentiel": "Conservation en l'état",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 50,
+   "tf": null,
+   "lat": 9.06,
+   "lon": 7.49,
+   "nom": "Chancellerie – Abuja",
+   "baux": [
+    {
+     "fin": "2028-10-27",
+     "sens": "État preneur",
+     "debut": "2021-10-27",
+     "loyer": 5800000,
+     "titre": "Bail",
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "code": "PBE-NGA-0050",
+   "cout": 226000000,
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2021-10-27",
+     "titre": "Bail signé(e)"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-08-13",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Nigeria",
+   "type": "Chancellerie / ambassade",
+   "annee": 1968,
+   "nicad": null,
+   "score": 30,
+   "utile": 1504.0,
+   "ville": "Abuja",
+   "paysId": "566",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Pris à bail par l'État",
+   "valeur": 4512000000,
+   "visite": "2025-08-13",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 3,
+   "surface": 1880.0,
+   "travaux": [
+    {
+     "av": 0,
+     "fin": "2027-04-13",
+     "cout": 129000000,
+     "type": "Électricité",
+     "debut": "2026-12-28",
+     "statut": "Programmé",
+     "entreprise": null
+    }
+   ],
+   "assiette": null,
+   "effectif": 160,
+   "potentiel": "Réhabilitation",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 51,
+   "tf": null,
+   "lat": 14.92,
+   "lon": -23.51,
+   "nom": "Consulat – Praia",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2022-02-28",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-CPV-0051",
+   "cout": 89000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2022-02-28",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-02-10",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Moyen",
+   "pays": "Cabo Verde",
+   "type": "Consulat",
+   "annee": 2003,
+   "nicad": null,
+   "score": 10,
+   "utile": 1488.0,
+   "ville": "Praia",
+   "paysId": "132",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 4464000000,
+   "visite": "2026-02-10",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 5,
+   "surface": 1860.0,
+   "travaux": [],
+   "assiette": 830.0,
+   "effectif": 117,
+   "potentiel": "Conservation en l'état",
+   "occupation": "En travaux",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 52,
+   "tf": null,
+   "lat": 9.52,
+   "lon": -13.7,
+   "nom": "Chancellerie – Conakry",
+   "baux": [
+    {
+     "fin": null,
+     "sens": "État bailleur",
+     "debut": "2020-06-05",
+     "loyer": null,
+     "titre": "Acte d'affectation",
+     "arrieres": 0,
+     "occupant": "Ministère chargé des Affaires étrangères"
+    }
+   ],
+   "code": "PBE-GIN-0052",
+   "cout": 239000000,
+   "docs": [
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2020-06-05",
+     "titre": "Acte d'affectation"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-08-23",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Dégradé",
+   "pays": "Guinée",
+   "type": "Chancellerie / ambassade",
+   "annee": 2008,
+   "nicad": null,
+   "score": 30,
+   "utile": 1592.0,
+   "ville": "Conakry",
+   "paysId": "324",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Circulations"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Propriété de l'État",
+   "valeur": 4776000000,
+   "visite": "2025-08-23",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 1,
+   "surface": 1990.0,
+   "travaux": [
+    {
+     "av": 13,
+     "fin": "2027-04-29",
+     "cout": 131000000,
+     "type": "Plomberie",
+     "debut": "2026-07-26",
+     "statut": "En cours",
+     "entreprise": "Entreprise démo n° 2"
+    }
+   ],
+   "assiette": 4980.0,
+   "effectif": 84,
+   "potentiel": "Réhabilitation",
+   "occupation": "Occupé",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 53,
+   "tf": null,
+   "lat": 11.86,
+   "lon": -15.59,
+   "nom": "Consulat – Bissau",
+   "baux": [
+    {
+     "fin": "2027-06-14",
+     "sens": "État preneur",
+     "debut": "2021-09-25",
+     "loyer": 7300000,
+     "titre": "Bail",
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "code": "PBE-GNB-0053",
+   "cout": 4000000,
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2021-09-25",
+     "titre": "Bail signé(e)"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-03-31",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "etat": "Bon",
+   "pays": "Guinée-Bissau",
+   "type": "Consulat",
+   "annee": 1972,
+   "nicad": null,
+   "score": 0,
+   "utile": 240.0,
+   "ville": "Bissau",
+   "paysId": "624",
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Cour intérieure"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "regime": "Affectation juridique",
+   "region": null,
+   "statut": "Pris à bail par l'État",
+   "valeur": 720000000,
+   "visite": "2026-03-31",
+   "commune": null,
+   "gestion": "Gestion courante",
+   "litiges": [],
+   "niveaux": 5,
+   "surface": 300.0,
+   "travaux": [],
+   "assiette": null,
+   "effectif": 20,
+   "potentiel": "Conservation en l'état",
+   "occupation": "En travaux",
+   "affectataire": "Ministère chargé des Affaires étrangères"
+  }
+ ]
+}

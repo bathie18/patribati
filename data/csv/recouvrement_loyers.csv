@@ -1,0 +1,36 @@
+id;bien_code;bien_nom;ville;type_titre;occupant;loyer_mensuel_fcfa;arrieres_fcfa;date_dernier_paiement;mois_impayes;litige_ouvert
+10;PBE-SEN-0011;Entrepôt – Thiès Nord 1;Thiès;Bail;Occupant titré n° 11 (démo);2400000;26400000;2026/01/15;11;1
+16;PBE-SEN-0019;Immeuble administratif – Kolda;Kolda;Bail;Occupant titré n° 19 (démo);2000000;24000000;2025/11/02;12;0
+1;PBE-SEN-0001;Logement de fonction – Dakar-Plateau 1;Dakar;Bail;Occupant titré n° 1 (démo);1000000;10000000;2025/10/31;10;1
+6;PBE-SEN-0007;Logement de fonction – Fann-Point E 1;Dakar;Convention d'occupation;Occupant titré n° 7 (démo);800000;4800000;2025/09/01;6;1
+8;PBE-SEN-0009;Villa – Ngor-Almadies;Dakar;Sans titre;Occupant sans titre n° 9 (démo);;0;;;1
+15;PBE-SEN-0018;Terrain nu – Tambacounda;Tambacounda;Acte d'affectation;Agence publique (démo);;0;;;0
+17;PBE-SEN-0020;Villa – Matam;Matam;Sans titre;Occupant sans titre n° 20 (démo);;0;;;1
+25;PBE-MAR-0032;Chancellerie – Rabat;Rabat;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+29;PBE-CHN-0036;Chancellerie – Pékin;Pékin;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+32;PBE-MLI-0039;Chancellerie – Bamako;Bamako;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+42;PBE-EGY-0049;Chancellerie – Le Caire;Le Caire;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+5;PBE-SEN-0006;Entrepôt – Dakar-Plateau 6;Dakar;Acte d'affectation;Ministère B (démo);;0;;;0
+9;PBE-SEN-0010;Villa – Rufisque;Rufisque;Acte d'affectation;Ministère C (démo);;0;;;1
+11;PBE-SEN-0013;Villa – Mbour;Mbour;Sans titre;Occupant sans titre n° 13 (démo);;0;;;1
+12;PBE-SEN-0014;Villa – Saint-Louis 1;Saint-Louis;Acte d'affectation;Ministère C (démo);;0;;;1
+13;PBE-SEN-0015;Immeuble administratif – Saint-Louis 2;Saint-Louis;Acte d'affectation;Service déconcentré (démo);;0;;;0
+14;PBE-SEN-0016;Immeuble administratif – Ziguinchor;Ziguinchor;Convention d'occupation;Occupant titré n° 16 (démo);2300000;0;2026/08/24;0;0
+18;PBE-SEN-0021;Immeuble administratif – Louga;Louga;Convention d'occupation;Occupant titré n° 21 (démo);600000;0;2026/08/19;0;0
+19;PBE-SEN-0023;Entrepôt – Fatick;Fatick;Acte d'affectation;Agence publique (démo);;0;;;0
+26;PBE-BEL-0033;Chancellerie – Bruxelles;Bruxelles;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+27;PBE-CHE-0034;Chancellerie – Genève;Genève;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+28;PBE-SAU-0035;Chancellerie – Riyad;Riyad;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+34;PBE-MRT-0041;Chancellerie – Nouakchott;Nouakchott;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+35;PBE-ESP-0042;Consulat – Madrid;Madrid;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+36;PBE-ITA-0043;Chancellerie – Rome;Rome;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+37;PBE-DEU-0044;Chancellerie – Berlin;Berlin;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+38;PBE-GBR-0045;Résidence – Londres;Londres;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+40;PBE-JPN-0047;Chancellerie – Tokyo;Tokyo;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+41;PBE-ZAF-0048;Chancellerie – Pretoria;Pretoria;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+44;PBE-CPV-0051;Consulat – Praia;Praia;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+2;PBE-SEN-0002;Immeuble de logements – Dakar-Plateau 2;Dakar;Sans titre;Occupant sans titre n° 2 (démo);;0;;;1
+45;PBE-GIN-0052;Chancellerie – Conakry;Conakry;Acte d'affectation;Ministère chargé des Affaires étrangères;;0;;;0
+3;PBE-SEN-0003;Entrepôt – Dakar-Plateau 3;Dakar;Convention d'occupation;Occupant titré n° 3 (démo);600000;0;2026/08/25;0;0
+4;PBE-SEN-0004;Logement de fonction – Dakar-Plateau 4;Dakar;Acte d'affectation;Service déconcentré (démo);;0;;;0
+7;PBE-SEN-0008;Immeuble de logements – Fann-Point E 2;Dakar;Acte d'affectation;Ministère C (démo);;0;;;0
