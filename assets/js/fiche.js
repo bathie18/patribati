@@ -116,7 +116,7 @@
         <dt>Agents hébergés</dt><dd>${E ? `<input id="e-effectif" type="number" min="0" value="${b.effectif ?? ''}">` : b.effectif ? nf.format(b.effectif) + (b.utile ? ` · ${(b.utile / b.effectif).toFixed(1).replace('.', ',')} m² utiles par agent` : '') : '—'}</dd></dl>
         <h2>Titres d'occupation et baux</h2>${b.baux.length ? b.baux.map(x => `<div class="item"><b>${esc(x.titre)} · ${esc(x.sens)}</b><small>${esc(x.occupant)}${x.fin ? ` · du ${fdate(x.debut)} au ${fdate(x.fin)}` : ''}${x.loyer ? ` · ${fcfa(x.loyer)} / mois` : ''}</small>${x.arrieres > 0 ? `<div class="alert" style="margin:8px 0 0">Arriérés : ${fcfa(x.arrieres)}</div>` : ''}</div>`).join('') : '<p class="empty">Aucun titre enregistré.</p>'}`,
       vis: () => `${canF ? (form === 'visite' ? `<form class="form" id="f-visite"><b>Nouvelle visite de surveillance</b>
-          <div class="row2"><label>Date<input type="date" name="date" value="${iso(new Date())}" required></label><label>Agent<input name="agent" value="${esc(PB.role.nom)}"></label></div>
+          <div class="row2"><label>Date<input type="date" name="date" value="${iso(new Date())}" required></label><label>Agent<input name="agent" value="${esc(PB.user.nom)}"></label></div>
           <div class="row2"><label>État constaté<select name="etat">${optList(['Bon', 'Moyen', 'Dégradé', 'Très dégradé', 'En ruine'], b.etat)}</select></label><label>Occupation constatée<select name="occupation">${optList(PB.THEMES.occupation.cats.map(c => c[0]), b.occupation)}</select></label></div>
           <label>Observations<textarea name="obs" rows="2" placeholder="Constats, désordres, occupants rencontrés…"></textarea></label>
           <label class="opt" style="padding:0;color:var(--fg)"><input type="checkbox" name="maj" checked> Mettre à jour l'état et l'occupation du bien</label>
@@ -124,7 +124,7 @@
           : `<button class="btn sm primary" data-act="form-visite" style="margin-bottom:10px">+ Saisir une visite</button>`) : ''}
         ${b.visites.length ? `<ol class="chrono">${b.visites.map(v => `<li><time>${fdate(v.date)}</time><span>${esc(v.obs || 'Visite')}${v.agent ? ` · ${esc(v.agent)}` : ''}<small>${[v.etat ? 'État : ' + v.etat : '', v.occupation ? 'Occupation : ' + v.occupation : '', v.conforme === false ? 'Occupation non conforme au titre' : ''].filter(Boolean).map(esc).join(' · ')}</small></span></li>`).join('')}</ol>` : '<p class="empty">Aucune visite enregistrée.</p>'}`,
       trav: () => b.travaux.length ? b.travaux.map(t => `<div class="item"><b>${esc(t.type)} · ${esc(t.statut)}</b><small>${esc(t.entreprise || 'Entreprise à attribuer')} · ${fdate(t.debut)} → ${fdate(t.fin)} · ${fcfa(t.cout)}</small><div class="bar"><i style="width:${t.av}%"></i></div><small>Avancement ${t.av} %</small></div>`).join('') : '<p class="empty">Aucuns travaux programmés ou en cours.</p>',
-      lit: () => !canL ? `<p class="note">${b.litiges.length ? `${b.litiges.length} dossier(s) contentieux sur ce bien. ` : ''}Le détail des litiges et des montants est réservé aux profils SOGEPA (gestionnaire, administrateur) et à la direction.</p>` :
+      lit: () => !canL ? `<p class="note">${b.litiges.length ? `${b.litiges.length} dossier(s) contentieux sur ce bien. ` : ''}Le détail des litiges et des montants n'est pas ouvert à votre profil.</p>` :
         b.litiges.length ? b.litiges.map((l, i) => `<div class="item"><b>${esc(l.type)}</b><small>${esc(l.ref)} · ouvert le ${fdate(l.ouverture)}${l.cloture ? ' · clos le ' + fdate(l.cloture) : ''}</small>
           <div class="chips"><span class="chip"><i class="sw" style="background:var(${PB.ETAPE_COL[l.etape]})"></i>${esc(l.phase)}</span><span class="chip">Risque ${esc(String(l.risque).toLowerCase())}</span>${l.aRecuperer ? `<span class="chip">${l.recupere ? 'Bien récupéré' : 'Bien à récupérer'}</span>` : ''}${l.issue ? `<span class="chip">${esc(l.issue)}</span>` : ''}</div>
           <p class="obj">${esc(l.objet)}</p>
@@ -133,7 +133,7 @@
           ${l.echeance ? `<dt>Prochaine échéance</dt><dd>${fdate(l.echeance)}${l.objetEcheance ? '<br><small>' + esc(l.objetEcheance) + '</small>' : ''}</dd>` : ''}</dl>
           ${l.reclame ? `<div class="bar"><i style="width:${Math.min(100, 100 * (l.recouvre || 0) / l.reclame)}%"></i></div><small>${fcfa(l.recouvre || 0)} recouvrés sur ${fcfa(l.reclame)} réclamés</small>` : ''}
           <details ${form === 'acte' + i ? 'open' : ''}><summary>Chronologie (${l.evenements.length})</summary><ol class="chrono">${l.evenements.map(e => `<li><time>${fdate(e.date)}</time><span>${esc(e.type)}<small>${esc(e.desc || '')}</small></span></li>`).join('')}</ol>
-          ${canE && l.ouvert ? (form === 'acte' + i ? `<form class="form" data-lit="${i}" id="f-acte"><b>Nouvel acte de procédure</b>
+          ${PB.canActes() && l.ouvert ? (form === 'acte' + i ? `<form class="form" data-lit="${i}" id="f-acte"><b>Nouvel acte de procédure</b>
             <div class="row2"><label>Date<input type="date" name="date" value="${iso(new Date())}" required></label><label>Type d'acte<select name="type">${optList(PB.TYPES_ACTE, '')}</select></label></div>
             <label>Description<input name="desc" placeholder="Ex. : audience renvoyée au…"></label>
             <div class="row2"><label>Montant recouvré (FCFA)<input type="number" name="recouvre" min="0" step="100000" value="${l.recouvre || 0}"></label><label>Prochaine échéance<input type="date" name="echeance" value="${l.echeance || ''}"></label></div>
@@ -189,7 +189,7 @@
     const b = PB.byId(S.sel); if (!b) return;
     const fd = Object.fromEntries(new FormData(e.target).entries());
     if (e.target.id === 'f-visite') {
-      b.visites.unshift({ date: fd.date, agent: fd.agent || PB.role.nom, etat: fd.etat, occupation: fd.occupation, conforme: null, obs: fd.obs || 'Visite de surveillance' });
+      b.visites.unshift({ date: fd.date, agent: fd.agent || PB.user.nom, etat: fd.etat, occupation: fd.occupation, conforme: null, obs: fd.obs || 'Visite de surveillance' });
       b.visites.sort((x, y) => (y.date || '').localeCompare(x.date || ''));
       if (fd.maj) { b.etat = fd.etat; b.occupation = fd.occupation }
       b.visite = b.visites[0].date;

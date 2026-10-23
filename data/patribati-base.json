@@ -4859,6 +4859,5086 @@
    "potentiel": "Conservation en l'état",
    "occupation": "En travaux",
    "affectataire": "Ministère chargé des Affaires étrangères"
+  },
+  {
+   "id": 54,
+   "code": "PBE-FRA-0054",
+   "nom": "Consulat général – Marseille",
+   "type": "Consulat",
+   "pays": "France",
+   "paysId": "250",
+   "region": null,
+   "commune": null,
+   "ville": "Marseille",
+   "lat": 43.290391,
+   "lon": 5.360046,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Dégradé",
+   "annee": 1995,
+   "niveaux": 6,
+   "surface": 2230.0,
+   "utile": 1784.0,
+   "effectif": 84,
+   "cout": 268000000,
+   "valeur": null,
+   "potentiel": "Réhabilitation",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2020-11-03",
+     "fin": "2029-11-03",
+     "loyer": 4700000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2020-11-03",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2012-02-25",
+     "titre": "Acte d'affectation au ministère"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Jardin"
+    }
+   ],
+   "litiges": [],
+   "visite": null,
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 55,
+   "code": "PBE-FRA-0055",
+   "nom": "Consulat général – Lyon",
+   "type": "Consulat",
+   "pays": "France",
+   "paysId": "250",
+   "region": null,
+   "commune": null,
+   "ville": "Lyon",
+   "lat": 45.761394,
+   "lon": 4.841742,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "En travaux",
+   "statut": "Pris à bail par l'État",
+   "etat": "Bon",
+   "annee": 1975,
+   "niveaux": 2,
+   "surface": 2390.0,
+   "utile": 1912.0,
+   "effectif": 84,
+   "cout": 14000000,
+   "valeur": null,
+   "potentiel": "Conservation en l'état",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2022-03-17",
+     "fin": "2028-03-17",
+     "loyer": 9200000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [
+    {
+     "type": "Électricité",
+     "statut": "En cours",
+     "debut": "2025-03-14",
+     "fin": "2026-03-14",
+     "av": 38,
+     "cout": 15000000,
+     "entreprise": "Entreprise démo n° 11"
+    }
+   ],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2022-03-17",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2017-12-28",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-02-08",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Devis / marché",
+     "ext": "PDF",
+     "date": "2025-03-14",
+     "titre": "Marché de travaux"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Salle de réception"
+    }
+   ],
+   "litiges": [],
+   "visite": "2026-02-08",
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 56,
+   "code": "PBE-FRA-0056",
+   "nom": "Consulat – Bordeaux",
+   "type": "Consulat",
+   "pays": "France",
+   "paysId": "250",
+   "region": null,
+   "commune": null,
+   "ville": "Bordeaux",
+   "lat": 44.84873,
+   "lon": -0.582076,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Bon",
+   "annee": 1975,
+   "niveaux": 3,
+   "surface": 1940.0,
+   "utile": 1552.0,
+   "effectif": 66,
+   "cout": 12000000,
+   "valeur": null,
+   "potentiel": "Conservation en l'état",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2017-11-08",
+     "fin": "2026-11-08",
+     "loyer": 9300000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2017-11-08",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2020-01-21",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-01-11",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": "2024-01-11",
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 57,
+   "code": "PBE-FRA-0057",
+   "nom": "Logement de fonction – Paris",
+   "type": "Logement de fonction",
+   "pays": "France",
+   "paysId": "250",
+   "region": null,
+   "commune": null,
+   "ville": "Paris",
+   "lat": 48.851616,
+   "lon": 2.277651,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "En travaux",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 1983,
+   "niveaux": 3,
+   "surface": 680.0,
+   "utile": 544.0,
+   "effectif": null,
+   "cout": 4000000,
+   "valeur": 1352000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 3911 (démo)",
+   "nicad": null,
+   "assiette": 1200.0,
+   "baux": [],
+   "travaux": [
+    {
+     "type": "Toiture / étanchéité",
+     "statut": "En cours",
+     "debut": "2026-05-12",
+     "fin": "2027-05-12",
+     "av": 14,
+     "cout": 15000000,
+     "entreprise": "Entreprise démo n° 12"
+    }
+   ],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2009-11-28",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-07-19",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-08-07",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Devis / marché",
+     "ext": "PDF",
+     "date": "2026-05-12",
+     "titre": "Marché de travaux"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "litiges": [],
+   "visite": "2024-08-07",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-FRA-0043"
+  },
+  {
+   "id": 58,
+   "code": "PBE-FRA-0058",
+   "nom": "Foyer des étudiants – Paris",
+   "type": "Autre",
+   "pays": "France",
+   "paysId": "250",
+   "region": null,
+   "commune": null,
+   "ville": "Paris",
+   "lat": 48.863619,
+   "lon": 2.268764,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Dégradé",
+   "annee": 1998,
+   "niveaux": 6,
+   "surface": 1590.0,
+   "utile": 1272.0,
+   "effectif": null,
+   "cout": 191000000,
+   "valeur": 4954000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 8155 (démo)",
+   "nicad": null,
+   "assiette": 1750.0,
+   "baux": [],
+   "travaux": [
+    {
+     "type": "Sécurité incendie",
+     "statut": "Programmé",
+     "debut": "2026-09-10",
+     "fin": "2027-09-10",
+     "av": 0,
+     "cout": 114000000,
+     "entreprise": null
+    }
+   ],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2014-12-12",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-07-16",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Devis / marché",
+     "ext": "PDF",
+     "date": "2026-09-10",
+     "titre": "Marché de travaux"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Jardin"
+    }
+   ],
+   "litiges": [],
+   "visite": "2023-07-16",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-FRA-0044"
+  },
+  {
+   "id": 59,
+   "code": "PBE-USA-0059",
+   "nom": "Résidence de l'ambassadeur – Washington",
+   "type": "Résidence diplomatique",
+   "pays": "États-Unis",
+   "paysId": "840",
+   "region": null,
+   "commune": null,
+   "ville": "Washington",
+   "lat": 38.946042,
+   "lon": -77.050624,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Partiellement occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Dégradé",
+   "annee": 2005,
+   "niveaux": 1,
+   "surface": 1030.0,
+   "utile": 824.0,
+   "effectif": null,
+   "cout": 124000000,
+   "valeur": 3237000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 9297 (démo)",
+   "nicad": null,
+   "assiette": 1740.0,
+   "baux": [],
+   "travaux": [
+    {
+     "type": "Toiture / étanchéité",
+     "statut": "En cours",
+     "debut": "2025-10-13",
+     "fin": "2026-10-13",
+     "av": 34,
+     "cout": 82000000,
+     "entreprise": "Entreprise démo n° 17"
+    }
+   ],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2010-10-16",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-01-16",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Devis / marché",
+     "ext": "PDF",
+     "date": "2025-10-13",
+     "titre": "Marché de travaux"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Jardin"
+    }
+   ],
+   "litiges": [],
+   "visite": "2026-01-16",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-USA-0045"
+  },
+  {
+   "id": 60,
+   "code": "PBE-USA-0060",
+   "nom": "Mission permanente auprès des Nations unies – New York",
+   "type": "Chancellerie / ambassade",
+   "pays": "États-Unis",
+   "paysId": "840",
+   "region": null,
+   "commune": null,
+   "ville": "New York",
+   "lat": 40.747639,
+   "lon": -73.96053,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Inoccupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Moyen",
+   "annee": 1995,
+   "niveaux": 7,
+   "surface": 2420.0,
+   "utile": 1936.0,
+   "effectif": 34,
+   "cout": 85000000,
+   "valeur": null,
+   "potentiel": "Conservation en l'état",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2021-06-22",
+     "fin": "2030-06-22",
+     "loyer": 5600000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2021-06-22",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2013-09-02",
+     "titre": "Acte d'affectation au ministère"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Bureaux"
+    }
+   ],
+   "litiges": [],
+   "visite": null,
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 61,
+   "code": "PBE-USA-0061",
+   "nom": "Résidence du représentant permanent – New York",
+   "type": "Résidence diplomatique",
+   "pays": "États-Unis",
+   "paysId": "840",
+   "region": null,
+   "commune": null,
+   "ville": "New York",
+   "lat": 40.760418,
+   "lon": -73.973881,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Moyen",
+   "annee": 1961,
+   "niveaux": 3,
+   "surface": 820.0,
+   "utile": 656.0,
+   "effectif": null,
+   "cout": 29000000,
+   "valeur": 1160000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 2842 (démo)",
+   "nicad": null,
+   "assiette": 650.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2010-05-19",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-01-08",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-04-04",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": "2025-04-04",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-USA-0046"
+  },
+  {
+   "id": 62,
+   "code": "PBE-ITA-0062",
+   "nom": "Consulat général – Milan",
+   "type": "Consulat",
+   "pays": "Italie",
+   "paysId": "380",
+   "region": null,
+   "commune": null,
+   "ville": "Milan",
+   "lat": 45.46728,
+   "lon": 9.188346,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Inoccupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Dégradé",
+   "annee": 1989,
+   "niveaux": 8,
+   "surface": 1650.0,
+   "utile": 1320.0,
+   "effectif": 85,
+   "cout": 198000000,
+   "valeur": null,
+   "potentiel": "Réhabilitation",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2022-03-06",
+     "fin": "2028-03-06",
+     "loyer": 8199999,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2022-03-06",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2013-08-23",
+     "titre": "Acte d'affectation au ministère"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "litiges": [],
+   "visite": null,
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 63,
+   "code": "PBE-ITA-0063",
+   "nom": "Résidence de l'ambassadeur – Rome",
+   "type": "Résidence diplomatique",
+   "pays": "Italie",
+   "paysId": "380",
+   "region": null,
+   "commune": null,
+   "ville": "Rome",
+   "lat": 41.914503,
+   "lon": 12.472269,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Très dégradé",
+   "annee": 2000,
+   "niveaux": 3,
+   "surface": 790.0,
+   "utile": 632.0,
+   "effectif": null,
+   "cout": 182000000,
+   "valeur": 1803000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 1614 (démo)",
+   "nicad": null,
+   "assiette": 1460.0,
+   "baux": [],
+   "travaux": [
+    {
+     "type": "Sécurité incendie",
+     "statut": "Programmé",
+     "debut": "2025-07-05",
+     "fin": "2026-07-05",
+     "av": 0,
+     "cout": 140000000,
+     "entreprise": null
+    }
+   ],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2015-05-28",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-10-03",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Devis / marché",
+     "ext": "PDF",
+     "date": "2025-07-05",
+     "titre": "Marché de travaux"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": "2023-10-03",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-ITA-0047"
+  },
+  {
+   "id": 64,
+   "code": "PBE-ESP-0064",
+   "nom": "Chancellerie – Madrid",
+   "type": "Chancellerie / ambassade",
+   "pays": "Espagne",
+   "paysId": "724",
+   "region": null,
+   "commune": null,
+   "ville": "Madrid",
+   "lat": 40.447469,
+   "lon": -3.694139,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Très dégradé",
+   "annee": 1998,
+   "niveaux": 7,
+   "surface": 1550.0,
+   "utile": 1240.0,
+   "effectif": 39,
+   "cout": 356000000,
+   "valeur": null,
+   "potentiel": "Réhabilitation",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2021-06-06",
+     "fin": "2030-06-06",
+     "loyer": 2600000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [
+    {
+     "type": "Toiture / étanchéité",
+     "statut": "En cours",
+     "debut": "2026-02-04",
+     "fin": "2027-02-04",
+     "av": 39,
+     "cout": 214000000,
+     "entreprise": "Entreprise démo n° 13"
+    }
+   ],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2021-06-06",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2019-07-23",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "Devis / marché",
+     "ext": "PDF",
+     "date": "2026-02-04",
+     "titre": "Marché de travaux"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Bureaux"
+    }
+   ],
+   "litiges": [],
+   "visite": null,
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 65,
+   "code": "PBE-ESP-0065",
+   "nom": "Consulat général – Barcelone",
+   "type": "Consulat",
+   "pays": "Espagne",
+   "paysId": "724",
+   "region": null,
+   "commune": null,
+   "ville": "Barcelone",
+   "lat": 41.390277,
+   "lon": 2.163068,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Dégradé",
+   "annee": 1984,
+   "niveaux": 3,
+   "surface": 3730.0,
+   "utile": 2984.0,
+   "effectif": 38,
+   "cout": 448000000,
+   "valeur": 8613000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 6054 (démo)",
+   "nicad": null,
+   "assiette": 5940.0,
+   "baux": [],
+   "travaux": [
+    {
+     "type": "Réhabilitation complète",
+     "statut": "Programmé",
+     "debut": "2025-05-16",
+     "fin": "2026-05-16",
+     "av": 0,
+     "cout": 279000000,
+     "entreprise": null
+    }
+   ],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2007-11-19",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "Devis / marché",
+     "ext": "PDF",
+     "date": "2025-05-16",
+     "titre": "Marché de travaux"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Bureaux"
+    }
+   ],
+   "litiges": [],
+   "visite": null,
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-ESP-0048"
+  },
+  {
+   "id": 66,
+   "code": "PBE-ESP-0066",
+   "nom": "Consulat – Las Palmas",
+   "type": "Consulat",
+   "pays": "Espagne",
+   "paysId": "724",
+   "region": null,
+   "commune": null,
+   "ville": "Las Palmas",
+   "lat": 28.109314,
+   "lon": -15.426039,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "En travaux",
+   "statut": "Pris à bail par l'État",
+   "etat": "Moyen",
+   "annee": 1995,
+   "niveaux": 8,
+   "surface": 1140.0,
+   "utile": 912.0,
+   "effectif": 9,
+   "cout": 40000000,
+   "valeur": null,
+   "potentiel": "Conservation en l'état",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2024-09-25",
+     "fin": "2036-09-25",
+     "loyer": 7500000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [
+    {
+     "type": "Climatisation",
+     "statut": "En cours",
+     "debut": "2025-10-14",
+     "fin": "2026-10-14",
+     "av": 70,
+     "cout": 15000000,
+     "entreprise": "Entreprise démo n° 13"
+    }
+   ],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2024-09-25",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2017-02-25",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-09-22",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Devis / marché",
+     "ext": "PDF",
+     "date": "2025-10-14",
+     "titre": "Marché de travaux"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Bureaux"
+    }
+   ],
+   "litiges": [],
+   "visite": "2025-09-22",
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 67,
+   "code": "PBE-BEL-0067",
+   "nom": "Résidence de l'ambassadeur – Bruxelles",
+   "type": "Résidence diplomatique",
+   "pays": "Belgique",
+   "paysId": "056",
+   "region": null,
+   "commune": null,
+   "ville": "Bruxelles",
+   "lat": 50.815274,
+   "lon": 4.389004,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Dégradé",
+   "annee": 1971,
+   "niveaux": 1,
+   "surface": 870.0,
+   "utile": 696.0,
+   "effectif": null,
+   "cout": 104000000,
+   "valeur": 2644000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 2314 (démo)",
+   "nicad": null,
+   "assiette": 840.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2017-03-03",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-03-17",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Bureaux"
+    }
+   ],
+   "litiges": [],
+   "visite": "2023-03-17",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-BEL-0049"
+  },
+  {
+   "id": 68,
+   "code": "PBE-CHE-0068",
+   "nom": "Chancellerie – Berne",
+   "type": "Chancellerie / ambassade",
+   "pays": "Suisse",
+   "paysId": "756",
+   "region": null,
+   "commune": null,
+   "ville": "Berne",
+   "lat": 46.947165,
+   "lon": 7.437504,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 1955,
+   "niveaux": 5,
+   "surface": 760.0,
+   "utile": 608.0,
+   "effectif": 31,
+   "cout": 5000000,
+   "valeur": 2428000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 1397 (démo)",
+   "nicad": null,
+   "assiette": 1250.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2005-08-14",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-01-18",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": "2023-01-18",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-CHE-0050"
+  },
+  {
+   "id": 69,
+   "code": "PBE-CHE-0069",
+   "nom": "Mission permanente auprès de l'Office des Nations unies – Genève",
+   "type": "Chancellerie / ambassade",
+   "pays": "Suisse",
+   "paysId": "756",
+   "region": null,
+   "commune": null,
+   "ville": "Genève",
+   "lat": 46.217762,
+   "lon": 6.135246,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 1950,
+   "niveaux": 4,
+   "surface": 3120.0,
+   "utile": 2496.0,
+   "effectif": 51,
+   "cout": 19000000,
+   "valeur": 8995000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 9267 (démo)",
+   "nicad": null,
+   "assiette": 4390.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2014-04-02",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-04-21",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-01-18",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Salle de réception"
+    }
+   ],
+   "litiges": [],
+   "visite": "2026-01-18",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-CHE-0051"
+  },
+  {
+   "id": 70,
+   "code": "PBE-DEU-0070",
+   "nom": "Résidence de l'ambassadeur – Berlin",
+   "type": "Résidence diplomatique",
+   "pays": "Allemagne",
+   "paysId": "276",
+   "region": null,
+   "commune": null,
+   "ville": "Berlin",
+   "lat": 52.463628,
+   "lon": 13.261004,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 1981,
+   "niveaux": 1,
+   "surface": 830.0,
+   "utile": 664.0,
+   "effectif": null,
+   "cout": 5000000,
+   "valeur": 899000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 1346 (démo)",
+   "nicad": null,
+   "assiette": 1350.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2008-04-18",
+     "titre": "Acte d'affectation au ministère"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": null,
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-DEU-0052"
+  },
+  {
+   "id": 71,
+   "code": "PBE-GBR-0071",
+   "nom": "Chancellerie – Londres",
+   "type": "Chancellerie / ambassade",
+   "pays": "Royaume-Uni",
+   "paysId": "826",
+   "region": null,
+   "commune": null,
+   "ville": "Londres",
+   "lat": 51.489445,
+   "lon": -0.183301,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Dégradé",
+   "annee": 2016,
+   "niveaux": 7,
+   "surface": 4150.0,
+   "utile": 3320.0,
+   "effectif": 30,
+   "cout": 498000000,
+   "valeur": 12252000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 1415 (démo)",
+   "nicad": null,
+   "assiette": 8800.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2016-01-05",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-11-15",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-03-11",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": "2026-03-11",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-GBR-0053"
+  },
+  {
+   "id": 72,
+   "code": "PBE-NLD-0072",
+   "nom": "Chancellerie – La Haye",
+   "type": "Chancellerie / ambassade",
+   "pays": "Pays-Bas",
+   "paysId": "528",
+   "region": null,
+   "commune": null,
+   "ville": "La Haye",
+   "lat": 52.07129,
+   "lon": 4.300423,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Très dégradé",
+   "annee": 1971,
+   "niveaux": 4,
+   "surface": 1580.0,
+   "utile": 1264.0,
+   "effectif": 19,
+   "cout": 363000000,
+   "valeur": 1597000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 7650 (démo)",
+   "nicad": null,
+   "assiette": 3370.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2011-01-15",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-03-21",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-02-17",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": "2026-02-17",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-NLD-0054"
+  },
+  {
+   "id": 73,
+   "code": "PBE-PRT-0073",
+   "nom": "Chancellerie – Lisbonne",
+   "type": "Chancellerie / ambassade",
+   "pays": "Portugal",
+   "paysId": "620",
+   "region": null,
+   "commune": null,
+   "ville": "Lisbonne",
+   "lat": 38.729545,
+   "lon": -9.140019,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 1995,
+   "niveaux": 2,
+   "surface": 3560.0,
+   "utile": 2848.0,
+   "effectif": 48,
+   "cout": 21000000,
+   "valeur": 7931000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 8429 (démo)",
+   "nicad": null,
+   "assiette": 5400.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2020-09-07",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-08-21",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-03-10",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Entrée"
+    }
+   ],
+   "litiges": [],
+   "visite": "2023-08-21",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-PRT-0055"
+  },
+  {
+   "id": 74,
+   "code": "PBE-AUT-0074",
+   "nom": "Chancellerie – Vienne",
+   "type": "Chancellerie / ambassade",
+   "pays": "Autriche",
+   "paysId": "040",
+   "region": null,
+   "commune": null,
+   "ville": "Vienne",
+   "lat": 48.198731,
+   "lon": 16.370208,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 1966,
+   "niveaux": 4,
+   "surface": 3170.0,
+   "utile": 2536.0,
+   "effectif": 19,
+   "cout": 19000000,
+   "valeur": 8794000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 3577 (démo)",
+   "nicad": null,
+   "assiette": 4630.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2013-11-09",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-08-24",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-01-05",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Salle de réception"
+    }
+   ],
+   "litiges": [],
+   "visite": "2025-01-05",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-AUT-0056"
+  },
+  {
+   "id": 75,
+   "code": "PBE-SWE-0075",
+   "nom": "Chancellerie – Stockholm",
+   "type": "Chancellerie / ambassade",
+   "pays": "Suède",
+   "paysId": "752",
+   "region": null,
+   "commune": null,
+   "ville": "Stockholm",
+   "lat": 59.333206,
+   "lon": 18.07081,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Moyen",
+   "annee": 1988,
+   "niveaux": 8,
+   "surface": 1080.0,
+   "utile": 864.0,
+   "effectif": 11,
+   "cout": 38000000,
+   "valeur": 2804000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 2418 (démo)",
+   "nicad": null,
+   "assiette": 2040.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2011-02-12",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-03-28",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Bureaux"
+    }
+   ],
+   "litiges": [],
+   "visite": "2023-03-28",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-SWE-0057"
+  },
+  {
+   "id": 76,
+   "code": "PBE-RUS-0076",
+   "nom": "Chancellerie – Moscou",
+   "type": "Chancellerie / ambassade",
+   "pays": "Russie",
+   "paysId": "643",
+   "region": null,
+   "commune": null,
+   "ville": "Moscou",
+   "lat": 55.744499,
+   "lon": 37.631886,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 1963,
+   "niveaux": 3,
+   "surface": 1570.0,
+   "utile": 1256.0,
+   "effectif": 43,
+   "cout": 9000000,
+   "valeur": 2695000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 9763 (démo)",
+   "nicad": null,
+   "assiette": 2030.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2017-07-06",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-05-16",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Jardin"
+    }
+   ],
+   "litiges": [],
+   "visite": "2026-05-16",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-RUS-0058"
+  },
+  {
+   "id": 77,
+   "code": "PBE-RUS-0077",
+   "nom": "Résidence de l'ambassadeur – Moscou",
+   "type": "Résidence diplomatique",
+   "pays": "Russie",
+   "paysId": "643",
+   "region": null,
+   "commune": null,
+   "ville": "Moscou",
+   "lat": 55.743174,
+   "lon": 37.628398,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Bon",
+   "annee": 1968,
+   "niveaux": 3,
+   "surface": 1020.0,
+   "utile": 816.0,
+   "effectif": null,
+   "cout": 6000000,
+   "valeur": null,
+   "potentiel": "Conservation en l'état",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2023-08-26",
+     "fin": "2032-08-26",
+     "loyer": 2700000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2023-08-26",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2009-07-19",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-03-04",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-04-18",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": "2024-04-18",
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 78,
+   "code": "PBE-TUR-0078",
+   "nom": "Chancellerie – Ankara",
+   "type": "Chancellerie / ambassade",
+   "pays": "Turquie",
+   "paysId": "792",
+   "region": null,
+   "commune": null,
+   "ville": "Ankara",
+   "lat": 39.930437,
+   "lon": 32.860544,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 1996,
+   "niveaux": 8,
+   "surface": 1750.0,
+   "utile": 1400.0,
+   "effectif": 18,
+   "cout": 10000000,
+   "valeur": 4891000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 3640 (démo)",
+   "nicad": null,
+   "assiette": 2480.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2007-07-27",
+     "titre": "Acte d'affectation au ministère"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Bureaux"
+    }
+   ],
+   "litiges": [],
+   "visite": null,
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-TUR-0059"
+  },
+  {
+   "id": 79,
+   "code": "PBE-TUR-0079",
+   "nom": "Consulat général – Istanbul",
+   "type": "Consulat",
+   "pays": "Turquie",
+   "paysId": "792",
+   "region": null,
+   "commune": null,
+   "ville": "Istanbul",
+   "lat": 41.000999,
+   "lon": 28.990692,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Dégradé",
+   "annee": 1972,
+   "niveaux": 6,
+   "surface": 1780.0,
+   "utile": 1424.0,
+   "effectif": 10,
+   "cout": 214000000,
+   "valeur": 5542000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 6916 (démo)",
+   "nicad": null,
+   "assiette": 2290.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2012-05-14",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-07-03",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-01-04",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Salle de réception"
+    }
+   ],
+   "litiges": [],
+   "visite": "2025-01-04",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-TUR-0060"
+  },
+  {
+   "id": 80,
+   "code": "PBE-CAN-0080",
+   "nom": "Consulat général – Montréal",
+   "type": "Consulat",
+   "pays": "Canada",
+   "paysId": "124",
+   "region": null,
+   "commune": null,
+   "ville": "Montréal",
+   "lat": 45.50477,
+   "lon": -73.559006,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Moyen",
+   "annee": 2001,
+   "niveaux": 8,
+   "surface": 1560.0,
+   "utile": 1248.0,
+   "effectif": 79,
+   "cout": 55000000,
+   "valeur": 4391000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 5299 (démo)",
+   "nicad": null,
+   "assiette": 1200.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2009-01-06",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-06-05",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2026-05-10",
+     "titre": "Mise en demeure – LIT-2026-0012"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Jardin"
+    }
+   ],
+   "litiges": [
+    {
+     "ref": "LIT-2026-0012",
+     "type": "Contestation de décompte ou de paiement",
+     "famille": "Constructeur",
+     "partie": "Bailleur privé (démo)",
+     "partieType": "Bailleur",
+     "phase": "Médiation / négociation",
+     "etape": "Précontentieux",
+     "risque": "Faible",
+     "objet": "Désaccord avec le bailleur sur l'indexation du loyer et la remise en état",
+     "ouverture": "2026-03-10",
+     "cloture": null,
+     "ouvert": true,
+     "issue": null,
+     "juridiction": null,
+     "service": "Agent judiciaire de l'État",
+     "echeance": "2026-11-12",
+     "objetEcheance": "Réunion de conciliation",
+     "reclame": 24000000,
+     "recouvre": 0,
+     "aRecuperer": false,
+     "recupere": false,
+     "evenements": [
+      {
+       "date": "2026-03-10",
+       "type": "Constat / PV",
+       "desc": "Constat dressé sur place"
+      },
+      {
+       "date": "2026-05-10",
+       "type": "Mise en demeure",
+       "desc": "Mise en demeure adressée à la partie adverse"
+      }
+     ]
+    }
+   ],
+   "visite": "2023-06-05",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-CAN-0061"
+  },
+  {
+   "id": 81,
+   "code": "PBE-CUB-0081",
+   "nom": "Chancellerie – La Havane",
+   "type": "Chancellerie / ambassade",
+   "pays": "Cuba",
+   "paysId": "192",
+   "region": null,
+   "commune": null,
+   "ville": "La Havane",
+   "lat": 23.107622,
+   "lon": -82.375584,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Moyen",
+   "annee": 1990,
+   "niveaux": 6,
+   "surface": 1890.0,
+   "utile": 1512.0,
+   "effectif": 33,
+   "cout": 66000000,
+   "valeur": null,
+   "potentiel": "Conservation en l'état",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2022-03-09",
+     "fin": "2031-03-09",
+     "loyer": 6900000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2022-03-09",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2013-05-04",
+     "titre": "Acte d'affectation au ministère"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "litiges": [],
+   "visite": null,
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 82,
+   "code": "PBE-MEX-0082",
+   "nom": "Chancellerie – Mexico",
+   "type": "Chancellerie / ambassade",
+   "pays": "Mexique",
+   "paysId": "484",
+   "region": null,
+   "commune": null,
+   "ville": "Mexico",
+   "lat": 19.420714,
+   "lon": -99.139767,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Moyen",
+   "annee": 2000,
+   "niveaux": 7,
+   "surface": 1990.0,
+   "utile": 1592.0,
+   "effectif": 56,
+   "cout": 70000000,
+   "valeur": null,
+   "potentiel": "Conservation en l'état",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2021-10-23",
+     "fin": "2033-10-23",
+     "loyer": 6800000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2021-10-23",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2020-07-16",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-07-19",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": "2023-07-19",
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 83,
+   "code": "PBE-ARG-0083",
+   "nom": "Chancellerie – Buenos Aires",
+   "type": "Chancellerie / ambassade",
+   "pays": "Argentine",
+   "paysId": "032",
+   "region": null,
+   "commune": null,
+   "ville": "Buenos Aires",
+   "lat": -34.597648,
+   "lon": -58.386301,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Partiellement occupé",
+   "statut": "Propriété de l'État",
+   "etat": "En ruine",
+   "annee": 1997,
+   "niveaux": 7,
+   "surface": 3970.0,
+   "utile": 3176.0,
+   "effectif": 33,
+   "cout": 1270000000,
+   "valeur": 10116000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 6533 (démo)",
+   "nicad": null,
+   "assiette": 7280.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2018-08-09",
+     "titre": "Acte d'affectation au ministère"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Entrée"
+    }
+   ],
+   "litiges": [],
+   "visite": null,
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-ARG-0062"
+  },
+  {
+   "id": 84,
+   "code": "PBE-CHN-0084",
+   "nom": "Consulat général – Canton",
+   "type": "Consulat",
+   "pays": "Chine",
+   "paysId": "156",
+   "region": null,
+   "commune": null,
+   "ville": "Canton",
+   "lat": 23.128836,
+   "lon": 113.259387,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Partiellement occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Moyen",
+   "annee": 1997,
+   "niveaux": 4,
+   "surface": 4110.0,
+   "utile": 3288.0,
+   "effectif": 31,
+   "cout": 144000000,
+   "valeur": null,
+   "potentiel": "Conservation en l'état",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2018-02-04",
+     "fin": "2027-02-21",
+     "loyer": 5500000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2018-02-04",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2013-03-28",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-10-18",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": "2023-10-18",
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 85,
+   "code": "PBE-JPN-0085",
+   "nom": "Résidence de l'ambassadeur – Tokyo",
+   "type": "Résidence diplomatique",
+   "pays": "Japon",
+   "paysId": "392",
+   "region": null,
+   "commune": null,
+   "ville": "Tokyo",
+   "lat": 35.639221,
+   "lon": 139.709437,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Dégradé",
+   "annee": 1969,
+   "niveaux": 3,
+   "surface": 470.0,
+   "utile": 376.0,
+   "effectif": null,
+   "cout": 56000000,
+   "valeur": 869000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 3503 (démo)",
+   "nicad": null,
+   "assiette": 950.0,
+   "baux": [],
+   "travaux": [
+    {
+     "type": "Réhabilitation complète",
+     "statut": "Programmé",
+     "debut": "2025-12-17",
+     "fin": "2026-12-17",
+     "av": 0,
+     "cout": 43000000,
+     "entreprise": null
+    }
+   ],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2010-07-17",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-07-20",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Devis / marché",
+     "ext": "PDF",
+     "date": "2025-12-17",
+     "titre": "Marché de travaux"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "litiges": [],
+   "visite": "2025-07-20",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-JPN-0063"
+  },
+  {
+   "id": 86,
+   "code": "PBE-KOR-0086",
+   "nom": "Chancellerie – Séoul",
+   "type": "Chancellerie / ambassade",
+   "pays": "Corée du Sud",
+   "paysId": "410",
+   "region": null,
+   "commune": null,
+   "ville": "Séoul",
+   "lat": 37.576634,
+   "lon": 126.991722,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Inoccupé",
+   "statut": "Propriété de l'État",
+   "etat": "Moyen",
+   "annee": 1995,
+   "niveaux": 5,
+   "surface": 3330.0,
+   "utile": 2664.0,
+   "effectif": 34,
+   "cout": 117000000,
+   "valeur": 8067000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 1142 (démo)",
+   "nicad": null,
+   "assiette": 6580.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2011-03-26",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-05-05",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": "2025-05-05",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-KOR-0064"
+  },
+  {
+   "id": 87,
+   "code": "PBE-IND-0087",
+   "nom": "Chancellerie – New Delhi",
+   "type": "Chancellerie / ambassade",
+   "pays": "Inde",
+   "paysId": "356",
+   "region": null,
+   "commune": null,
+   "ville": "New Delhi",
+   "lat": 28.60468,
+   "lon": 77.201206,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Partiellement occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Dégradé",
+   "annee": 1989,
+   "niveaux": 3,
+   "surface": 3740.0,
+   "utile": 2992.0,
+   "effectif": 86,
+   "cout": 449000000,
+   "valeur": 11535000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 2135 (démo)",
+   "nicad": null,
+   "assiette": 4910.0,
+   "baux": [],
+   "travaux": [
+    {
+     "type": "Peinture",
+     "statut": "Programmé",
+     "debut": "2025-11-12",
+     "fin": "2026-11-12",
+     "av": 0,
+     "cout": 339000000,
+     "entreprise": null
+    }
+   ],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2011-10-08",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-01-11",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Devis / marché",
+     "ext": "PDF",
+     "date": "2025-11-12",
+     "titre": "Marché de travaux"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Jardin"
+    }
+   ],
+   "litiges": [],
+   "visite": "2024-01-11",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-IND-0065"
+  },
+  {
+   "id": 88,
+   "code": "PBE-MYS-0088",
+   "nom": "Chancellerie – Kuala Lumpur",
+   "type": "Chancellerie / ambassade",
+   "pays": "Malaisie",
+   "paysId": "458",
+   "region": null,
+   "commune": null,
+   "ville": "Kuala Lumpur",
+   "lat": 3.146479,
+   "lon": 101.698706,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Moyen",
+   "annee": 1951,
+   "niveaux": 8,
+   "surface": 2310.0,
+   "utile": 1848.0,
+   "effectif": 55,
+   "cout": 81000000,
+   "valeur": null,
+   "potentiel": "Conservation en l'état",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2016-09-15",
+     "fin": "2022-09-15",
+     "loyer": 9200000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2016-09-15",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2015-10-20",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-04-09",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Bureaux"
+    }
+   ],
+   "litiges": [],
+   "visite": "2026-04-09",
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 89,
+   "code": "PBE-IDN-0089",
+   "nom": "Chancellerie – Jakarta",
+   "type": "Chancellerie / ambassade",
+   "pays": "Indonésie",
+   "paysId": "360",
+   "region": null,
+   "commune": null,
+   "ville": "Jakarta",
+   "lat": -6.208579,
+   "lon": 106.839626,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Moyen",
+   "annee": 1953,
+   "niveaux": 5,
+   "surface": 1330.0,
+   "utile": 1064.0,
+   "effectif": 71,
+   "cout": 47000000,
+   "valeur": 1853000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 3467 (démo)",
+   "nicad": null,
+   "assiette": 1710.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2019-08-22",
+     "titre": "Acte d'affectation au ministère"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": null,
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-IDN-0066"
+  },
+  {
+   "id": 90,
+   "code": "PBE-IRN-0090",
+   "nom": "Chancellerie – Téhéran",
+   "type": "Chancellerie / ambassade",
+   "pays": "Iran",
+   "paysId": "364",
+   "region": null,
+   "commune": null,
+   "ville": "Téhéran",
+   "lat": 35.687937,
+   "lon": 51.398466,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Partiellement occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Moyen",
+   "annee": 1995,
+   "niveaux": 3,
+   "surface": 2030.0,
+   "utile": 1624.0,
+   "effectif": 53,
+   "cout": 71000000,
+   "valeur": 4136000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 9916 (démo)",
+   "nicad": null,
+   "assiette": 1700.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2005-03-17",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-05-20",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-11-08",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": "2025-11-08",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-IRN-0067"
+  },
+  {
+   "id": 91,
+   "code": "PBE-SAU-0091",
+   "nom": "Consulat général – Djeddah",
+   "type": "Consulat",
+   "pays": "Arabie saoudite",
+   "paysId": "682",
+   "region": null,
+   "commune": null,
+   "ville": "Djeddah",
+   "lat": 21.530459,
+   "lon": 39.165967,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Moyen",
+   "annee": 1972,
+   "niveaux": 7,
+   "surface": 3430.0,
+   "utile": 2744.0,
+   "effectif": 42,
+   "cout": 120000000,
+   "valeur": null,
+   "potentiel": "Conservation en l'état",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2023-09-19",
+     "fin": "2027-03-16",
+     "loyer": 4600000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2023-09-19",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2006-10-09",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-07-09",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-07-07",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Salle de réception"
+    }
+   ],
+   "litiges": [],
+   "visite": "2026-07-09",
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 92,
+   "code": "PBE-ARE-0092",
+   "nom": "Chancellerie – Abou Dhabi",
+   "type": "Chancellerie / ambassade",
+   "pays": "Émirats arabes unis",
+   "paysId": "784",
+   "region": null,
+   "commune": null,
+   "ville": "Abou Dhabi",
+   "lat": 24.441709,
+   "lon": 54.378809,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Dégradé",
+   "annee": 1970,
+   "niveaux": 6,
+   "surface": 1960.0,
+   "utile": 1568.0,
+   "effectif": 39,
+   "cout": 235000000,
+   "valeur": 4660000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 6076 (démo)",
+   "nicad": null,
+   "assiette": 3070.0,
+   "baux": [],
+   "travaux": [
+    {
+     "type": "Réhabilitation complète",
+     "statut": "En cours",
+     "debut": "2025-02-19",
+     "fin": "2026-02-19",
+     "av": 43,
+     "cout": 138000000,
+     "entreprise": "Entreprise démo n° 13"
+    }
+   ],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2014-02-06",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "Devis / marché",
+     "ext": "PDF",
+     "date": "2025-02-19",
+     "titre": "Marché de travaux"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2025-03-09",
+     "titre": "Mise en demeure – LIT-2026-0013"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [
+    {
+     "ref": "LIT-2026-0013",
+     "type": "Malfaçons ou désordres de construction",
+     "famille": "Constructeur",
+     "partie": "Entreprise démo n° 7",
+     "partieType": "Constructeur / entreprise",
+     "phase": "Première instance",
+     "etape": "Contentieux",
+     "risque": "Élevé",
+     "objet": "Infiltrations et fissures sur le bâtiment neuf ; mise en jeu de la garantie décennale",
+     "ouverture": "2025-01-09",
+     "cloture": null,
+     "ouvert": true,
+     "issue": null,
+     "juridiction": "Juridiction locale (démo)",
+     "service": "Agent judiciaire de l'État",
+     "echeance": "2026-12-08",
+     "objetEcheance": "Audience",
+     "reclame": 185000000,
+     "recouvre": 0,
+     "aRecuperer": false,
+     "recupere": false,
+     "evenements": [
+      {
+       "date": "2025-01-09",
+       "type": "Constat / PV",
+       "desc": "Constat dressé sur place"
+      },
+      {
+       "date": "2025-03-09",
+       "type": "Mise en demeure",
+       "desc": "Mise en demeure adressée à la partie adverse"
+      },
+      {
+       "date": "2026-05-12",
+       "type": "Assignation",
+       "desc": "Assignation devant la juridiction compétente"
+      }
+     ]
+    }
+   ],
+   "visite": null,
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-ARE-0068"
+  },
+  {
+   "id": 93,
+   "code": "PBE-ARE-0093",
+   "nom": "Consulat général – Dubaï",
+   "type": "Consulat",
+   "pays": "Émirats arabes unis",
+   "paysId": "784",
+   "region": null,
+   "commune": null,
+   "ville": "Dubaï",
+   "lat": 25.190774,
+   "lon": 55.265296,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Moyen",
+   "annee": 1972,
+   "niveaux": 8,
+   "surface": 910.0,
+   "utile": 728.0,
+   "effectif": 48,
+   "cout": 32000000,
+   "valeur": null,
+   "potentiel": "Conservation en l'état",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2024-06-28",
+     "fin": "2033-06-28",
+     "loyer": 9300000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2024-06-28",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2017-12-23",
+     "titre": "Acte d'affectation au ministère"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": null,
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 94,
+   "code": "PBE-QAT-0094",
+   "nom": "Chancellerie – Doha",
+   "type": "Chancellerie / ambassade",
+   "pays": "Qatar",
+   "paysId": "634",
+   "region": null,
+   "commune": null,
+   "ville": "Doha",
+   "lat": 25.28244,
+   "lon": 51.53907,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Très dégradé",
+   "annee": 1994,
+   "niveaux": 3,
+   "surface": 4110.0,
+   "utile": 3288.0,
+   "effectif": 53,
+   "cout": 945000000,
+   "valeur": null,
+   "potentiel": "Réhabilitation",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2019-10-16",
+     "fin": "2028-10-16",
+     "loyer": 9300000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [
+    {
+     "type": "Climatisation",
+     "statut": "Programmé",
+     "debut": "2025-08-02",
+     "fin": "2026-08-02",
+     "av": 0,
+     "cout": 767000000,
+     "entreprise": null
+    }
+   ],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2019-10-16",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2013-04-11",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-10-20",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Devis / marché",
+     "ext": "PDF",
+     "date": "2025-08-02",
+     "titre": "Marché de travaux"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Entrée"
+    }
+   ],
+   "litiges": [],
+   "visite": "2024-10-20",
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 95,
+   "code": "PBE-KWT-0095",
+   "nom": "Chancellerie – Koweït",
+   "type": "Chancellerie / ambassade",
+   "pays": "Koweït",
+   "paysId": "414",
+   "region": null,
+   "commune": null,
+   "ville": "Koweït",
+   "lat": 29.373463,
+   "lon": 47.990415,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Très dégradé",
+   "annee": 1953,
+   "niveaux": 2,
+   "surface": 1200.0,
+   "utile": 960.0,
+   "effectif": 17,
+   "cout": 276000000,
+   "valeur": 3205000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 4705 (démo)",
+   "nicad": null,
+   "assiette": 1880.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2015-04-17",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-12-20",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Bureaux"
+    }
+   ],
+   "litiges": [],
+   "visite": "2025-12-20",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-KWT-0069"
+  },
+  {
+   "id": 96,
+   "code": "PBE-EGY-0096",
+   "nom": "Résidence de l'ambassadeur – Le Caire",
+   "type": "Résidence diplomatique",
+   "pays": "Égypte",
+   "paysId": "818",
+   "region": null,
+   "commune": null,
+   "ville": "Le Caire",
+   "lat": 30.066121,
+   "lon": 31.208155,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 1998,
+   "niveaux": 2,
+   "surface": 870.0,
+   "utile": 696.0,
+   "effectif": null,
+   "cout": 5000000,
+   "valeur": 1046000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 3160 (démo)",
+   "nicad": null,
+   "assiette": 1200.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2015-02-17",
+     "titre": "Acte d'affectation au ministère"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Salle de réception"
+    }
+   ],
+   "litiges": [],
+   "visite": null,
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-EGY-0070"
+  },
+  {
+   "id": 97,
+   "code": "PBE-DZA-0097",
+   "nom": "Chancellerie – Alger",
+   "type": "Chancellerie / ambassade",
+   "pays": "Algérie",
+   "paysId": "012",
+   "region": null,
+   "commune": null,
+   "ville": "Alger",
+   "lat": 36.741541,
+   "lon": 3.06376,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 1989,
+   "niveaux": 3,
+   "surface": 4160.0,
+   "utile": 3328.0,
+   "effectif": 50,
+   "cout": 25000000,
+   "valeur": 6477000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 4366 (démo)",
+   "nicad": null,
+   "assiette": 6620.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2017-04-02",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-03-27",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-06-11",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "litiges": [],
+   "visite": "2024-06-11",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-DZA-0071"
+  },
+  {
+   "id": 98,
+   "code": "PBE-TUN-0098",
+   "nom": "Chancellerie – Tunis",
+   "type": "Chancellerie / ambassade",
+   "pays": "Tunisie",
+   "paysId": "788",
+   "region": null,
+   "commune": null,
+   "ville": "Tunis",
+   "lat": 36.813798,
+   "lon": 10.185186,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Moyen",
+   "annee": 1953,
+   "niveaux": 8,
+   "surface": 730.0,
+   "utile": 584.0,
+   "effectif": 74,
+   "cout": 26000000,
+   "valeur": 1373000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 7996 (démo)",
+   "nicad": null,
+   "assiette": 1280.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2014-03-20",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-06-04",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Bureaux"
+    }
+   ],
+   "litiges": [],
+   "visite": "2026-06-04",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-TUN-0072"
+  },
+  {
+   "id": 99,
+   "code": "PBE-LBY-0099",
+   "nom": "Chancellerie – Tripoli",
+   "type": "Chancellerie / ambassade",
+   "pays": "Libye",
+   "paysId": "434",
+   "region": null,
+   "commune": null,
+   "ville": "Tripoli",
+   "lat": 32.893294,
+   "lon": 13.191144,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 2008,
+   "niveaux": 8,
+   "surface": 1110.0,
+   "utile": 888.0,
+   "effectif": 74,
+   "cout": 7000000,
+   "valeur": 2575000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 3685 (démo)",
+   "nicad": null,
+   "assiette": 1010.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2014-01-14",
+     "titre": "Acte d'affectation au ministère"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": null,
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-LBY-0073"
+  },
+  {
+   "id": 100,
+   "code": "PBE-MAR-0100",
+   "nom": "Consulat général – Casablanca",
+   "type": "Consulat",
+   "pays": "Maroc",
+   "paysId": "504",
+   "region": null,
+   "commune": null,
+   "ville": "Casablanca",
+   "lat": 33.574539,
+   "lon": -7.581538,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Partiellement occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Moyen",
+   "annee": 1979,
+   "niveaux": 3,
+   "surface": 640.0,
+   "utile": 512.0,
+   "effectif": 39,
+   "cout": 22000000,
+   "valeur": 1163000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 9398 (démo)",
+   "nicad": null,
+   "assiette": 860.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2006-10-09",
+     "titre": "Acte d'affectation au ministère"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Entrée"
+    }
+   ],
+   "litiges": [],
+   "visite": null,
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-MAR-0074"
+  },
+  {
+   "id": 101,
+   "code": "PBE-MAR-0101",
+   "nom": "Résidence de l'ambassadeur – Rabat",
+   "type": "Résidence diplomatique",
+   "pays": "Maroc",
+   "paysId": "504",
+   "region": null,
+   "commune": null,
+   "ville": "Rabat",
+   "lat": 34.016173,
+   "lon": -6.820289,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 1991,
+   "niveaux": 2,
+   "surface": 840.0,
+   "utile": 672.0,
+   "effectif": null,
+   "cout": 5000000,
+   "valeur": 2100000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 6191 (démo)",
+   "nicad": null,
+   "assiette": 820.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2009-09-02",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-11-02",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Jardin"
+    }
+   ],
+   "litiges": [],
+   "visite": "2023-11-02",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-MAR-0075"
+  },
+  {
+   "id": 102,
+   "code": "PBE-MRT-0102",
+   "nom": "Consulat – Nouadhibou",
+   "type": "Consulat",
+   "pays": "Mauritanie",
+   "paysId": "478",
+   "region": null,
+   "commune": null,
+   "ville": "Nouadhibou",
+   "lat": 20.931473,
+   "lon": -17.038591,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Partiellement occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Dégradé",
+   "annee": 1984,
+   "niveaux": 3,
+   "surface": 2240.0,
+   "utile": 1792.0,
+   "effectif": 78,
+   "cout": 269000000,
+   "valeur": 6351000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 3981 (démo)",
+   "nicad": null,
+   "assiette": 3110.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2013-04-22",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-11-01",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-04-23",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "litiges": [],
+   "visite": "2023-11-01",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-MRT-0076"
+  },
+  {
+   "id": 103,
+   "code": "PBE-MLI-0103",
+   "nom": "Consulat général – Kayes",
+   "type": "Consulat",
+   "pays": "Mali",
+   "paysId": "466",
+   "region": null,
+   "commune": null,
+   "ville": "Kayes",
+   "lat": 14.453842,
+   "lon": -11.429861,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Partiellement occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Dégradé",
+   "annee": 1958,
+   "niveaux": 4,
+   "surface": 1810.0,
+   "utile": 1448.0,
+   "effectif": 45,
+   "cout": 217000000,
+   "valeur": null,
+   "potentiel": "Réhabilitation",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2020-08-18",
+     "fin": "2027-03-22",
+     "loyer": 6900000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [
+    {
+     "type": "Toiture / étanchéité",
+     "statut": "En cours",
+     "debut": "2025-02-11",
+     "fin": "2026-02-11",
+     "av": 38,
+     "cout": 87000000,
+     "entreprise": "Entreprise démo n° 16"
+    }
+   ],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2020-08-18",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2013-07-25",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-04-28",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-10-12",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Devis / marché",
+     "ext": "PDF",
+     "date": "2025-02-11",
+     "titre": "Marché de travaux"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Jardin"
+    }
+   ],
+   "litiges": [],
+   "visite": "2023-10-12",
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 104,
+   "code": "PBE-GMB-0104",
+   "nom": "Résidence du haut-commissaire – Banjul",
+   "type": "Résidence diplomatique",
+   "pays": "Gambie",
+   "paysId": "270",
+   "region": null,
+   "commune": null,
+   "ville": "Banjul",
+   "lat": 13.43966,
+   "lon": -16.672652,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé sans titre",
+   "statut": "Pris à bail par l'État",
+   "etat": "Bon",
+   "annee": 1956,
+   "niveaux": 3,
+   "surface": 590.0,
+   "utile": 472.0,
+   "effectif": null,
+   "cout": 4000000,
+   "valeur": null,
+   "potentiel": "Conservation en l'état",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2017-11-25",
+     "fin": "2029-11-25",
+     "loyer": 6400000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2017-11-25",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2007-01-24",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-12-23",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-01-12",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2025-05-17",
+     "titre": "Mise en demeure – LIT-2026-0014"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Entrée"
+    }
+   ],
+   "litiges": [
+    {
+     "ref": "LIT-2026-0014",
+     "type": "Occupation sans titre",
+     "famille": "Occupant",
+     "partie": "Ancien agent (démo)",
+     "partieType": "Occupant",
+     "phase": "Première instance",
+     "etape": "Contentieux",
+     "risque": "Moyen",
+     "objet": "Ancien agent maintenu dans les lieux après la fin de ses fonctions ; demande d'expulsion",
+     "ouverture": "2025-03-17",
+     "cloture": null,
+     "ouvert": true,
+     "issue": null,
+     "juridiction": "Juridiction locale (démo)",
+     "service": "Agent judiciaire de l'État",
+     "echeance": "2026-10-29",
+     "objetEcheance": "Audience",
+     "reclame": 18000000,
+     "recouvre": 0,
+     "aRecuperer": true,
+     "recupere": false,
+     "evenements": [
+      {
+       "date": "2025-03-17",
+       "type": "Constat / PV",
+       "desc": "Constat dressé sur place"
+      },
+      {
+       "date": "2025-05-17",
+       "type": "Mise en demeure",
+       "desc": "Mise en demeure adressée à la partie adverse"
+      },
+      {
+       "date": "2026-05-12",
+       "type": "Assignation",
+       "desc": "Assignation devant la juridiction compétente"
+      }
+     ]
+    }
+   ],
+   "visite": "2026-01-12",
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 105,
+   "code": "PBE-GNB-0105",
+   "nom": "Chancellerie – Bissau",
+   "type": "Chancellerie / ambassade",
+   "pays": "Guinée-Bissau",
+   "paysId": "624",
+   "region": null,
+   "commune": null,
+   "ville": "Bissau",
+   "lat": 11.868603,
+   "lon": -15.610286,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Non évalué",
+   "annee": 1968,
+   "niveaux": 8,
+   "surface": 1610.0,
+   "utile": 1288.0,
+   "effectif": 43,
+   "cout": 56000000,
+   "valeur": 3869000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 6919 (démo)",
+   "nicad": null,
+   "assiette": 1870.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2016-09-13",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-05-25",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-12-04",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "litiges": [],
+   "visite": "2025-12-04",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-GNB-0077"
+  },
+  {
+   "id": 106,
+   "code": "PBE-CIV-0106",
+   "nom": "Chancellerie – Abidjan",
+   "type": "Chancellerie / ambassade",
+   "pays": "Côte d'Ivoire",
+   "paysId": "384",
+   "region": null,
+   "commune": null,
+   "ville": "Abidjan",
+   "lat": 5.334752,
+   "lon": -4.011369,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "En travaux",
+   "statut": "Propriété de l'État",
+   "etat": "Très dégradé",
+   "annee": 2000,
+   "niveaux": 2,
+   "surface": 2220.0,
+   "utile": 1776.0,
+   "effectif": 36,
+   "cout": 511000000,
+   "valeur": 3769000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 5227 (démo)",
+   "nicad": null,
+   "assiette": 1820.0,
+   "baux": [],
+   "travaux": [
+    {
+     "type": "Toiture / étanchéité",
+     "statut": "En cours",
+     "debut": "2025-12-07",
+     "fin": "2026-12-07",
+     "av": 84,
+     "cout": 335000000,
+     "entreprise": "Entreprise démo n° 17"
+    }
+   ],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2006-02-04",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-09-08",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Devis / marché",
+     "ext": "PDF",
+     "date": "2025-12-07",
+     "titre": "Marché de travaux"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Entrée"
+    }
+   ],
+   "litiges": [],
+   "visite": "2024-09-08",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-CIV-0078"
+  },
+  {
+   "id": 107,
+   "code": "PBE-BFA-0107",
+   "nom": "Chancellerie – Ouagadougou",
+   "type": "Chancellerie / ambassade",
+   "pays": "Burkina Faso",
+   "paysId": "854",
+   "region": null,
+   "commune": null,
+   "ville": "Ouagadougou",
+   "lat": 12.362719,
+   "lon": -1.515084,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Moyen",
+   "annee": 1965,
+   "niveaux": 3,
+   "surface": 3540.0,
+   "utile": 2832.0,
+   "effectif": 44,
+   "cout": 124000000,
+   "valeur": null,
+   "potentiel": "Conservation en l'état",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2022-01-23",
+     "fin": "2031-01-23",
+     "loyer": 2300000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2022-01-23",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2011-07-05",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-02-13",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-06-18",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Entrée"
+    }
+   ],
+   "litiges": [],
+   "visite": "2026-06-18",
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 108,
+   "code": "PBE-NER-0108",
+   "nom": "Chancellerie – Niamey",
+   "type": "Chancellerie / ambassade",
+   "pays": "Niger",
+   "paysId": "562",
+   "region": null,
+   "commune": null,
+   "ville": "Niamey",
+   "lat": 13.507752,
+   "lon": 2.116098,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Bon",
+   "annee": 1989,
+   "niveaux": 5,
+   "surface": 3240.0,
+   "utile": 2592.0,
+   "effectif": 17,
+   "cout": 19000000,
+   "valeur": null,
+   "potentiel": "Conservation en l'état",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2020-07-14",
+     "fin": "2029-07-14",
+     "loyer": 2500000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2020-07-14",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2008-09-06",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-01-27",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-11-05",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Salle de réception"
+    }
+   ],
+   "litiges": [],
+   "visite": "2026-01-27",
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 109,
+   "code": "PBE-GHA-0109",
+   "nom": "Chancellerie – Accra",
+   "type": "Chancellerie / ambassade",
+   "pays": "Ghana",
+   "paysId": "288",
+   "region": null,
+   "commune": null,
+   "ville": "Accra",
+   "lat": 5.596105,
+   "lon": -0.180352,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Partiellement occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 1971,
+   "niveaux": 8,
+   "surface": 3930.0,
+   "utile": 3144.0,
+   "effectif": 37,
+   "cout": 24000000,
+   "valeur": 9919000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 4047 (démo)",
+   "nicad": null,
+   "assiette": 3060.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2017-12-05",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-06-23",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Salle de réception"
+    }
+   ],
+   "litiges": [],
+   "visite": "2024-06-23",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-GHA-0079"
+  },
+  {
+   "id": 110,
+   "code": "PBE-BEN-0110",
+   "nom": "Chancellerie – Cotonou",
+   "type": "Chancellerie / ambassade",
+   "pays": "Bénin",
+   "paysId": "204",
+   "region": null,
+   "commune": null,
+   "ville": "Cotonou",
+   "lat": 6.380057,
+   "lon": 2.385975,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 1977,
+   "niveaux": 8,
+   "surface": 3220.0,
+   "utile": 2576.0,
+   "effectif": 24,
+   "cout": 19000000,
+   "valeur": 6215000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 7060 (démo)",
+   "nicad": null,
+   "assiette": 6840.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2005-05-27",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2026-07-26",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-06-23",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Bureaux"
+    }
+   ],
+   "litiges": [],
+   "visite": "2026-07-26",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-BEN-0080"
+  },
+  {
+   "id": 111,
+   "code": "PBE-NGA-0111",
+   "nom": "Consulat général – Lagos",
+   "type": "Consulat",
+   "pays": "Nigeria",
+   "paysId": "566",
+   "region": null,
+   "commune": null,
+   "ville": "Lagos",
+   "lat": 6.456257,
+   "lon": 3.396825,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Bon",
+   "annee": 1960,
+   "niveaux": 7,
+   "surface": 1900.0,
+   "utile": 1520.0,
+   "effectif": 59,
+   "cout": 11000000,
+   "valeur": null,
+   "potentiel": "Conservation en l'état",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2024-04-19",
+     "fin": "2033-04-19",
+     "loyer": 3800000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2024-04-19",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2007-06-06",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-10-23",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-11-14",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Toiture"
+    }
+   ],
+   "litiges": [],
+   "visite": "2024-10-23",
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 112,
+   "code": "PBE-CMR-0112",
+   "nom": "Chancellerie – Yaoundé",
+   "type": "Chancellerie / ambassade",
+   "pays": "Cameroun",
+   "paysId": "120",
+   "region": null,
+   "commune": null,
+   "ville": "Yaoundé",
+   "lat": 3.863054,
+   "lon": 11.530111,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "Dégradé",
+   "annee": 1958,
+   "niveaux": 8,
+   "surface": 3810.0,
+   "utile": 3048.0,
+   "effectif": 83,
+   "cout": 457000000,
+   "valeur": null,
+   "potentiel": "Réhabilitation",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2023-05-08",
+     "fin": "2032-05-08",
+     "loyer": 7600000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2023-05-08",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2008-05-01",
+     "titre": "Acte d'affectation au ministère"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Façade principale"
+    }
+   ],
+   "litiges": [],
+   "visite": null,
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 113,
+   "code": "PBE-GAB-0113",
+   "nom": "Chancellerie – Libreville",
+   "type": "Chancellerie / ambassade",
+   "pays": "Gabon",
+   "paysId": "266",
+   "region": null,
+   "commune": null,
+   "ville": "Libreville",
+   "lat": 0.379478,
+   "lon": 9.449992,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Pris à bail par l'État",
+   "etat": "En ruine",
+   "annee": 1951,
+   "niveaux": 5,
+   "surface": 3470.0,
+   "utile": 2776.0,
+   "effectif": 10,
+   "cout": 1110000000,
+   "valeur": null,
+   "potentiel": "Réhabilitation",
+   "tf": null,
+   "nicad": null,
+   "assiette": null,
+   "baux": [
+    {
+     "titre": "Bail",
+     "sens": "État preneur",
+     "debut": "2020-10-18",
+     "fin": "2026-10-18",
+     "loyer": 4500000,
+     "arrieres": 0,
+     "occupant": "Bailleur privé (démo)"
+    }
+   ],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Bail / convention",
+     "ext": "PDF",
+     "date": "2020-10-18",
+     "titre": "Bail signé"
+    },
+    {
+     "cat": "Autre",
+     "ext": "PDF",
+     "date": "2009-01-13",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-02-18",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2026-04-14",
+     "titre": "Mise en demeure – LIT-2026-0015"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Salle de réception"
+    }
+   ],
+   "litiges": [
+    {
+     "ref": "LIT-2026-0015",
+     "type": "Empiètement ou bornage",
+     "famille": "Foncier",
+     "partie": "Propriétaire riverain (démo)",
+     "partieType": "Tiers",
+     "phase": "Médiation / négociation",
+     "etape": "Précontentieux",
+     "risque": "Faible",
+     "objet": "Clôture du voisin construite sur la parcelle de l'État ; demande de bornage contradictoire",
+     "ouverture": "2026-02-14",
+     "cloture": null,
+     "ouvert": true,
+     "issue": null,
+     "juridiction": null,
+     "service": "Agent judiciaire de l'État",
+     "echeance": "2026-10-29",
+     "objetEcheance": "Réunion de conciliation",
+     "reclame": null,
+     "recouvre": 0,
+     "aRecuperer": false,
+     "recupere": false,
+     "evenements": [
+      {
+       "date": "2026-02-14",
+       "type": "Constat / PV",
+       "desc": "Constat dressé sur place"
+      },
+      {
+       "date": "2026-04-14",
+       "type": "Mise en demeure",
+       "desc": "Mise en demeure adressée à la partie adverse"
+      }
+     ]
+    }
+   ],
+   "visite": "2025-02-18",
+   "gestion": null,
+   "score": null
+  },
+  {
+   "id": 114,
+   "code": "PBE-TCD-0114",
+   "nom": "Chancellerie – N'Djamena",
+   "type": "Chancellerie / ambassade",
+   "pays": "Tchad",
+   "paysId": "148",
+   "region": null,
+   "commune": null,
+   "ville": "N'Djamena",
+   "lat": 12.140469,
+   "lon": 15.05574,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Inoccupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 1976,
+   "niveaux": 2,
+   "surface": 1580.0,
+   "utile": 1264.0,
+   "effectif": 48,
+   "cout": 9000000,
+   "valeur": 4250000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 5960 (démo)",
+   "nicad": null,
+   "assiette": 2150.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2020-03-23",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-05-11",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-02-15",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Toiture"
+    },
+    {
+     "label": "Bureaux"
+    }
+   ],
+   "litiges": [],
+   "visite": "2024-02-15",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-TCD-0081"
+  },
+  {
+   "id": 115,
+   "code": "PBE-COD-0115",
+   "nom": "Chancellerie – Kinshasa",
+   "type": "Chancellerie / ambassade",
+   "pays": "République démocratique du Congo",
+   "paysId": "180",
+   "region": null,
+   "commune": null,
+   "ville": "Kinshasa",
+   "lat": -4.309783,
+   "lon": 15.311781,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Moyen",
+   "annee": 2018,
+   "niveaux": 6,
+   "surface": 2520.0,
+   "utile": 2016.0,
+   "effectif": 27,
+   "cout": 88000000,
+   "valeur": 3365000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 7415 (démo)",
+   "nicad": null,
+   "assiette": 4870.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2017-06-23",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-03-04",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-10-14",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Mise en demeure",
+     "ext": "PDF",
+     "date": "2025-03-22",
+     "titre": "Mise en demeure – LIT-2026-0016"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Bureaux"
+    },
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Jardin"
+    }
+   ],
+   "litiges": [
+    {
+     "ref": "LIT-2026-0016",
+     "type": "Retard ou abandon de chantier",
+     "famille": "Constructeur",
+     "partie": "Entreprise démo n° 8",
+     "partieType": "Constructeur / entreprise",
+     "phase": "Mise en demeure",
+     "etape": "Précontentieux",
+     "risque": "Moyen",
+     "objet": "Chantier de réhabilitation arrêté à 40 % ; pénalités de retard et reprise du marché",
+     "ouverture": "2025-01-22",
+     "cloture": null,
+     "ouvert": true,
+     "issue": null,
+     "juridiction": null,
+     "service": "Agent judiciaire de l'État",
+     "echeance": "2026-11-12",
+     "objetEcheance": "Réunion de conciliation",
+     "reclame": 96000000,
+     "recouvre": 0,
+     "aRecuperer": false,
+     "recupere": false,
+     "evenements": [
+      {
+       "date": "2025-01-22",
+       "type": "Constat / PV",
+       "desc": "Constat dressé sur place"
+      },
+      {
+       "date": "2025-03-22",
+       "type": "Mise en demeure",
+       "desc": "Mise en demeure adressée à la partie adverse"
+      }
+     ]
+    }
+   ],
+   "visite": "2025-10-14",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-COD-0082"
+  },
+  {
+   "id": 116,
+   "code": "PBE-KEN-0116",
+   "nom": "Chancellerie – Nairobi",
+   "type": "Chancellerie / ambassade",
+   "pays": "Kenya",
+   "paysId": "404",
+   "region": null,
+   "commune": null,
+   "ville": "Nairobi",
+   "lat": -1.284196,
+   "lon": 36.808435,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Partiellement occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 2008,
+   "niveaux": 2,
+   "surface": 1970.0,
+   "utile": 1576.0,
+   "effectif": 65,
+   "cout": 12000000,
+   "valeur": 5795000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 8200 (démo)",
+   "nicad": null,
+   "assiette": 2580.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2009-09-04",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-08-15",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Jardin"
+    }
+   ],
+   "litiges": [],
+   "visite": "2024-08-15",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-KEN-0083"
+  },
+  {
+   "id": 117,
+   "code": "PBE-RWA-0117",
+   "nom": "Chancellerie – Kigali",
+   "type": "Chancellerie / ambassade",
+   "pays": "Rwanda",
+   "paysId": "646",
+   "region": null,
+   "commune": null,
+   "ville": "Kigali",
+   "lat": -1.939046,
+   "lon": 30.061745,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Partiellement occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Bon",
+   "annee": 1953,
+   "niveaux": 4,
+   "surface": 650.0,
+   "utile": 520.0,
+   "effectif": 30,
+   "cout": 4000000,
+   "valeur": 1022000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 8012 (démo)",
+   "nicad": null,
+   "assiette": 880.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2014-01-17",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-09-23",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Façade principale"
+    },
+    {
+     "label": "Entrée"
+    },
+    {
+     "label": "Jardin"
+    }
+   ],
+   "litiges": [],
+   "visite": "2025-09-23",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-RWA-0084"
+  },
+  {
+   "id": 118,
+   "code": "PBE-ZAF-0118",
+   "nom": "Résidence de l'ambassadeur – Pretoria",
+   "type": "Résidence diplomatique",
+   "pays": "Afrique du Sud",
+   "paysId": "710",
+   "region": null,
+   "commune": null,
+   "ville": "Pretoria",
+   "lat": -25.75437,
+   "lon": 28.242894,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Partiellement occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Moyen",
+   "annee": 2012,
+   "niveaux": 3,
+   "surface": 580.0,
+   "utile": 464.0,
+   "effectif": null,
+   "cout": 20000000,
+   "valeur": 1030000000,
+   "potentiel": "Conservation en l'état",
+   "tf": "Acte de propriété n° 3838 (démo)",
+   "nicad": null,
+   "assiette": 880.0,
+   "baux": [],
+   "travaux": [],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2018-04-07",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2023-08-15",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2024-02-28",
+     "titre": "Procès-verbal de visite"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Jardin"
+    },
+    {
+     "label": "Salle de réception"
+    },
+    {
+     "label": "Bureaux"
+    }
+   ],
+   "litiges": [],
+   "visite": "2024-02-28",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-ZAF-0085"
+  },
+  {
+   "id": 119,
+   "code": "PBE-CPV-0119",
+   "nom": "Chancellerie – Praia",
+   "type": "Chancellerie / ambassade",
+   "pays": "Cabo Verde",
+   "paysId": "132",
+   "region": null,
+   "commune": null,
+   "ville": "Praia",
+   "lat": 14.921325,
+   "lon": -23.498288,
+   "regime": "Affectation juridique",
+   "affectataire": "Ministère chargé des Affaires étrangères",
+   "occupation": "Occupé",
+   "statut": "Propriété de l'État",
+   "etat": "Dégradé",
+   "annee": 2015,
+   "niveaux": 7,
+   "surface": 3640.0,
+   "utile": 2912.0,
+   "effectif": 36,
+   "cout": 437000000,
+   "valeur": 9380000000,
+   "potentiel": "Réhabilitation",
+   "tf": "Acte de propriété n° 7334 (démo)",
+   "nicad": null,
+   "assiette": 7230.0,
+   "baux": [],
+   "travaux": [
+    {
+     "type": "Peinture",
+     "statut": "En cours",
+     "debut": "2025-01-12",
+     "fin": "2026-01-12",
+     "av": 79,
+     "cout": 209000000,
+     "entreprise": "Entreprise démo n° 11"
+    }
+   ],
+   "docs": [
+    {
+     "cat": "Titre foncier",
+     "ext": "PDF",
+     "date": null,
+     "titre": "Acte de propriété"
+    },
+    {
+     "cat": "Acte d'affectation",
+     "ext": "PDF",
+     "date": "2005-02-15",
+     "titre": "Acte d'affectation au ministère"
+    },
+    {
+     "cat": "PV de visite",
+     "ext": "PDF",
+     "date": "2025-01-05",
+     "titre": "Procès-verbal de visite"
+    },
+    {
+     "cat": "Devis / marché",
+     "ext": "PDF",
+     "date": "2025-01-12",
+     "titre": "Marché de travaux"
+    }
+   ],
+   "photos": [
+    {
+     "label": "Jardin"
+    }
+   ],
+   "litiges": [],
+   "visite": "2025-01-05",
+   "gestion": null,
+   "score": null,
+   "assietteCode": "AF-CPV-0086"
   }
  ]
 }

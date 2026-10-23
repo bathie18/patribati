@@ -1,5 +1,14 @@
 # Journal des versions
 
+## 1.1.0 — 2026-10-23
+
+- **Connexion** par identifiant et mot de passe à la place du choix de profil ; menu du compte et déconnexion.
+- **Module Administration** : comptes (création, modification, désactivation, suppression), rôles et permissions modifiables, **test des profils** avec bandeau de retour, journal des connexions, réinitialisation de la démo.
+- Nouveau rôle **Juriste contentieux** ; nouvelles permissions « actes de procédure » et « exports ».
+- **Réseau diplomatique et consulaire** étoffé : 119 biens, dont 93 à l'étranger dans 55 pays (chancelleries, résidences, consulats généraux, missions permanentes, logements de fonction, foyer d'étudiants), avec assiettes, emprises, baux, visites, travaux et cinq nouveaux litiges.
+- **Vue monde** : chaque bien est visible et coloré selon la thématique ; les biens proches sont regroupés dans un anneau aux couleurs de leurs catégories.
+- Dixième thématique : **dernière visite**.
+
 ## 1.0.0 — 2026-10-23
 
 Première version web autonome, publiable sur GitHub Pages.

@@ -56,7 +56,7 @@
   PB.seq = Math.max(0, ...PB.DATA.map(b => b.id));
 
   PB.log = function (b, action, detail) {
-    PB.LOG.unshift({ t: new Date().toISOString(), qui: PB.role ? PB.role.nom : '—', profil: PB.roleKey, bien: b ? b.id : null, nom: b ? b.nom : '', code: b ? b.code : '', action, detail: detail || '' });
+    PB.LOG.unshift({ t: new Date().toISOString(), qui: PB.user ? PB.user.nom : '—', uid: PB.user ? PB.user.id : null, login: PB.user ? PB.user.login : '', profil: PB.roleKey, bien: b ? b.id : null, nom: b ? b.nom : '', code: b ? b.code : '', action, detail: detail || '' });
     if (b) b._dirty = true;
     PB.save();
   };
@@ -108,6 +108,7 @@
     priorite: { label: "Priorité d'intervention", get: b => PB.priorite(b), cats: [['Très forte', '--v4'], ['Forte', '--v3'], ['Modérée', '--v2'], ['Faible', '--c-d']] },
     gestion: { label: 'Statut de gestion', get: b => PB.gestion(b), cats: [['En litige', '--c-e'], ['Occupation irrégulière', '--v5'], ['À valoriser', '--c-g'], ['À réhabiliter', '--v3'], ['Gestion courante', '--c-d']] },
     potentiel: { label: 'Potentiel de valorisation', get: b => b.potentiel, cats: [["Conservation en l'état", '--c-d'], ['Réhabilitation', '--v3'], ['Mise en location', '--c-b'], ['Cession', '--c-f'], ['Partenariat (bail emphytéotique, PPP)', '--c-g'], ['À déterminer', '--v0']] },
+    visite: { label: 'Dernière visite', get: b => { const v = PB.derniereVisite(b); if (!v) return 'Jamais visité'; const d = -days(v); return d <= 183 ? 'Moins de 6 mois' : d <= 365 ? '6 à 12 mois' : 'Plus de 12 mois' }, cats: [['Moins de 6 mois', '--v1'], ['6 à 12 mois', '--v2'], ['Plus de 12 mois', '--v3'], ['Jamais visité', '--v4']] },
     type: { label: 'Type de bien', get: b => b.type, cats: [['Immeuble administratif', '--c-b'], ['Logement de fonction', '--c-g'], ['Villa', '--c-f'], ['Immeuble de logements', '--c-c'], ['Entrepôt / local technique', '--c-d'], ['Terrain nu', '--c-a'], ['Chancellerie / ambassade', '--c-e'], ['Consulat', '--v2'], ['Résidence diplomatique', '--v5'], ['Autre', '--v0']] }
   };
   PB.colorVar = (b, t) => { const th = PB.THEMES[t]; const c = th.cats.find(c => c[0] === th.get(b)); return c ? c[1] : '--v0' };
@@ -118,10 +119,11 @@
   PB.visible = () => PB.DATA.filter(b => PB.inPerim(b) && !PB.S.off.has(PB.THEMES[PB.S.theme].get(b)));
 
   /* ---------- Droits du profil ---------- */
-  PB.setRole = function (key) { PB.roleKey = key; PB.role = PB.PROFILES[key]; store.sset('patribati.profil', key) };
   PB.canEdit = b => { const r = PB.role; if (!r) return false; if (r.edit === 'tout') return true; if (r.edit === 'affectataire') return !!b && b.affectataire === r.affectataire; return false };
   PB.canField = b => PB.canEdit(b) || (PB.role && PB.role.edit === 'terrain');
   PB.canLitiges = () => !!(PB.role && PB.role.litiges);
+  PB.canActes = () => !!(PB.role && PB.role.litiges && PB.role.actes);
+  PB.canExport = () => !!(PB.role && PB.role.exports);
   PB.mine = b => PB.role && PB.role.affectataire && b.affectataire === PB.role.affectataire;
 
   /* ---------- Interface commune ---------- */

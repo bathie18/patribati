@@ -85,3 +85,76 @@ id;bien_id;date_visite;agent;etat_constate;occupation_constatee;occupation_confo
 84;52;2024/07/21;Agent D (démo);;;;Visite périodique;PBE-GIN-0052
 85;52;2025/08/23;Agent F (démo);Dégradé;Occupé;1;Dernière visite de surveillance;PBE-GIN-0052
 86;53;2026/03/31;Agent B (démo);Bon;En travaux;1;Dernière visite de surveillance;PBE-GNB-0053
+87;55;2026/02/08;Agent F (démo);Bon;En travaux;1;Visite de l'inspection des postes diplomatiques;PBE-FRA-0055
+88;56;2024/01/11;Agent C (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-FRA-0056
+89;57;2023/07/19;Agent E (démo);Bon;En travaux;1;Visite de l'inspection des postes diplomatiques;PBE-FRA-0057
+90;57;2024/08/07;Agent G (démo);Bon;En travaux;1;Visite de l'inspection des postes diplomatiques;PBE-FRA-0057
+91;58;2023/07/16;Agent F (démo);Dégradé;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-FRA-0058
+92;59;2026/01/16;Agent E (démo);Dégradé;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-USA-0059
+93;61;2024/01/08;Agent G (démo);Moyen;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-USA-0061
+94;61;2025/04/04;Agent D (démo);Moyen;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-USA-0061
+95;63;2023/10/03;Agent E (démo);Très dégradé;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-ITA-0063
+96;66;2025/09/22;Agent G (démo);Moyen;En travaux;1;Visite de l'inspection des postes diplomatiques;PBE-ESP-0066
+97;67;2023/03/17;Agent D (démo);Dégradé;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-BEL-0067
+98;68;2023/01/18;Agent B (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-CHE-0068
+99;69;2023/04/21;Agent D (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-CHE-0069
+100;69;2026/01/18;Agent F (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-CHE-0069
+101;71;2023/11/15;Agent A (démo);Dégradé;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-GBR-0071
+102;71;2026/03/11;Agent F (démo);Dégradé;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-GBR-0071
+103;72;2023/03/21;Agent A (démo);Très dégradé;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-NLD-0072
+104;72;2026/02/17;Agent G (démo);Très dégradé;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-NLD-0072
+105;73;2023/08/21;Agent A (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-PRT-0073
+106;73;2023/03/10;Agent C (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-PRT-0073
+107;74;2023/08/24;Agent C (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-AUT-0074
+108;74;2025/01/05;Agent F (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-AUT-0074
+109;75;2023/03/28;Agent B (démo);Moyen;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-SWE-0075
+110;76;2026/05/16;Agent B (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-RUS-0076
+111;77;2024/03/04;Agent B (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-RUS-0077
+112;77;2024/04/18;Agent A (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-RUS-0077
+113;79;2023/07/03;Agent C (démo);Dégradé;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-TUR-0079
+114;79;2025/01/04;Agent F (démo);Dégradé;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-TUR-0079
+115;80;2023/06/05;Agent B (démo);Moyen;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-CAN-0080
+116;82;2023/07/19;Agent B (démo);Moyen;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-MEX-0082
+117;84;2023/10/18;Agent F (démo);Moyen;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-CHN-0084
+118;85;2025/07/20;Agent C (démo);Dégradé;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-JPN-0085
+119;86;2025/05/05;Agent B (démo);Moyen;Inoccupé;1;Visite de l'inspection des postes diplomatiques;PBE-KOR-0086
+120;87;2024/01/11;Agent C (démo);Dégradé;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-IND-0087
+121;88;2026/04/09;Agent B (démo);Moyen;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-MYS-0088
+122;90;2025/05/20;Agent A (démo);Moyen;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-IRN-0090
+123;90;2025/11/08;Agent D (démo);Moyen;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-IRN-0090
+124;91;2026/07/09;Agent G (démo);Moyen;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-SAU-0091
+125;91;2023/07/07;Agent C (démo);Moyen;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-SAU-0091
+126;94;2024/10/20;Agent F (démo);Très dégradé;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-QAT-0094
+127;95;2025/12/20;Agent D (démo);Très dégradé;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-KWT-0095
+128;97;2024/03/27;Agent B (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-DZA-0097
+129;97;2024/06/11;Agent C (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-DZA-0097
+130;98;2026/06/04;Agent C (démo);Moyen;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-TUN-0098
+131;101;2023/11/02;Agent A (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-MAR-0101
+132;102;2023/11/01;Agent F (démo);Dégradé;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-MRT-0102
+133;102;2023/04/23;Agent C (démo);Dégradé;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-MRT-0102
+134;103;2023/04/28;Agent A (démo);Dégradé;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-MLI-0103
+135;103;2023/10/12;Agent G (démo);Dégradé;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-MLI-0103
+136;104;2025/12/23;Agent E (démo);Bon;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-GMB-0104
+137;104;2026/01/12;Agent C (démo);Bon;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-GMB-0104
+138;105;2023/05/25;Agent G (démo);Non évalué;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-GNB-0105
+139;105;2025/12/04;Agent C (démo);Non évalué;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-GNB-0105
+140;106;2024/09/08;Agent E (démo);Très dégradé;En travaux;1;Visite de l'inspection des postes diplomatiques;PBE-CIV-0106
+141;107;2026/02/13;Agent F (démo);Moyen;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-BFA-0107
+142;107;2026/06/18;Agent C (démo);Moyen;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-BFA-0107
+143;108;2026/01/27;Agent F (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-NER-0108
+144;108;2023/11/05;Agent A (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-NER-0108
+145;109;2024/06/23;Agent B (démo);Bon;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-GHA-0109
+146;110;2026/07/26;Agent C (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-BEN-0110
+147;110;2024/06/23;Agent B (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-BEN-0110
+148;111;2024/10/23;Agent C (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-NGA-0111
+149;111;2023/11/14;Agent A (démo);Bon;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-NGA-0111
+150;113;2025/02/18;Agent E (démo);En ruine;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-GAB-0113
+151;114;2023/05/11;Agent C (démo);Bon;Inoccupé;1;Visite de l'inspection des postes diplomatiques;PBE-TCD-0114
+152;114;2024/02/15;Agent D (démo);Bon;Inoccupé;1;Visite de l'inspection des postes diplomatiques;PBE-TCD-0114
+153;115;2023/03/04;Agent F (démo);Moyen;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-COD-0115
+154;115;2025/10/14;Agent D (démo);Moyen;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-COD-0115
+155;116;2024/08/15;Agent F (démo);Bon;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-KEN-0116
+156;117;2025/09/23;Agent C (démo);Bon;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-RWA-0117
+157;118;2023/08/15;Agent B (démo);Moyen;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-ZAF-0118
+158;118;2024/02/28;Agent B (démo);Moyen;Partiellement occupé;1;Visite de l'inspection des postes diplomatiques;PBE-ZAF-0118
+159;119;2025/01/05;Agent C (démo);Dégradé;Occupé;1;Visite de l'inspection des postes diplomatiques;PBE-CPV-0119

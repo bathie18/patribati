@@ -29,7 +29,7 @@ Chaque `git push` sur `main` republie le site. Pour changer les données : modif
 
 ### Vérifications
 
-- La page d'accueil s'affiche avec les cinq profils.
+- La page de connexion s'affiche ; `admin` / `admin` ouvre l'application avec le module Administration.
 - Dans la carte, le fond OpenStreetMap apparaît en zoomant sur Dakar (connexion internet requise) ; le fond « Simplifié » fonctionne sans connexion.
 - `…/patribati/#bien/2` ouvre directement une fiche.
 

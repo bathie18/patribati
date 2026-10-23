@@ -2,7 +2,7 @@
 
 **Toutes les données sont fictives.** Biens, titres fonciers, NICAD, montants, occupants, entreprises et litiges ont été générés pour la démonstration ; les localisations sont approximatives et les emprises sont des rectangles schématiques.
 
-Jeu de démonstration : 53 biens dans 26 pays, 42 assiettes foncières, 61 emprises bâties, 46 titres d'occupation, 86 visites, 21 chantiers, 13 litiges (11 ouverts), 307 documents et photos.
+Jeu de démonstration : 119 biens dans 56 pays (26 au Sénégal, 93 à l'étranger), 86 assiettes foncières, 145 emprises bâties, 159 visites, 18 litiges. Les 66 biens d'identifiant supérieur à 53 (réseau diplomatique et consulaire) sont produits par `tools/generer_biens_etranger.py`.
 
 ## Fichiers
 

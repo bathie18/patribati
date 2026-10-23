@@ -5,7 +5,7 @@
   const V = PB.PAGES = {};
   const link = (b, tab) => `<a data-id="${b.id}" ${tab ? `data-tab="${tab}"` : ''} tabindex="0" role="button">${esc(b.nom)}</a>`;
   const swatch = v => `<i class="sw" style="background:var(${v})"></i>`;
-  const lockNote = '<div class="note">Ce module est réservé aux profils SOGEPA (gestionnaire, administrateur) et à la direction. Changez de profil depuis le bandeau pour le consulter.</div>';
+  const lockNote = '<div class="note">Ce module n\'est pas ouvert à votre profil. L\'administrateur peut modifier les permissions des rôles dans le module Administration.</div>';
 
   /* ================= Inventaire ================= */
   const INV = { q: '', perim: 'tous', regime: '', etat: '', gestion: '', aff: '', sort: 'score', dir: -1 };
@@ -29,7 +29,7 @@
       const affs = [...new Set(PB.DATA.map(b => b.affectataire || 'Non affecté (SOGEPA)'))].sort();
       return `<div class="page"><div class="page-in">
         <div class="phead"><div><h1 class="vt">Inventaire du patrimoine</h1><p class="sub">Tous les biens de l'État, affectés ou non, au Sénégal et à l'étranger.</p></div>
-          <div class="filters"><button class="btn sm" id="invMap">Voir sur la carte</button><button class="btn sm" id="invCsv">Exporter CSV</button><button class="btn sm" id="invGeo">Exporter GeoJSON</button></div></div>
+          <div class="filters"><button class="btn sm" id="invMap">Voir sur la carte</button>${PB.canExport() ? '<button class="btn sm" id="invCsv">Exporter CSV</button><button class="btn sm" id="invGeo">Exporter GeoJSON</button>' : ''}</div></div>
         <div class="filters">
           <input type="search" id="invQ" placeholder="Filtrer : nom, code, TF, NICAD, ville, affectataire…" value="${esc(INV.q)}" aria-label="Filtrer l'inventaire">
           ${sel('invPerim', 'Périmètre', [['sn', 'Sénégal'], ['etr', 'Étranger']], INV.perim === 'tous' ? '' : INV.perim)}
@@ -54,8 +54,7 @@
       const on = (id, k) => $(id).addEventListener(id === '#invQ' ? 'input' : 'change', e => { INV[k] = e.target.value || (k === 'perim' ? 'tous' : ''); body() });
       on('#invQ', 'q'); on('#invPerim', 'perim'); on('#invRegime', 'regime'); on('#invEtat', 'etat'); on('#invGestion', 'gestion'); on('#invAff', 'aff');
       $('thead').addEventListener('click', e => { const b = e.target.closest('[data-sort]'); if (!b) return; INV.dir = INV.sort === b.dataset.sort ? -INV.dir : (COLS.find(c => c[0] === b.dataset.sort)[3] ? -1 : 1); INV.sort = b.dataset.sort; PB.render() });
-      $('#invCsv').onclick = () => PB.exportCSV(invList(), 'patribati_inventaire');
-      $('#invGeo').onclick = () => PB.exportGeoJSON(invList(), 'patribati_inventaire');
+      if (PB.canExport()) { $('#invCsv').onclick = () => PB.exportCSV(invList(), 'patribati_inventaire'); $('#invGeo').onclick = () => PB.exportGeoJSON(invList(), 'patribati_inventaire') }
       $('#invMap').onclick = () => { const L = invList(); PB.show('carte'); PB.M.fitList(L) };
     }
   };
@@ -123,7 +122,7 @@
       const canL = PB.canLitiges();
       return `<div class="page"><div class="page-in">
         <div class="phead"><div><h1 class="vt">Tableau de bord</h1><p class="sub">Synthèse du parc au ${fdate(PB.TODAY)} · ${D.length} biens dans ${new Set(D.map(b => b.pays)).size} pays.</p></div>
-          <div class="filters"><button class="btn sm" id="dashCsv">Exporter l'inventaire (CSV)</button><button class="btn sm" onclick="window.print()">Imprimer</button></div></div>
+          <div class="filters">${PB.canExport() ? '<button class="btn sm" id="dashCsv">Exporter l\'inventaire (CSV)</button>' : ''}<button class="btn sm" onclick="window.print()">Imprimer</button></div></div>
         <div class="dkpis">
           <div class="kpi"><b>${D.length}</b><span>biens inventoriés dans ${new Set(D.map(b => b.pays)).size} pays</span></div>
           <div class="kpi"><b>${D.filter(b => b.regime === 'Non affecté').length}</b><span>biens non affectés, gérés par la SOGEPA</span></div>
@@ -145,7 +144,7 @@
       </div></div>`;
     },
     bind() {
-      $('#dashCsv').onclick = () => PB.exportCSV(PB.DATA, 'patribati_inventaire');
+      const d = $('#dashCsv'); if (d) d.onclick = () => PB.exportCSV(PB.DATA, 'patribati_inventaire');
     }
   };
 
@@ -155,9 +154,9 @@
       const canJ = PB.role.journal;
       return `<div class="page"><div class="page-in" style="max-width:900px">
         <div class="phead"><div><h1 class="vt">Journal des modifications</h1><p class="sub">Chaque création, modification, visite, pièce ou acte est tracé avec son auteur et sa date.</p></div>
-          ${PB.LOG.length ? '<div class="filters"><button class="btn sm" id="logCsv">Exporter</button><button class="btn sm" id="logReset">Réinitialiser la démo</button></div>' : ''}</div>
-        ${!canJ ? '<div class="note">Le journal complet est réservé aux profils administrateur et gestionnaire. Vous voyez ci-dessous vos propres saisies.</div>' : ''}
-        ${(() => { const L = PB.LOG.filter(x => canJ || x.profil === PB.roleKey); return L.length ? `<ul class="log">${L.map(x => { const b = PB.byId(x.bien); return `<li><time>${new Date(x.t).toLocaleString('fr-FR', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })}</time><div><b>${esc(x.action)}</b> · ${b ? link(b) : esc(x.nom)} <small>${esc(x.code)}</small><br><small>${esc(x.qui)}${x.detail ? ' · ' + esc(x.detail) : ''}</small></div></li>` }).join('')}</ul>` : `<div class="card"><b>Aucune modification pour l'instant.</b><small>Ouvrez une fiche depuis la carte, cliquez sur « Modifier », saisissez une visite ou ajoutez un bien : chaque action apparaîtra ici. Les saisies sont conservées dans ce navigateur uniquement.</small></div>` })()}
+          ${PB.LOG.length && canJ ? `<div class="filters">${PB.canExport() ? '<button class="btn sm" id="logCsv">Exporter</button>' : ''}${PB.role.admin ? '<button class="btn sm" id="logReset">Réinitialiser la démo</button>' : ''}</div>` : ''}</div>
+        ${!canJ ? '<div class="note">Le journal complet n’est pas ouvert à votre profil : vous voyez ci-dessous vos propres saisies.</div>' : ''}
+        ${(() => { const L = PB.LOG.filter(x => canJ || x.uid === PB.user.id); return L.length ? `<ul class="log">${L.map(x => { const b = PB.byId(x.bien); return `<li><time>${new Date(x.t).toLocaleString('fr-FR', { day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit' })}</time><div><b>${esc(x.action)}</b> · ${b ? link(b) : esc(x.nom)} <small>${esc(x.code)}</small><br><small>${esc(x.qui)}${x.detail ? ' · ' + esc(x.detail) : ''}</small></div></li>` }).join('')}</ul>` : `<div class="card"><b>Aucune modification pour l'instant.</b><small>Ouvrez une fiche depuis la carte, cliquez sur « Modifier », saisissez une visite ou ajoutez un bien : chaque action apparaîtra ici. Les saisies sont conservées dans ce navigateur uniquement.</small></div>` })()}
         <div class="note">En production, ce journal est alimenté par des déclencheurs PostgreSQL (table <code>patrimoine.journal</code>) : il couvre aussi les modifications faites par l'API et permet de restituer l'état d'un bien à une date donnée.</div>
       </div></div>`;
     },

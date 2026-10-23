@@ -34,7 +34,7 @@ Les **arriérés de loyers** sont suivis sur chaque titre d'occupation, en dehor
 
 ## Accès
 
-Le détail des litiges et les montants sont réservés aux profils administrateur, gestionnaire et lecteur (direction). L'affectataire et l'agent de terrain voient qu'un bien fait l'objet d'un contentieux, sans le détail. Voir [Rôles et permissions](roles-permissions.md).
+Par défaut, le détail des litiges et les montants sont ouverts aux rôles administrateur, gestionnaire, juriste contentieux et lecteur ; les actes de procédure sont saisis par l'administrateur, le gestionnaire et le juriste. L'affectataire et l'agent de terrain voient qu'un bien fait l'objet d'un contentieux, sans le détail. L'administrateur peut modifier ces permissions. Voir [Rôles et permissions](roles-permissions.md).
 
 ## Requêtes prêtes à l'emploi (base PostGIS)
 

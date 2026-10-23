@@ -1,4 +1,4 @@
-/* PatriBâti — application : accueil et choix du profil, bandeau, navigation entre modules, recherche, routage. */
+/* PatriBâti — application : accueil et authentification, bandeau, menu du compte, test de profil, navigation entre modules, recherche, routage. */
 (function (PB) {
   'use strict';
   const { $, $$, esc, norm, mean, store } = PB.U;
@@ -17,9 +17,10 @@
   const isDark = () => document.documentElement.dataset.theme === 'dark' || (!document.documentElement.dataset.theme && matchMedia('(prefers-color-scheme: dark)').matches);
   applyTheme(store.get('patribati.theme'));
 
-  /* ---------- Accueil ---------- */
-  let choice = 'gestionnaire';
-  function login() {
+  const EYE = '<svg viewBox="0 0 24 24"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>';
+
+  /* ---------- Accueil et authentification ---------- */
+  function login(msg) {
     $('#app').innerHTML = `<div class="login">
       <section class="login-art">${GLOBE}
         <div class="brand">${LOGO_INV}<div><b>PatriBâti</b><span>Patrimoine bâti de l'État du Sénégal</span></div></div>
@@ -33,40 +34,75 @@
             <li>Score de priorité d'intervention, alertes et tableau de bord</li>
           </ul>
         </div>
-        <footer>Une solution du CEGIT · Centre d'Expertise en Géomatique et Ingénierie Territoriale · pile 100 % open source</footer>
+        <footer>Une solution du CEGIT · Centre d'Expertise en Géomatique et Ingénierie Territoriale</footer>
       </section>
       <section class="login-form">
-        <div><h2>Démonstration</h2><h1 class="vt">Choisissez un profil</h1><p class="sub">Chaque profil voit l'ensemble du parc mais n'a pas les mêmes droits de modification.</p></div>
-        <div class="profiles" role="radiogroup" aria-label="Profils">${Object.entries(PB.PROFILES).map(([k, p]) => `<button class="profile" role="radio" data-p="${k}" aria-pressed="${k === choice}" aria-checked="${k === choice}"><span class="av">${esc(p.initiales)}</span><span><b>${esc(p.nom)}</b><small>${esc(p.structure)} · ${esc(p.desc)}</small></span><em>${{ tout: 'Saisie', affectataire: 'Ses biens', terrain: 'Terrain', aucun: 'Lecture' }[p.edit]}</em></button>`).join('')}</div>
-        <button class="btn primary" id="enter">Entrer dans PatriBâti</button>
-        <p class="fine">Prototype de démonstration : aucun mot de passe. Tous les biens, titres fonciers, montants, occupants et litiges sont <b>fictifs</b>. Les saisies restent dans ce navigateur.</p>
+        <form class="login-card" id="loginForm" novalidate>
+          <div><h2>Espace sécurisé</h2><h1 class="vt">Connexion</h1><p class="sub">Accès réservé aux agents habilités.</p></div>
+          <label class="field">Identifiant<input name="login" id="lgLogin" autocomplete="username" autocapitalize="none" spellcheck="false" required></label>
+          <label class="field">Mot de passe<span class="pw"><input name="password" id="lgPass" type="password" autocomplete="current-password" required><button type="button" id="lgEye" aria-label="Afficher le mot de passe" aria-pressed="false">${EYE}</button></span></label>
+          <p class="err" id="lgErr" role="alert" ${msg ? '' : 'hidden'}>${esc(msg || '')}</p>
+          <button class="btn primary" type="submit">Se connecter</button>
+          <p class="fine">Mot de passe oublié ou compte bloqué : contactez l'administrateur de la plateforme.</p>
+        </form>
+        <p class="fine">Démonstration : les biens, titres fonciers, montants, occupants et litiges affichés sont fictifs.</p>
       </section></div>`;
-    $('.profiles').onclick = e => { const b = e.target.closest('[data-p]'); if (!b) return; choice = b.dataset.p; $$('.profile').forEach(x => { x.setAttribute('aria-pressed', x === b); x.setAttribute('aria-checked', x === b) }) };
-    $('.profiles').ondblclick = e => { if (e.target.closest('[data-p]')) $('#enter').click() };
-    $('#enter').onclick = () => { PB.setRole(choice); shell(); window.scrollTo(0, 0); route() };
+    $('#lgEye').onclick = () => { const i = $('#lgPass'), show = i.type === 'password'; i.type = show ? 'text' : 'password'; $('#lgEye').setAttribute('aria-pressed', show); $('#lgEye').setAttribute('aria-label', show ? 'Masquer le mot de passe' : 'Afficher le mot de passe') };
+    $('#loginForm').onsubmit = e => {
+      e.preventDefault();
+      const l = $('#lgLogin').value, pw = $('#lgPass').value, err = $('#lgErr');
+      if (!l || !pw) { err.textContent = 'Saisissez votre identifiant et votre mot de passe.'; err.hidden = false; return }
+      const r = PB.AUTH.login(l, pw);
+      if (!r.ok) { err.textContent = r.msg; err.hidden = false; $('#lgPass').value = ''; $('#lgPass').focus(); return }
+      start();
+    };
+    setTimeout(() => { const i = $('#lgLogin'); if (i && matchMedia('(min-width: 981px)').matches) i.focus() }, 50);
   }
 
+  function destroyMap() { if (PB.M.m) { PB.M.m.remove(); PB.M.m = null } }
+  function start() {
+    destroyMap(); S.sel = null; S.edit = false; S.adding = false; S.view = null;
+    shell(); window.scrollTo(0, 0); route();
+  }
+  PB.restart = function (view) { if (view) history.replaceState(null, '', '#' + view); start() };
+  PB.logout = function () { PB.AUTH.logout(); destroyMap(); history.replaceState(null, '', location.pathname); login() };
+
   /* ---------- Coquille de l'application ---------- */
+  const modules = () => PB.MODULES.filter(([k]) => (k !== 'admin' || PB.role.admin) && (k !== 'litiges' || PB.canLitiges()));
   function shell() {
-    const r = PB.role, nLit = PB.DATA.filter(b => PB.ouverts(b).length).length;
+    const r = PB.role, nLit = PB.DATA.filter(b => PB.ouverts(b).length).length, testing = PB.AUTH.testing();
     $('#app').innerHTML = `<div class="app">
       <header class="top">
         <a class="brand" href="#carte">${LOGO}<div><b>PatriBâti</b><span>Patrimoine bâti de l'État du Sénégal</span></div></a>
-        <nav class="nav" aria-label="Modules">${PB.MODULES.map(([k, l]) => `<button data-view="${k}">${l}${k === 'litiges' && PB.canLitiges() ? ` <span class="badge">${nLit}</span>` : ''}</button>`).join('')}</nav>
+        <nav class="nav" aria-label="Modules">${modules().map(([k, l]) => `<button data-view="${k}">${l}${k === 'litiges' ? ` <span class="badge">${nLit}</span>` : ''}</button>`).join('')}</nav>
         <div class="search"><svg viewBox="0 0 16 16" stroke-width="1.6"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 14 14"/></svg>
           <input id="q" type="search" autocomplete="off" placeholder="Bien, TF, NICAD, litige, ville, pays, coordonnées…" aria-label="Rechercher" role="combobox" aria-expanded="false" aria-controls="sugg"><div class="sugg" id="sugg" role="listbox" hidden></div></div>
         <div class="tools">
           ${r.ajout ? '<button class="btn primary" id="addBtn" title="Ajouter un bien sur la carte">+ <span class="lbl">Ajouter un bien</span></button>' : ''}
           <button class="btn iconbtn" id="themeBtn" aria-label="Basculer clair / sombre"></button>
-          <button class="who" id="whoBtn" title="Changer de profil"><span class="av">${esc(r.initiales)}</span><div><b>${esc(r.nom)}</b><small>${esc(r.structure)}</small></div></button>
+          <div class="menu-wrap"><button class="who" id="whoBtn" aria-haspopup="true" aria-expanded="false"><span class="av">${esc(r.initiales)}</span><div><b>${esc(r.nom)}</b><small>${esc(r.roleNom)}</small></div></button>
+            <div class="menu" id="whoMenu" hidden><div class="menu-head"><b>${esc(PB.user.nom)}</b><small>${esc(r.roleNom)} · ${esc(PB.user.structure || '')}</small><small class="mono">${esc(PB.user.login)}</small></div>
+              ${testing ? `<button data-m="back">Revenir à mon compte (${esc(PB.realUser.login)})</button>` : ''}
+              ${r.admin ? '<button data-m="admin">Administration</button>' : ''}
+              <button data-m="logout">Se déconnecter</button></div></div>
         </div>
       </header>
+      ${testing ? `<div class="testbar" role="status"><span>Vous testez le profil <b>${esc(PB.user.nom)}</b> · ${esc(r.roleNom)} — l'interface et les droits sont ceux de ce compte.</span><button class="btn sm" id="backBtn">Revenir à mon compte administrateur</button></div>` : ''}
       <div class="demo"><span><b>Démonstration.</b> Données fictives au ${PB.U.fdate(PB.TODAY)}.</span><span id="demoChanges"></span></div>
       <main class="view" id="vCarte">${PB.carteHTML()}</main>
       <main class="view" id="page" hidden></main>
     </div>`;
     $('.nav').onclick = e => { const b = e.target.closest('[data-view]'); if (b) location.hash = b.dataset.view };
-    $('#whoBtn').onclick = () => { store.sset('patribati.profil', null); PB.M.m && PB.M.m.remove(); PB.M.m = null; S.sel = null; S.edit = false; location.hash = ''; login() };
+    const menu = $('#whoMenu'), who = $('#whoBtn');
+    who.onclick = e => { e.stopPropagation(); menu.hidden = !menu.hidden; who.setAttribute('aria-expanded', !menu.hidden) };
+    document.addEventListener('click', e => { if (!e.target.closest('.menu-wrap') && menu.isConnected) { menu.hidden = true; who.setAttribute('aria-expanded', 'false') } });
+    menu.onclick = e => {
+      const m = e.target.closest('[data-m]'); if (!m) return; menu.hidden = true;
+      if (m.dataset.m === 'logout') PB.logout();
+      else if (m.dataset.m === 'back') { PB.AUTH.stopImpersonate(); PB.restart('admin') }
+      else location.hash = 'admin';
+    };
+    if (testing) $('#backBtn').onclick = () => { PB.AUTH.stopImpersonate(); PB.restart('admin') };
     $('#themeBtn').onclick = () => { const t = isDark() ? 'light' : 'dark'; applyTheme(t); store.set('patribati.theme', t); themeIcon(); if (PB.M.m) PB.M.draw() };
     themeIcon();
     if (r.ajout) $('#addBtn').onclick = () => PB.setAdding(!S.adding);
@@ -77,15 +113,16 @@
   function themeIcon() { $('#themeBtn').innerHTML = isDark() ? ICONS.sun : ICONS.moon }
   function demoChanges() {
     const el = $('#demoChanges'); if (!el) return;
-    el.innerHTML = PB.LOG.length ? `${PB.LOG.length} saisie(s) conservée(s) dans ce navigateur · <button id="resetBtn">réinitialiser</button>` : '';
+    el.innerHTML = PB.LOG.length ? `${PB.LOG.length} saisie(s) conservée(s) dans ce navigateur${PB.role.admin ? ' · <button id="resetBtn">réinitialiser</button>' : ''}` : '';
     const b = $('#resetBtn'); if (b) b.onclick = () => { if (confirm('Effacer toutes les saisies de la démo dans ce navigateur ?')) PB.reset() };
   }
 
   /* ---------- Navigation ---------- */
   PB.show = function (view) {
+    if (!modules().some(m => m[0] === view)) view = 'carte';
     if (S.view === view && view === 'carte' && !$('#vCarte').hidden) return;
     S.view = view;
-    $$('.nav [data-view]').forEach(b => b.toggleAttribute('aria-current', false) || (b.dataset.view === view && b.setAttribute('aria-current', 'page')));
+    $$('.nav [data-view]').forEach(b => { if (b.dataset.view === view) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current') });
     const c = view === 'carte';
     $('#vCarte').hidden = !c; $('#page').hidden = c;
     if (c) { if (location.hash.slice(1).split('/')[0] !== 'carte' && !location.hash.startsWith('#bien')) history.replaceState(null, '', '#carte'); requestAnimationFrame(() => { PB.M.invalidate(); PB.M.draw() }) }
@@ -94,16 +131,15 @@
   PB.render = function () { const v = PB.PAGES[S.view]; if (!v) return; $('#page').innerHTML = v.html(); v.bind() };
   PB.refresh = function () {
     PB.renderSide(); PB.M.draw(); PB.renderDetail(); demoChanges();
-    if (S.view !== 'carte') PB.render();
+    if (S.view && S.view !== 'carte') PB.render();
   };
   function route() {
     const h = location.hash.slice(1);
     const m = h.match(/^bien\/(\d+)$/);
     if (m && PB.byId(+m[1])) { PB.show('carte'); return setTimeout(() => PB.select(+m[1], true), 50) }
-    const v = PB.MODULES.some(x => x[0] === h) ? h : 'carte';
-    PB.show(v);
+    PB.show(PB.MODULES.some(x => x[0] === h) ? h : 'carte');
   }
-  addEventListener('hashchange', () => { if (PB.role && $('.app')) route() });
+  addEventListener('hashchange', () => { if (PB.user && $('.app')) route() });
 
   /* ---------- Recherche avec autocomplétion ---------- */
   function bindSearch() {
@@ -129,7 +165,6 @@
 
   /* ---------- Démarrage ---------- */
   PB.boot = function () {
-    const saved = store.sget('patribati.profil');
-    if (saved && PB.PROFILES[saved]) { PB.setRole(saved); shell(); route() } else login();
+    if (PB.AUTH.restore()) start(); else login();
   };
 })(window.PB);

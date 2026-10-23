@@ -2,8 +2,8 @@
 
 ## Parcours de démonstration (10 minutes)
 
-1. **Accueil** : choisir « Gestionnaire de patrimoine », puis *Entrer dans PatriBâti*.
-2. **Vue monde** : les pastilles donnent le nombre de biens par pays. Cliquer sur le Sénégal pour zoomer, ou sur un pays étranger pour voir ses biens.
+1. **Connexion** : identifiant `admin`, mot de passe `admin` (les autres comptes sont listés dans le [README](../README.md#accès-à-la-démonstration)).
+2. **Vue monde** : chaque point est un bien (ambassade, résidence, consulat…), coloré selon la thématique ; les anneaux regroupent les biens proches, avec leur nombre au centre. Cliquer un anneau pour zoomer, un point pour ouvrir la fiche.
 3. **Thématiques** : dans la colonne de gauche, passer de « Régime d'affectation » à « État de vétusté », puis « Litiges ». Cliquer une entrée de la légende pour la masquer.
 4. **Liste « À traiter »** (colonne de droite) : cliquer le premier bien. La carte se centre sur lui : l'assiette foncière apparaît en pointillés dorés, les emprises bâties en aplat coloré.
 5. **Fiche** : parcourir les onglets. Dans *Litiges*, ouvrir la chronologie. Dans *Visites*, saisir une visite. Cliquer *Modifier*, changer l'état de vétusté, *Enregistrer* : la couleur sur la carte et le score changent.
@@ -11,7 +11,7 @@
 7. **Litiges** : l'échéancier des 90 jours, les montants à recouvrer, la liste des dossiers. Un clic sur un nom de bien ouvre sa fiche à l'onglet Litiges.
 8. **Tableau de bord** : la synthèse du parc et les priorités d'intervention.
 9. **Journal** : toutes les saisies de la démonstration, avec leur auteur.
-10. **Changer de profil** (bouton en haut à droite) : avec « Correspondant affectataire », seuls les biens du ministère des Affaires étrangères sont modifiables et le détail des litiges est masqué.
+10. **Administration** : onglet *Comptes*, bouton *Tester ce profil* sur le compte `mae` : seuls les biens du ministère des Affaires étrangères sont modifiables et le module Litiges disparaît. Le bandeau doré ramène au compte administrateur. Dans *Rôles et permissions*, cocher ou décocher une permission change aussitôt ce que voit le rôle.
 
 ## La carte
 
@@ -25,7 +25,7 @@
 | Boutons Monde / Sénégal / Dakar | Vues rapides |
 | Coordonnées | En bas à gauche : position du curseur et niveau de zoom |
 
-Les pastilles numérotées regroupent les biens proches ; un clic zoome dessus. À partir du zoom 15, le nom de chaque bien s'affiche.
+Les anneaux regroupent les biens proches : leurs couleurs reprennent la part de chaque catégorie de la thématique, le nombre au centre est le nombre de biens ; un clic zoome dessus. À partir du zoom 15, le nom de chaque bien s'affiche.
 
 ## La fiche d'un bien
 
@@ -50,6 +50,10 @@ Le champ du bandeau cherche dans les biens (nom, code, titre foncier, NICAD, com
 ## Inventaire
 
 Filtres combinables, tri par clic sur l'en-tête de colonne. *Exporter CSV* produit un fichier lisible par un tableur (séparateur point-virgule, UTF-8) ; *Exporter GeoJSON* un fichier ouvrable dans tout logiciel SIG. *Voir sur la carte* recadre la carte sur les biens filtrés.
+
+## Compte et administration
+
+Le menu du compte (en haut à droite) donne le nom, le rôle et l'identifiant, et permet de se déconnecter. Les administrateurs y trouvent aussi l'accès au module Administration (voir [Rôles et permissions](roles-permissions.md)).
 
 ## Saisies de la démonstration
 

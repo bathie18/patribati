@@ -1,5 +1,6 @@
 /* PatriBâti — carte (Leaflet).
-   Vue monde : biens regroupés par pays. En zoomant : regroupement de proximité, puis chaque bien,
+   Dès la vue monde : chaque bien coloré selon la thématique ; les biens qui se chevauchent sont regroupés
+   dans un anneau aux couleurs de leurs catégories. En zoomant : chaque bien,
    puis les assiettes foncières (≥ z14) et les emprises bâties (≥ z15).
    Fonds : automatique (pays du monde en vue d'ensemble, OpenStreetMap au-delà du zoom 6), OpenStreetMap seul,
    ou fond simplifié « Pays du monde » (Natural Earth, fonctionne hors ligne). */
@@ -65,16 +66,28 @@
   }
   M.setBase = function (base, silent) { S.base = base; applyBase(); if (!silent) M.draw() };
 
-  const pinIcon = (b, sel) => { const s = (sel ? 20 : 15) - (M.m && M.m.getZoom() >= 17 ? 4 : 0); return L.divIcon({ className: '', iconSize: [s, s], html: `<div class="pin${sel ? ' sel' : ''}" style="background:${css(PB.colorVar(b, S.theme))}"></div>` }) };
-  const cluIcon = n => { const s = Math.round(24 + Math.sqrt(n) * 5); return L.divIcon({ className: '', iconSize: [s, s], html: `<div class="clu">${n}</div>` }) };
+  const pinIcon = (b, sel) => { const z = M.m ? M.m.getZoom() : 3; const s = (sel ? 20 : 14) - (z >= 17 ? 3 : 0) - (z < 4 && !sel ? 2 : 0); return L.divIcon({ className: '', iconSize: [s, s], html: `<div class="pin${sel ? ' sel' : ''}" style="background:${css(PB.colorVar(b, S.theme))}"></div>` }) };
+  /* Regroupement : anneau aux couleurs de la thématique (part de chaque catégorie), nombre de biens au centre */
+  function cluIcon(items) {
+    const n = items.length, low = M.m && M.m.getZoom() < 4, s = Math.round((low ? 22 : 26) + Math.sqrt(n) * (low ? 3 : 4.2)), th = PB.THEMES[S.theme];
+    let acc = 0; const stops = [];
+    th.cats.forEach(([name, v]) => { const k = items.filter(b => th.get(b) === name).length; if (!k) return; const a0 = acc / n * 360; acc += k; stops.push(`${css(v)} ${a0}deg ${acc / n * 360}deg`) });
+    return L.divIcon({ className: '', iconSize: [s, s], html: `<div class="clu" style="background:conic-gradient(${stops.join(',')})"><span>${n}</span></div>` });
+  }
+  const cluTip = items => {
+    const th = PB.THEMES[S.theme], villes = [...new Set(items.map(b => b.ville))], pays = [...new Set(items.map(b => b.pays))];
+    const where = pays.length > 2 ? `${pays.length} pays` : villes.length > 3 ? pays.join(', ') : villes.join(', ');
+    const parts = th.cats.map(([name]) => [name, items.filter(b => th.get(b) === name).length]).filter(x => x[1]).map(([nm, k]) => `${k} ${esc(nm.toLowerCase())}`).join(' · ');
+    return `<b>${items.length} biens</b> · ${esc(where)}<br><small>${parts}</small>`;
+  };
 
   /* Regroupement glouton à l'écran (rayon en pixels) */
   function clusters(list, radius) {
     const m = M.m, out = [];
     list.map(b => ({ b, p: m.latLngToLayerPoint([b.lat, b.lon]) })).sort((a, c) => a.p.y - c.p.y).forEach(o => {
       /* Le bien sélectionné n'est jamais regroupé : il reste visible */
-      const c = o.b.id === S.sel ? null : out.find(c => !c.sel && c.p.distanceTo(o.p) < radius);
       if (o.b.id === S.sel) { out.push({ p: o.p, items: [o.b], sel: true }); return }
+      const c = out.find(c => !c.sel && c.p.distanceTo(o.p) < radius);
       if (c) { c.items.push(o.b); } else out.push({ p: o.p, items: [o.b] });
     });
     return out;
@@ -85,33 +98,23 @@
     const z = m.getZoom(), vis = PB.visible(), th = PB.THEMES[S.theme];
     applyBase();
     gPts.clearLayers();
-    if (z < PB.Z.pays) {
-      group(vis, b => b.paysId).forEach(v => {
-        const n = v.length, lat = mean(v, b => b.lat), lon = mean(v, b => b.lon);
-        L.marker([lat, lon], { icon: cluIcon(n), keyboard: true, zIndexOffset: n * 10, title: `${v[0].pays} · ${n} bien${n > 1 ? 's' : ''}` })
-          .bindTooltip(`${esc(v[0].pays)} · ${n} bien${n > 1 ? 's' : ''}`, { className: 'lbl', direction: 'top', offset: [0, -10] })
-          .on('click', e => { if (S.adding) return; v[0].paysId === '686' ? M.go('sn') : m.fitBounds(L.latLngBounds(v.map(b => [b.lat, b.lon])).pad(.6), { maxZoom: 13 }) })
+    const radius = z >= 16 ? 0 : z < 4 ? 16 : 26;
+    clusters(vis, radius).forEach(c => {
+      if (c.items.length === 1) {
+        const b = c.items[0];
+        const mk = L.marker([b.lat, b.lon], { icon: pinIcon(b, b.id === S.sel), keyboard: true, title: b.nom, zIndexOffset: b.id === S.sel ? 1000 : 0, riseOnHover: true })
+          .on('click', e => { if (S.adding) return; PB.select(b.id, false) }).addTo(gPts);
+        if (z >= PB.Z.etiquettes) mk.bindTooltip(esc(b.nom), { permanent: true, direction: 'right', offset: [10, 0], className: 'lbl' });
+        else mk.bindTooltip(`<b>${esc(b.nom)}</b><br><small>${esc(b.ville)}, ${esc(b.pays)} · ${esc(th.get(b))}</small>`, { className: 'lbl', direction: 'top', offset: [0, -8] });
+      } else {
+        const ll = L.latLngBounds(c.items.map(b => [b.lat, b.lon]));
+        const at = [mean(c.items, b => b.lat), mean(c.items, b => b.lon)];
+        L.marker(at, { icon: cluIcon(c.items), title: `${c.items.length} biens`, zIndexOffset: 500 + c.items.length, riseOnHover: true })
+          .bindTooltip(cluTip(c.items), { className: 'lbl', direction: 'top', offset: [0, -12] })
+          .on('click', () => { if (S.adding) return; const sameSpot = ll.getNorthEast().distanceTo(ll.getSouthWest()) < 30; sameSpot ? m.setView(ll.getCenter(), Math.min(z + 3, 18)) : m.fitBounds(ll.pad(.35), { maxZoom: Math.min(Math.max(z + 2, 6), 16) }) })
           .addTo(gPts);
-      });
-    } else {
-      const radius = z >= 16 ? 0 : 34;
-      clusters(vis, radius).forEach(c => {
-        if (c.items.length === 1 || radius === 0) {
-          c.items.forEach(b => {
-            const mk = L.marker([b.lat, b.lon], { icon: pinIcon(b, b.id === S.sel), keyboard: true, title: b.nom, zIndexOffset: b.id === S.sel ? 1000 : 0, riseOnHover: true })
-              .on('click', e => { if (S.adding) return; PB.select(b.id, false) }).addTo(gPts);
-            if (z >= PB.Z.etiquettes) mk.bindTooltip(esc(b.nom), { permanent: true, direction: 'right', offset: [10, 0], className: 'lbl' });
-            else mk.bindTooltip(`${esc(b.nom)}<br><small>${esc(th.get(b))}</small>`, { className: 'lbl', direction: 'top', offset: [0, -8] });
-          });
-        } else {
-          const ll = L.latLngBounds(c.items.map(b => [b.lat, b.lon]));
-          L.marker(m.layerPointToLatLng(c.p), { icon: cluIcon(c.items.length), title: `${c.items.length} biens` })
-            .bindTooltip(`${c.items.length} biens · ${esc([...new Set(c.items.map(b => b.ville))].slice(0, 3).join(', '))}`, { className: 'lbl', direction: 'top', offset: [0, -10] })
-            .on('click', () => { if (S.adding) return; ll.getNorthEast().equals(ll.getSouthWest()) ? m.setView(ll.getCenter(), Math.min(z + 3, 18)) : m.fitBounds(ll.pad(.5), { maxZoom: Math.max(z + 2, 15) }) })
-            .addTo(gPts);
-        }
-      });
-    }
+      }
+    });
     // Assiettes foncières
     const showA = S.layers.assiettes && z >= PB.Z.assiettes;
     showA ? gAss.addTo(m) : m.removeLayer(gAss);

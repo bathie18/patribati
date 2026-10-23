@@ -62,6 +62,7 @@ Un seul statut par bien, attribué dans cet ordre (la première condition vraie 
 | Priorité d'intervention | Classe du score ci-dessus |
 | Statut de gestion | Statut ci-dessus |
 | Potentiel de valorisation | Conservation, réhabilitation, mise en location, cession, partenariat (bail emphytéotique, PPP), à déterminer |
+| Dernière visite | Moins de 6 mois, 6 à 12 mois, plus de 12 mois, jamais visité |
 | Type de bien | Immeuble administratif, logement de fonction, villa, entrepôt, chancellerie, consulat, résidence diplomatique… |
 
 La couleur s'applique aux points des biens et aux emprises bâties. Un clic sur une entrée de la légende la masque ou la réaffiche.
